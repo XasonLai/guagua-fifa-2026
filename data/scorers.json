@@ -132,6 +132,19 @@
     ]
   },
   {
+    "id": "320908",
+    "name": "Ali Olwan",
+    "teamId": "2917",
+    "team": "Jordan",
+    "goals": 1,
+    "matches": [
+      {
+        "matchId": "760431",
+        "minute": "50'"
+      }
+    ]
+  },
+  {
     "id": "291630",
     "name": "Amad Diallo",
     "teamId": "4789",
@@ -141,19 +154,6 @@
       {
         "matchId": "760423",
         "minute": "90'"
-      }
-    ]
-  },
-  {
-    "id": "328238",
-    "name": "Bradley Barcola",
-    "teamId": "478",
-    "team": "France",
-    "goals": 1,
-    "matches": [
-      {
-        "matchId": "760432",
-        "minute": "82'"
       }
     ]
   }
