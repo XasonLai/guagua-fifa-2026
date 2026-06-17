@@ -1,0 +1,31 @@
+[
+  {
+    "id": "760510",
+    "stage": "quarterfinals",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-09T20:00Z",
+    "kickoffTaiwan": "2026-07-10T04:00:00+08:00",
+    "venue": "Gillette Stadium",
+    "city": "Foxborough, Massachusetts",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "19282",
+      "name": "Round of 16 1 Winner",
+      "shortName": "RD16 W1",
+      "abbr": "RD16 W1",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "19283",
+      "name": "Round of 16 2 Winner",
+      "shortName": "RD16 W2",
+      "abbr": "RD16 W2",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026 FIFA 世界盃賽程</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { margin: 0; background: #f6f7f2; color: #17211b; }
+    header { padding: 28px clamp(16px, 5vw, 56px) 18px; background: #143c35; color: white; }
+    h1 { margin: 0 0 10px; font-size: clamp(28px, 5vw, 48px); letter-spacing: 0; }
+    header p { margin: 0; color: #d7e7df; }
+    main { max-width: 1040px; margin: 0 auto; padding: 22px clamp(14px, 4vw, 28px) 48px; }
+    .bar { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 18px; }
+    input, select { font: inherit; padding: 10px 12px; border: 1px solid #c8d0c6; border-radius: 6px; background: white; }
+    button { font: inherit; padding: 10px 14px; border: 0; border-radius: 6px; background: #d6293e; color: white; cursor: pointer; }
+    .meta { margin-left: auto; color: #5d6a62; font-size: 14px; }
+    .matches { display: grid; gap: 12px; }
+    .match { background: white; border: 1px solid #dbe1d8; border-radius: 8px; padding: 16px; display: grid; gap: 12px; }
+    .top { display: flex; justify-content: space-between; gap: 12px; color: #5d6a62; font-size: 14px; }
+    .teams { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; }
+    .team { display: flex; align-items: center; gap: 10px; min-width: 0; }
+    .team.away { justify-content: flex-end; text-align: right; }
+    img { width: 34px; height: 34px; object-fit: contain; flex: 0 0 auto; }
+    .name { font-weight: 700; overflow-wrap: anywhere; }
+    .score { min-width: 70px; text-align: center; font-size: 24px; font-weight: 800; }
+    .status { justify-self: center; color: #5d6a62; font-size: 14px; }
+    .teams-list { margin-top: 28px; }
+    .teams-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+    .country { background: white; border: 1px solid #dbe1d8; border-radius: 8px; padding: 10px; display: flex; align-items: center; gap: 8px; }
+    @media (max-width: 620px) {
+      .meta { width: 100%; margin-left: 0; }
+      .teams { grid-template-columns: 1fr; }
+      .team.away { justify-content: flex-start; text-align: left; flex-direction: row-reverse; }
+      .score { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>2026 FIFA 世界盃賽程</h1>
+    <p>每日對戰、台灣時間、賽果。資料每天由靜態 JSON 更新。</p>
+  </header>
+  <main>
+    <div class="bar">
+      <input id="date" type="date">
+      <select id="view">
+        <option value="day">當日賽程</option>
+        <option value="all">全部賽程</option>
+      </select>
+      <button id="today">今天</button>
+      <span class="meta" id="meta"></span>
+    </div>
+    <section class="matches" id="matches"></section>
+    <section class="teams-list">
+      <h2>參賽國家</h2>
+      <div class="teams-grid" id="teams"></div>
+    </section>
+  </main>
+  <script>
+    const fmt = new Intl.DateTimeFormat('zh-TW', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'Asia/Taipei' });
+    const todayTaiwan = () => new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Taipei' }).format(new Date());
+    const $ = id => document.getElementById(id);
+    let matches = [];
+
+    function score(m) {
+      return `${m.home.score ?? '-'} : ${m.away.score ?? '-'}`;
+    }
+
+    function badge(t) {
+      return t.logo ? `<img src="${t.logo}" alt="">` : '';
+    }
+
+    function render() {
+      const day = $('date').value;
+      const shown = $('view').value === 'all' ? matches : matches.filter(m => m.kickoffTaiwan.slice(0, 10) === day);
+      $('matches').innerHTML = shown.map(m => `
+        <article class="match">
+          <div class="top"><span>${m.group || m.stage}</span><span>${m.venue}${m.city ? ` · ${m.city}` : ''}</span></div>
+          <div class="teams">
+            <div class="team">${badge(m.home)}<span class="name">${m.home.name}</span></div>
+            <div class="score">${score(m)}</div>
+            <div class="team away"><span class="name">${m.away.name}</span>${badge(m.away)}</div>
+          </div>
+          <div class="status">${fmt.format(new Date(m.kickoffTaiwan))} · ${m.status}</div>
+        </article>
+      `).join('') || '<p>這天沒有比賽。</p>';
+    }
+
+    async function init() {
+      const [meta, matchData, teams] = await Promise.all([
+        fetch('data/meta.json').then(r => r.json()),
+        fetch('data/matches.json').then(r => r.json()),
+        fetch('data/teams.json').then(r => r.json()),
+      ]);
+      matches = matchData;
+      $('date').value = todayTaiwan();
+      $('date').min = meta.start;
+      $('date').max = meta.end;
+      $('meta').textContent = `更新：${fmt.format(new Date(meta.updatedAt))}`;
+      $('teams').innerHTML = teams.map(t => `<div class="country"><img src="${t.logo}" alt=""><span>${t.name}</span></div>`).join('');
+      render();
+    }
+
+    $('date').addEventListener('change', render);
+    $('view').addEventListener('change', render);
+    $('today').addEventListener('click', () => { $('date').value = todayTaiwan(); $('view').value = 'day'; render(); });
+    init().catch(err => { $('matches').textContent = err.message; });
+  </script>
+</body>
+</html>

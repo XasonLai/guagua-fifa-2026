@@ -1,0 +1,31 @@
+[
+  {
+    "id": "760514",
+    "stage": "semifinals",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-14T19:00Z",
+    "kickoffTaiwan": "2026-07-15T03:00:00+08:00",
+    "venue": "AT&T Stadium",
+    "city": "Arlington, Texas",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "17631",
+      "name": "Quarterfinal 1 Winner",
+      "shortName": "QF W1",
+      "abbr": "QFW1",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "17629",
+      "name": "Quarterfinal 2 Winner",
+      "shortName": "QF W2",
+      "abbr": "QFW2",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

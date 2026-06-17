@@ -1,0 +1,60 @@
+[
+  {
+    "id": "760504",
+    "stage": "round-of-16",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-05T20:00Z",
+    "kickoffTaiwan": "2026-07-06T04:00:00+08:00",
+    "venue": "MetLife Stadium",
+    "city": "East Rutherford, New Jersey",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "131528",
+      "name": "Round of 32 4 Winner",
+      "shortName": "RD32 W4",
+      "abbr": "RD32",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "131530",
+      "name": "Round of 32 6 Winner",
+      "shortName": "RD32 W6",
+      "abbr": "RD32",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760505",
+    "stage": "round-of-16",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-06T00:00Z",
+    "kickoffTaiwan": "2026-07-06T08:00:00+08:00",
+    "venue": "Estadio Banorte",
+    "city": "Mexico City",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "131531",
+      "name": "Round of 32 7 Winner",
+      "shortName": "RD32 W7",
+      "abbr": "RD32",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "131532",
+      "name": "Round of 32 8 Winner",
+      "shortName": "RD32 W8",
+      "abbr": "RD32",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

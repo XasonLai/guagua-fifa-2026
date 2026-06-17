@@ -1,0 +1,31 @@
+[
+  {
+    "id": "760515",
+    "stage": "semifinals",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-15T19:00Z",
+    "kickoffTaiwan": "2026-07-16T03:00:00+08:00",
+    "venue": "Mercedes-Benz Stadium",
+    "city": "Atlanta, Georgia",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "17630",
+      "name": "Quarterfinal 3 Winner",
+      "shortName": "QF W3",
+      "abbr": "QFW3",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "17632",
+      "name": "Quarterfinal 4 Winner",
+      "shortName": "QF W4",
+      "abbr": "QW4",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

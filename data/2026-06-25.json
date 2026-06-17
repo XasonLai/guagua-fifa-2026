@@ -1,0 +1,176 @@
+[
+  {
+    "id": "760473",
+    "stage": "group-stage",
+    "group": "Group E",
+    "kickoffUtc": "2026-06-25T20:00Z",
+    "kickoffTaiwan": "2026-06-26T04:00:00+08:00",
+    "venue": "Lincoln Financial Field",
+    "city": "Philadelphia, Pennsylvania",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "11678",
+      "name": "Curaçao",
+      "shortName": "Curaçao",
+      "abbr": "CUW",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "4789",
+      "name": "Ivory Coast",
+      "shortName": "Ivory Coast",
+      "abbr": "CIV",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760468",
+    "stage": "group-stage",
+    "group": "Group E",
+    "kickoffUtc": "2026-06-25T20:00Z",
+    "kickoffTaiwan": "2026-06-26T04:00:00+08:00",
+    "venue": "MetLife Stadium",
+    "city": "East Rutherford, New Jersey",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "209",
+      "name": "Ecuador",
+      "shortName": "Ecuador",
+      "abbr": "ECU",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "481",
+      "name": "Germany",
+      "shortName": "Germany",
+      "abbr": "GER",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760471",
+    "stage": "group-stage",
+    "group": "Group F",
+    "kickoffUtc": "2026-06-25T23:00Z",
+    "kickoffTaiwan": "2026-06-26T07:00:00+08:00",
+    "venue": "AT&T Stadium",
+    "city": "Arlington, Texas",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "627",
+      "name": "Japan",
+      "shortName": "Japan",
+      "abbr": "JPN",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "466",
+      "name": "Sweden",
+      "shortName": "Sweden",
+      "abbr": "SWE",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760472",
+    "stage": "group-stage",
+    "group": "Group F",
+    "kickoffUtc": "2026-06-25T23:00Z",
+    "kickoffTaiwan": "2026-06-26T07:00:00+08:00",
+    "venue": "GEHA Field at Arrowhead Stadium",
+    "city": "Kansas City, Missouri",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "659",
+      "name": "Tunisia",
+      "shortName": "Tunisia",
+      "abbr": "TUN",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "449",
+      "name": "Netherlands",
+      "shortName": "Netherlands",
+      "abbr": "NED",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760469",
+    "stage": "group-stage",
+    "group": "Group D",
+    "kickoffUtc": "2026-06-26T02:00Z",
+    "kickoffTaiwan": "2026-06-26T10:00:00+08:00",
+    "venue": "Levi's Stadium",
+    "city": "Santa Clara, California",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "210",
+      "name": "Paraguay",
+      "shortName": "Paraguay",
+      "abbr": "PAR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "628",
+      "name": "Australia",
+      "shortName": "Australia",
+      "abbr": "AUS",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760470",
+    "stage": "group-stage",
+    "group": "Group D",
+    "kickoffUtc": "2026-06-26T02:00Z",
+    "kickoffTaiwan": "2026-06-26T10:00:00+08:00",
+    "venue": "SoFi Stadium",
+    "city": "Inglewood, California",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "465",
+      "name": "Türkiye",
+      "shortName": "Türkiye",
+      "abbr": "TUR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "660",
+      "name": "United States",
+      "shortName": "USA",
+      "abbr": "USA",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

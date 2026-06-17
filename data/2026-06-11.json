@@ -1,0 +1,60 @@
+[
+  {
+    "id": "760415",
+    "stage": "group-stage",
+    "group": "Group A",
+    "kickoffUtc": "2026-06-11T19:00Z",
+    "kickoffTaiwan": "2026-06-12T03:00:00+08:00",
+    "venue": "Estadio Banorte",
+    "city": "Mexico City",
+    "status": "Full Time",
+    "completed": true,
+    "home": {
+      "id": "203",
+      "name": "Mexico",
+      "shortName": "Mexico",
+      "abbr": "MEX",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+      "score": "2",
+      "winner": true
+    },
+    "away": {
+      "id": "467",
+      "name": "South Africa",
+      "shortName": "South Africa",
+      "abbr": "RSA",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760414",
+    "stage": "group-stage",
+    "group": "Group A",
+    "kickoffUtc": "2026-06-12T02:00Z",
+    "kickoffTaiwan": "2026-06-12T10:00:00+08:00",
+    "venue": "Estadio Akron",
+    "city": "Guadalajara",
+    "status": "Full Time",
+    "completed": true,
+    "home": {
+      "id": "451",
+      "name": "South Korea",
+      "shortName": "South Korea",
+      "abbr": "KOR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+      "score": "2",
+      "winner": true
+    },
+    "away": {
+      "id": "450",
+      "name": "Czechia",
+      "shortName": "Czechia",
+      "abbr": "CZE",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+      "score": "1",
+      "winner": false
+    }
+  }
+]

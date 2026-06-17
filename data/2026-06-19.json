@@ -1,0 +1,118 @@
+[
+  {
+    "id": "760442",
+    "stage": "group-stage",
+    "group": "Group D",
+    "kickoffUtc": "2026-06-19T19:00Z",
+    "kickoffTaiwan": "2026-06-20T03:00:00+08:00",
+    "venue": "Lumen Field",
+    "city": "Seattle, Washington",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "660",
+      "name": "United States",
+      "shortName": "USA",
+      "abbr": "USA",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "628",
+      "name": "Australia",
+      "shortName": "Australia",
+      "abbr": "AUS",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760445",
+    "stage": "group-stage",
+    "group": "Group C",
+    "kickoffUtc": "2026-06-19T22:00Z",
+    "kickoffTaiwan": "2026-06-20T06:00:00+08:00",
+    "venue": "Gillette Stadium",
+    "city": "Foxborough, Massachusetts",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "580",
+      "name": "Scotland",
+      "shortName": "Scotland",
+      "abbr": "SCO",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "2869",
+      "name": "Morocco",
+      "shortName": "Morocco",
+      "abbr": "MAR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760444",
+    "stage": "group-stage",
+    "group": "Group C",
+    "kickoffUtc": "2026-06-20T00:30Z",
+    "kickoffTaiwan": "2026-06-20T08:30:00+08:00",
+    "venue": "Lincoln Financial Field",
+    "city": "Philadelphia, Pennsylvania",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "205",
+      "name": "Brazil",
+      "shortName": "Brazil",
+      "abbr": "BRA",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "2654",
+      "name": "Haiti",
+      "shortName": "Haiti",
+      "abbr": "HAI",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760443",
+    "stage": "group-stage",
+    "group": "Group D",
+    "kickoffUtc": "2026-06-20T03:00Z",
+    "kickoffTaiwan": "2026-06-20T11:00:00+08:00",
+    "venue": "Levi's Stadium",
+    "city": "Santa Clara, California",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "465",
+      "name": "Türkiye",
+      "shortName": "Türkiye",
+      "abbr": "TUR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "210",
+      "name": "Paraguay",
+      "shortName": "Paraguay",
+      "abbr": "PAR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

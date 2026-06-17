@@ -1,0 +1,118 @@
+[
+  {
+    "id": "760461",
+    "stage": "group-stage",
+    "group": "Group K",
+    "kickoffUtc": "2026-06-23T17:00Z",
+    "kickoffTaiwan": "2026-06-24T01:00:00+08:00",
+    "venue": "NRG Stadium",
+    "city": "Houston, Texas",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "482",
+      "name": "Portugal",
+      "shortName": "Portugal",
+      "abbr": "POR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "2570",
+      "name": "Uzbekistan",
+      "shortName": "Uzbekistan",
+      "abbr": "UZB",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760458",
+    "stage": "group-stage",
+    "group": "Group L",
+    "kickoffUtc": "2026-06-23T20:00Z",
+    "kickoffTaiwan": "2026-06-24T04:00:00+08:00",
+    "venue": "Gillette Stadium",
+    "city": "Foxborough, Massachusetts",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "448",
+      "name": "England",
+      "shortName": "England",
+      "abbr": "ENG",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "4469",
+      "name": "Ghana",
+      "shortName": "Ghana",
+      "abbr": "GHA",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760460",
+    "stage": "group-stage",
+    "group": "Group L",
+    "kickoffUtc": "2026-06-23T23:00Z",
+    "kickoffTaiwan": "2026-06-24T07:00:00+08:00",
+    "venue": "BMO Field",
+    "city": "Toronto",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "2659",
+      "name": "Panama",
+      "shortName": "Panama",
+      "abbr": "PAN",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "477",
+      "name": "Croatia",
+      "shortName": "Croatia",
+      "abbr": "CRO",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760459",
+    "stage": "group-stage",
+    "group": "Group K",
+    "kickoffUtc": "2026-06-24T02:00Z",
+    "kickoffTaiwan": "2026-06-24T10:00:00+08:00",
+    "venue": "Estadio Akron",
+    "city": "Guadalajara",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "208",
+      "name": "Colombia",
+      "shortName": "Colombia",
+      "abbr": "COL",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "2850",
+      "name": "Congo DR",
+      "shortName": "Congo DR",
+      "abbr": "COD",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

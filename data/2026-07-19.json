@@ -1,0 +1,31 @@
+[
+  {
+    "id": "760517",
+    "stage": "final",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-19T19:00Z",
+    "kickoffTaiwan": "2026-07-20T03:00:00+08:00",
+    "venue": "MetLife Stadium",
+    "city": "East Rutherford, New Jersey",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "5960",
+      "name": "Semifinal 1 Winner",
+      "shortName": "SF W1",
+      "abbr": "SFW1",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "5961",
+      "name": "Semifinal 2 Winner",
+      "shortName": "SF W2",
+      "abbr": "SFW2",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

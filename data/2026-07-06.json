@@ -1,0 +1,60 @@
+[
+  {
+    "id": "760506",
+    "stage": "round-of-16",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-06T19:00Z",
+    "kickoffTaiwan": "2026-07-07T03:00:00+08:00",
+    "venue": "AT&T Stadium",
+    "city": "Arlington, Texas",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "131535",
+      "name": "Round of 32 11 Winner",
+      "shortName": "RD32 W11",
+      "abbr": "RD32",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "131536",
+      "name": "Round of 32 12 Winner",
+      "shortName": "RD32 W12",
+      "abbr": "RD32",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760507",
+    "stage": "round-of-16",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-07T00:00Z",
+    "kickoffTaiwan": "2026-07-07T08:00:00+08:00",
+    "venue": "Lumen Field",
+    "city": "Seattle, Washington",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "131533",
+      "name": "Round of 32 9 Winner",
+      "shortName": "RD32 W9",
+      "abbr": "RD32",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "131534",
+      "name": "Round of 32 10 Winner",
+      "shortName": "RD32 W10",
+      "abbr": "RD32",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

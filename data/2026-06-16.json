@@ -1,0 +1,89 @@
+[
+  {
+    "id": "760432",
+    "stage": "group-stage",
+    "group": "Group I",
+    "kickoffUtc": "2026-06-16T19:00Z",
+    "kickoffTaiwan": "2026-06-17T03:00:00+08:00",
+    "venue": "MetLife Stadium",
+    "city": "East Rutherford, New Jersey",
+    "status": "Full Time",
+    "completed": true,
+    "home": {
+      "id": "478",
+      "name": "France",
+      "shortName": "France",
+      "abbr": "FRA",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "score": "3",
+      "winner": true
+    },
+    "away": {
+      "id": "654",
+      "name": "Senegal",
+      "shortName": "Senegal",
+      "abbr": "SEN",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+      "score": "1",
+      "winner": false
+    }
+  },
+  {
+    "id": "760430",
+    "stage": "group-stage",
+    "group": "Group I",
+    "kickoffUtc": "2026-06-16T22:00Z",
+    "kickoffTaiwan": "2026-06-17T06:00:00+08:00",
+    "venue": "Gillette Stadium",
+    "city": "Foxborough, Massachusetts",
+    "status": "Full Time",
+    "completed": true,
+    "home": {
+      "id": "4375",
+      "name": "Iraq",
+      "shortName": "Iraq",
+      "abbr": "IRQ",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+      "score": "1",
+      "winner": false
+    },
+    "away": {
+      "id": "464",
+      "name": "Norway",
+      "shortName": "Norway",
+      "abbr": "NOR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "score": "4",
+      "winner": true
+    }
+  },
+  {
+    "id": "760433",
+    "stage": "group-stage",
+    "group": "Group J",
+    "kickoffUtc": "2026-06-17T01:00Z",
+    "kickoffTaiwan": "2026-06-17T09:00:00+08:00",
+    "venue": "GEHA Field at Arrowhead Stadium",
+    "city": "Kansas City, Missouri",
+    "status": "Full Time",
+    "completed": true,
+    "home": {
+      "id": "202",
+      "name": "Argentina",
+      "shortName": "Argentina",
+      "abbr": "ARG",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+      "score": "3",
+      "winner": true
+    },
+    "away": {
+      "id": "624",
+      "name": "Algeria",
+      "shortName": "Algeria",
+      "abbr": "ALG",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

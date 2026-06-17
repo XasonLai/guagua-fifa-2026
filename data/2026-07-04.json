@@ -1,0 +1,60 @@
+[
+  {
+    "id": "760502",
+    "stage": "round-of-16",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-04T17:00Z",
+    "kickoffTaiwan": "2026-07-05T01:00:00+08:00",
+    "venue": "NRG Stadium",
+    "city": "Houston, Texas",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "131525",
+      "name": "Round of 32 1 Winner",
+      "shortName": "RD32 W1",
+      "abbr": "RD32",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "131527",
+      "name": "Round of 32 3 Winner",
+      "shortName": "RD32 W3",
+      "abbr": "RD32",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760503",
+    "stage": "round-of-16",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-04T21:00Z",
+    "kickoffTaiwan": "2026-07-05T05:00:00+08:00",
+    "venue": "Lincoln Financial Field",
+    "city": "Philadelphia, Pennsylvania",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "131526",
+      "name": "Round of 32 2 Winner",
+      "shortName": "RD32 W2",
+      "abbr": "RD32",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "131529",
+      "name": "Round of 32 5 Winner",
+      "shortName": "RD32 W5",
+      "abbr": "RD32",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

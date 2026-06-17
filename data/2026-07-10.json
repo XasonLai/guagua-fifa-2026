@@ -1,0 +1,31 @@
+[
+  {
+    "id": "760511",
+    "stage": "quarterfinals",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-10T19:00Z",
+    "kickoffTaiwan": "2026-07-11T03:00:00+08:00",
+    "venue": "SoFi Stadium",
+    "city": "Inglewood, California",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "19278",
+      "name": "Round of 16 5 Winner",
+      "shortName": "RD16 W5",
+      "abbr": "RD16 W5",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "19279",
+      "name": "Round of 16 6 Winner",
+      "shortName": "RD16 W6",
+      "abbr": "RD16 W6",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

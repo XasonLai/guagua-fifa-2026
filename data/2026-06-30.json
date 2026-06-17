@@ -1,0 +1,89 @@
+[
+  {
+    "id": "760490",
+    "stage": "round-of-32",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-06-30T17:00Z",
+    "kickoffTaiwan": "2026-07-01T01:00:00+08:00",
+    "venue": "AT&T Stadium",
+    "city": "Arlington, Texas",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "5932",
+      "name": "Group E 2nd Place",
+      "shortName": "2E",
+      "abbr": "2E",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "131501",
+      "name": "Group I 2nd Place",
+      "shortName": "2I",
+      "abbr": "2I",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760492",
+    "stage": "round-of-32",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-06-30T21:00Z",
+    "kickoffTaiwan": "2026-07-01T05:00:00+08:00",
+    "venue": "MetLife Stadium",
+    "city": "East Rutherford, New Jersey",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "131505",
+      "name": "Group I Winner",
+      "shortName": "1I",
+      "abbr": "1I",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "131544",
+      "name": "Third Place Group C/D/F/G/H",
+      "shortName": "3RD C/D/F/G/H",
+      "abbr": "3RD",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760491",
+    "stage": "round-of-32",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-01T01:00Z",
+    "kickoffTaiwan": "2026-07-01T09:00:00+08:00",
+    "venue": "Estadio Banorte",
+    "city": "Mexico City",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "5923",
+      "name": "Group A Winner",
+      "shortName": "1A",
+      "abbr": "1A",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "131545",
+      "name": "Third Place Group C/E/F/H/I",
+      "shortName": "3RD C/E/F/H/I",
+      "abbr": "3RD",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

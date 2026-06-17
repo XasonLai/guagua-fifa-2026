@@ -1,0 +1,89 @@
+[
+  {
+    "id": "760447",
+    "stage": "group-stage",
+    "group": "Group F",
+    "kickoffUtc": "2026-06-20T17:00Z",
+    "kickoffTaiwan": "2026-06-21T01:00:00+08:00",
+    "venue": "NRG Stadium",
+    "city": "Houston, Texas",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "449",
+      "name": "Netherlands",
+      "shortName": "Netherlands",
+      "abbr": "NED",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "466",
+      "name": "Sweden",
+      "shortName": "Sweden",
+      "abbr": "SWE",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760448",
+    "stage": "group-stage",
+    "group": "Group E",
+    "kickoffUtc": "2026-06-20T20:00Z",
+    "kickoffTaiwan": "2026-06-21T04:00:00+08:00",
+    "venue": "BMO Field",
+    "city": "Toronto",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "481",
+      "name": "Germany",
+      "shortName": "Germany",
+      "abbr": "GER",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "4789",
+      "name": "Ivory Coast",
+      "shortName": "Ivory Coast",
+      "abbr": "CIV",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760446",
+    "stage": "group-stage",
+    "group": "Group E",
+    "kickoffUtc": "2026-06-21T00:00Z",
+    "kickoffTaiwan": "2026-06-21T08:00:00+08:00",
+    "venue": "GEHA Field at Arrowhead Stadium",
+    "city": "Kansas City, Missouri",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "209",
+      "name": "Ecuador",
+      "shortName": "Ecuador",
+      "abbr": "ECU",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "11678",
+      "name": "Curaçao",
+      "shortName": "Curaçao",
+      "abbr": "CUW",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

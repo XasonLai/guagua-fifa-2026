@@ -1,0 +1,89 @@
+[
+  {
+    "id": "760499",
+    "stage": "round-of-32",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-03T18:00Z",
+    "kickoffTaiwan": "2026-07-04T02:00:00+08:00",
+    "venue": "AT&T Stadium",
+    "city": "Arlington, Texas",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "5928",
+      "name": "Group D 2nd Place",
+      "shortName": "2D",
+      "abbr": "2D",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "5936",
+      "name": "Group G 2nd Place",
+      "shortName": "2G",
+      "abbr": "2G",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760500",
+    "stage": "round-of-32",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-03T22:00Z",
+    "kickoffTaiwan": "2026-07-04T06:00:00+08:00",
+    "venue": "Hard Rock Stadium",
+    "city": "Miami Gardens, Florida",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "131506",
+      "name": "Group J Winner",
+      "shortName": "1J",
+      "abbr": "1J",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "5938",
+      "name": "Group H 2nd Place",
+      "shortName": "2H",
+      "abbr": "2H",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760501",
+    "stage": "round-of-32",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-04T01:30Z",
+    "kickoffTaiwan": "2026-07-04T09:30:00+08:00",
+    "venue": "GEHA Field at Arrowhead Stadium",
+    "city": "Kansas City, Missouri",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "131507",
+      "name": "Group K Winner",
+      "shortName": "1K",
+      "abbr": "1K",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "131546",
+      "name": "Third Place Group D/E/I/J/L",
+      "shortName": "3RD D/E/I/J/L",
+      "abbr": "3RD",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

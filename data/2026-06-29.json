@@ -1,0 +1,89 @@
+[
+  {
+    "id": "760487",
+    "stage": "round-of-32",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-06-29T17:00Z",
+    "kickoffTaiwan": "2026-06-30T01:00:00+08:00",
+    "venue": "NRG Stadium",
+    "city": "Houston, Texas",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "5927",
+      "name": "Group C Winner",
+      "shortName": "1C",
+      "abbr": "1C",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "5934",
+      "name": "Group F 2nd Place",
+      "shortName": "2F",
+      "abbr": "2F",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760489",
+    "stage": "round-of-32",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-06-29T20:30Z",
+    "kickoffTaiwan": "2026-06-30T04:30:00+08:00",
+    "venue": "Gillette Stadium",
+    "city": "Foxborough, Massachusetts",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "5931",
+      "name": "Group E Winner",
+      "shortName": "1E",
+      "abbr": "1E",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "131541",
+      "name": "Third Place Group A/B/C/D/F",
+      "shortName": "3RD A/B/C/D/F",
+      "abbr": "3RD",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760488",
+    "stage": "round-of-32",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-06-30T01:00Z",
+    "kickoffTaiwan": "2026-06-30T09:00:00+08:00",
+    "venue": "Estadio BBVA",
+    "city": "Guadalupe",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "5933",
+      "name": "Group F Winner",
+      "shortName": "1F",
+      "abbr": "1F",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "5930",
+      "name": "Group C 2nd Place",
+      "shortName": "2C",
+      "abbr": "2C",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

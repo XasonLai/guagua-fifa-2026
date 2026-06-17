@@ -1,0 +1,31 @@
+[
+  {
+    "id": "760486",
+    "stage": "round-of-32",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-06-28T19:00Z",
+    "kickoffTaiwan": "2026-06-29T03:00:00+08:00",
+    "venue": "SoFi Stadium",
+    "city": "Inglewood, California",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "5926",
+      "name": "Group A 2nd Place",
+      "shortName": "2A",
+      "abbr": "2A",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "5924",
+      "name": "Group B 2nd Place",
+      "shortName": "2B",
+      "abbr": "2B",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

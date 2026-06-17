@@ -1,0 +1,31 @@
+[
+  {
+    "id": "760516",
+    "stage": "3rd-place-match",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-18T21:00Z",
+    "kickoffTaiwan": "2026-07-19T05:00:00+08:00",
+    "venue": "Hard Rock Stadium",
+    "city": "Miami Gardens, Florida",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "5958",
+      "name": "Semifinal 1 Loser",
+      "shortName": "SF L1",
+      "abbr": "SF L1",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "5959",
+      "name": "Semifinal 2 Loser",
+      "shortName": "SF L2",
+      "abbr": "SF L2",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

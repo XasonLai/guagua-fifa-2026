@@ -1,0 +1,89 @@
+[
+  {
+    "id": "760495",
+    "stage": "round-of-32",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-01T16:00Z",
+    "kickoffTaiwan": "2026-07-02T00:00:00+08:00",
+    "venue": "Mercedes-Benz Stadium",
+    "city": "Atlanta, Georgia",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "131508",
+      "name": "Group L Winner",
+      "shortName": "1L",
+      "abbr": "1L",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "131548",
+      "name": "Third Place Group E/H/I/J/K",
+      "shortName": "3RD E/H/I/J/K",
+      "abbr": "3RD",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760493",
+    "stage": "round-of-32",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-01T20:00Z",
+    "kickoffTaiwan": "2026-07-02T04:00:00+08:00",
+    "venue": "Lumen Field",
+    "city": "Seattle, Washington",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "5935",
+      "name": "Group G Winner",
+      "shortName": "1G",
+      "abbr": "1G",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "131542",
+      "name": "Third Place Group A/E/H/I/J",
+      "shortName": "3RD A/E/H/I/J",
+      "abbr": "3RD",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760494",
+    "stage": "round-of-32",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-02T00:00Z",
+    "kickoffTaiwan": "2026-07-02T08:00:00+08:00",
+    "venue": "Levi's Stadium",
+    "city": "Santa Clara, California",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "5929",
+      "name": "Group D Winner",
+      "shortName": "1D",
+      "abbr": "1D",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "131543",
+      "name": "Third Place Group B/E/F/I/J",
+      "shortName": "3RD B/E/F/I/J",
+      "abbr": "3RD",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

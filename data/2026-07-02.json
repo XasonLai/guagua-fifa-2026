@@ -1,0 +1,89 @@
+[
+  {
+    "id": "760497",
+    "stage": "round-of-32",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-02T19:00Z",
+    "kickoffTaiwan": "2026-07-03T03:00:00+08:00",
+    "venue": "SoFi Stadium",
+    "city": "Inglewood, California",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "5937",
+      "name": "Group H Winner",
+      "shortName": "1H",
+      "abbr": "1H",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "131502",
+      "name": "Group J 2nd Place",
+      "shortName": "2J",
+      "abbr": "2J",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760496",
+    "stage": "round-of-32",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-02T23:00Z",
+    "kickoffTaiwan": "2026-07-03T07:00:00+08:00",
+    "venue": "BMO Field",
+    "city": "Toronto",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "131503",
+      "name": "Group K 2nd Place",
+      "shortName": "2K",
+      "abbr": "2K",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "131504",
+      "name": "Group L 2nd Place",
+      "shortName": "2L",
+      "abbr": "2L",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  },
+  {
+    "id": "760498",
+    "stage": "round-of-32",
+    "group": "FIFA World Cup",
+    "kickoffUtc": "2026-07-03T03:00Z",
+    "kickoffTaiwan": "2026-07-03T11:00:00+08:00",
+    "venue": "BC Place",
+    "city": "Vancouver",
+    "status": "Scheduled",
+    "completed": false,
+    "home": {
+      "id": "5925",
+      "name": "Group B Winner",
+      "shortName": "1B",
+      "abbr": "1B",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "131547",
+      "name": "Third Place Group E/F/G/I/J",
+      "shortName": "3RD E/F/G/I/J",
+      "abbr": "3RD",
+      "logo": "",
+      "score": "0",
+      "winner": false
+    }
+  }
+]

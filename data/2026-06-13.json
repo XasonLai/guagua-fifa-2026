@@ -1,0 +1,89 @@
+[
+  {
+    "id": "760420",
+    "stage": "group-stage",
+    "group": "Group B",
+    "kickoffUtc": "2026-06-13T19:00Z",
+    "kickoffTaiwan": "2026-06-14T03:00:00+08:00",
+    "venue": "Levi's Stadium",
+    "city": "Santa Clara, California",
+    "status": "Full Time",
+    "completed": true,
+    "home": {
+      "id": "4398",
+      "name": "Qatar",
+      "shortName": "Qatar",
+      "abbr": "QAT",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+      "score": "1",
+      "winner": false
+    },
+    "away": {
+      "id": "475",
+      "name": "Switzerland",
+      "shortName": "Switzerland",
+      "abbr": "SUI",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "score": "1",
+      "winner": false
+    }
+  },
+  {
+    "id": "760419",
+    "stage": "group-stage",
+    "group": "Group C",
+    "kickoffUtc": "2026-06-13T22:00Z",
+    "kickoffTaiwan": "2026-06-14T06:00:00+08:00",
+    "venue": "MetLife Stadium",
+    "city": "East Rutherford, New Jersey",
+    "status": "Full Time",
+    "completed": true,
+    "home": {
+      "id": "205",
+      "name": "Brazil",
+      "shortName": "Brazil",
+      "abbr": "BRA",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+      "score": "1",
+      "winner": false
+    },
+    "away": {
+      "id": "2869",
+      "name": "Morocco",
+      "shortName": "Morocco",
+      "abbr": "MAR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+      "score": "1",
+      "winner": false
+    }
+  },
+  {
+    "id": "760418",
+    "stage": "group-stage",
+    "group": "Group C",
+    "kickoffUtc": "2026-06-14T01:00Z",
+    "kickoffTaiwan": "2026-06-14T09:00:00+08:00",
+    "venue": "Gillette Stadium",
+    "city": "Foxborough, Massachusetts",
+    "status": "Full Time",
+    "completed": true,
+    "home": {
+      "id": "2654",
+      "name": "Haiti",
+      "shortName": "Haiti",
+      "abbr": "HAI",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+      "score": "0",
+      "winner": false
+    },
+    "away": {
+      "id": "580",
+      "name": "Scotland",
+      "shortName": "Scotland",
+      "abbr": "SCO",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+      "score": "1",
+      "winner": true
+    }
+  }
+]
