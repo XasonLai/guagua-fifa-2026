@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026 FIFA 世界盃射手榜</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { margin: 0; background: #f6f7f2; color: #17211b; }
+    header { padding: 28px clamp(16px, 5vw, 56px) 18px; background: #143c35; color: white; }
+    h1 { margin: 0 0 10px; font-size: clamp(28px, 5vw, 48px); letter-spacing: 0; }
+    a { color: inherit; }
+    main { max-width: 860px; margin: 0 auto; padding: 22px clamp(14px, 4vw, 28px) 48px; }
+    .meta { color: #5d6a62; margin-bottom: 18px; }
+    .row { display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: center; background: white; border: 1px solid #dbe1d8; border-radius: 8px; padding: 14px 16px; margin-bottom: 10px; }
+    .rank { color: #5d6a62; font-weight: 700; }
+    .name { font-weight: 800; }
+    .team { color: #5d6a62; font-size: 14px; margin-top: 2px; }
+    .goals { font-size: 24px; font-weight: 900; color: #d6293e; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>射手榜 Top 10</h1>
+    <p><a href="./">回賽程</a> · <a href="goalkeepers.html">守門員榜</a></p>
+  </header>
+  <main>
+    <div class="meta" id="meta"></div>
+    <section id="scorers"></section>
+  </main>
+  <script>
+    const fmt = new Intl.DateTimeFormat('zh-TW', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'Asia/Taipei' });
+    Promise.all([
+      fetch('data/meta.json').then(r => r.json()),
+      fetch('data/scorers.json').then(r => r.json()),
+    ]).then(([meta, scorers]) => {
+      document.getElementById('meta').textContent = `更新：${fmt.format(new Date(meta.updatedAt))}`;
+      document.getElementById('scorers').innerHTML = scorers.map((s, i) => `
+        <article class="row">
+          <div class="rank">${i + 1}</div>
+          <div><div class="name">${s.name}</div><div class="team">${s.team}</div></div>
+          <div class="goals">${s.goals}</div>
+        </article>
+      `).join('') || '<p>目前沒有進球資料。</p>';
+    }).catch(err => { document.getElementById('scorers').textContent = err.message; });
+  </script>
+</body>
+</html>

@@ -7,7 +7,7 @@
     "kickoffTaiwan": "2026-06-17T12:00:00+08:00",
     "venue": "Levi's Stadium",
     "city": "Santa Clara, California",
-    "status": "Scheduled",
+    "status": "First Half",
     "completed": false,
     "home": {
       "id": "474",
@@ -15,7 +15,7 @@
       "shortName": "Austria",
       "abbr": "AUT",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {

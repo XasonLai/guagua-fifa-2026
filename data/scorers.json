@@ -1,0 +1,156 @@
+[
+  {
+    "id": "45843",
+    "name": "Lionel Messi",
+    "teamId": "202",
+    "team": "Argentina",
+    "goals": 3,
+    "matches": [
+      {
+        "matchId": "760433",
+        "minute": "17'"
+      },
+      {
+        "matchId": "760433",
+        "minute": "60'"
+      },
+      {
+        "matchId": "760433",
+        "minute": "76'"
+      }
+    ]
+  },
+  {
+    "id": "253989",
+    "name": "Erling Haaland",
+    "teamId": "464",
+    "team": "Norway",
+    "goals": 2,
+    "matches": [
+      {
+        "matchId": "760430",
+        "minute": "29'"
+      },
+      {
+        "matchId": "760430",
+        "minute": "43'"
+      }
+    ]
+  },
+  {
+    "id": "282643",
+    "name": "Folarin Balogun",
+    "teamId": "660",
+    "team": "United States",
+    "goals": 2,
+    "matches": [
+      {
+        "matchId": "760417",
+        "minute": "31'"
+      },
+      {
+        "matchId": "760417",
+        "minute": "45'+5'"
+      }
+    ]
+  },
+  {
+    "id": "231388",
+    "name": "Kylian Mbappé",
+    "teamId": "478",
+    "team": "France",
+    "goals": 2,
+    "matches": [
+      {
+        "matchId": "760432",
+        "minute": "66'"
+      },
+      {
+        "matchId": "760432",
+        "minute": "90'+6'"
+      }
+    ]
+  },
+  {
+    "id": "304242",
+    "name": "Yasin Ayari",
+    "teamId": "466",
+    "team": "Sweden",
+    "goals": 2,
+    "matches": [
+      {
+        "matchId": "760424",
+        "minute": "7'"
+      },
+      {
+        "matchId": "760424",
+        "minute": "90'+6'"
+      }
+    ]
+  },
+  {
+    "id": "256667",
+    "name": "Abdulelah Al-Amri",
+    "teamId": "655",
+    "team": "Saudi Arabia",
+    "goals": 1,
+    "matches": [
+      {
+        "matchId": "760429",
+        "minute": "41'"
+      }
+    ]
+  },
+  {
+    "id": "235662",
+    "name": "Alexander Isak",
+    "teamId": "466",
+    "team": "Sweden",
+    "goals": 1,
+    "matches": [
+      {
+        "matchId": "760424",
+        "minute": "30'"
+      }
+    ]
+  },
+  {
+    "id": "291630",
+    "name": "Amad Diallo",
+    "teamId": "4789",
+    "team": "Ivory Coast",
+    "goals": 1,
+    "matches": [
+      {
+        "matchId": "760423",
+        "minute": "90'"
+      }
+    ]
+  },
+  {
+    "id": "328238",
+    "name": "Bradley Barcola",
+    "teamId": "478",
+    "team": "France",
+    "goals": 1,
+    "matches": [
+      {
+        "matchId": "760432",
+        "minute": "82'"
+      }
+    ]
+  },
+  {
+    "id": "260643",
+    "name": "Connor Metcalfe",
+    "teamId": "628",
+    "team": "Australia",
+    "goals": 1,
+    "matches": [
+      {
+        "matchId": "760421",
+        "minute": "75'"
+      }
+    ]
+  }
+]

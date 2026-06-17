@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026 FIFA 世界盃守門員榜</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { margin: 0; background: #f6f7f2; color: #17211b; }
+    header { padding: 28px clamp(16px, 5vw, 56px) 18px; background: #143c35; color: white; }
+    h1 { margin: 0 0 10px; font-size: clamp(28px, 5vw, 48px); letter-spacing: 0; }
+    a { color: inherit; }
+    main { max-width: 900px; margin: 0 auto; padding: 22px clamp(14px, 4vw, 28px) 48px; }
+    .meta { color: #5d6a62; margin-bottom: 18px; }
+    .row { display: grid; grid-template-columns: 44px 1fr repeat(3, minmax(72px, auto)); gap: 12px; align-items: center; background: white; border: 1px solid #dbe1d8; border-radius: 8px; padding: 14px 16px; margin-bottom: 10px; }
+    .rank { color: #5d6a62; font-weight: 700; }
+    .name { font-weight: 800; }
+    .team, .label { color: #5d6a62; font-size: 14px; }
+    .stat { text-align: right; font-size: 22px; font-weight: 900; color: #d6293e; }
+    .label { display: block; font-weight: 500; color: #5d6a62; }
+    @media (max-width: 640px) {
+      .row { grid-template-columns: 32px 1fr; }
+      .stat { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>守門員撲救 Top 10</h1>
+    <p><a href="./">回賽程</a> · <a href="scorers.html">射手榜</a></p>
+  </header>
+  <main>
+    <div class="meta" id="meta"></div>
+    <section id="goalkeepers"></section>
+  </main>
+  <script>
+    const fmt = new Intl.DateTimeFormat('zh-TW', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'Asia/Taipei' });
+    Promise.all([
+      fetch('data/meta.json').then(r => r.json()),
+      fetch('data/goalkeepers.json').then(r => r.json()),
+    ]).then(([meta, keepers]) => {
+      document.getElementById('meta').textContent = `更新：${fmt.format(new Date(meta.updatedAt))}`;
+      document.getElementById('goalkeepers').innerHTML = keepers.map((g, i) => `
+        <article class="row">
+          <div class="rank">${i + 1}</div>
+          <div><div class="name">${g.name}</div><div class="team">${g.team}</div></div>
+          <div class="stat"><span class="label">撲救</span>${g.saves}</div>
+          <div class="stat"><span class="label">失球</span>${g.goalsConceded}</div>
+          <div class="stat"><span class="label">出賽</span>${g.appearances}</div>
+        </article>
+      `).join('') || '<p>目前沒有守門員資料。</p>';
+    }).catch(err => { document.getElementById('goalkeepers').textContent = err.message; });
+  </script>
+</body>
+</html>

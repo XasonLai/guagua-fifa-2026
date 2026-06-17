@@ -1,0 +1,92 @@
+[
+  {
+    "id": "247018",
+    "name": "Mohammed Al-Owais",
+    "teamId": "655",
+    "team": "Saudi Arabia",
+    "saves": 9,
+    "goalsConceded": 1,
+    "appearances": 1
+  },
+  {
+    "id": "335240",
+    "name": "Patrick Beach",
+    "teamId": "628",
+    "team": "Australia",
+    "saves": 8,
+    "goalsConceded": 0,
+    "appearances": 1
+  },
+  {
+    "id": "181330",
+    "name": "Vozinha",
+    "teamId": "2597",
+    "team": "Cape Verde",
+    "saves": 7,
+    "goalsConceded": 0,
+    "appearances": 1
+  },
+  {
+    "id": "214798",
+    "name": "Alireza Beiranvand",
+    "teamId": "469",
+    "team": "Iran",
+    "saves": 6,
+    "goalsConceded": 2,
+    "appearances": 1
+  },
+  {
+    "id": "310372",
+    "name": "Mahmoud Abunada",
+    "teamId": "4398",
+    "team": "Qatar",
+    "saves": 5,
+    "goalsConceded": 1,
+    "appearances": 1
+  },
+  {
+    "id": "238362",
+    "name": "Édouard Mendy",
+    "teamId": "654",
+    "team": "Senegal",
+    "saves": 5,
+    "goalsConceded": 3,
+    "appearances": 1
+  },
+  {
+    "id": "175149",
+    "name": "Yassine Bounou",
+    "teamId": "2869",
+    "team": "Morocco",
+    "saves": 4,
+    "goalsConceded": 1,
+    "appearances": 1
+  },
+  {
+    "id": "277313",
+    "name": "Matej Kovár",
+    "teamId": "450",
+    "team": "Czechia",
+    "saves": 4,
+    "goalsConceded": 2,
+    "appearances": 1
+  },
+  {
+    "id": "265958",
+    "name": "Zion Suzuki",
+    "teamId": "627",
+    "team": "Japan",
+    "saves": 4,
+    "goalsConceded": 2,
+    "appearances": 1
+  },
+  {
+    "id": "127444",
+    "name": "Eloy Room",
+    "teamId": "11678",
+    "team": "Curaçao",
+    "saves": 4,
+    "goalsConceded": 7,
+    "appearances": 1
+  }
+]
