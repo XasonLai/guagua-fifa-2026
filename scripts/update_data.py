@@ -51,6 +51,7 @@ def normalize_event(event: dict) -> dict:
         "completed": bool(status["completed"]),
         "home": team(teams[0]),
         "away": team(teams[1]),
+        "probabilities": probabilities(comp),
     }
 
 
@@ -75,6 +76,35 @@ def daterange(start: date, end: date):
 
 def write_json(path: Path, value) -> None:
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def american_probability(value) -> float | None:
+    try:
+        odds = int(value)
+    except (TypeError, ValueError):
+        return None
+    return 100 / (odds + 100) if odds > 0 else abs(odds) / (abs(odds) + 100)
+
+
+def probabilities(comp: dict) -> dict | None:
+    odds = comp.get("odds") or []
+    odd = odds[0] or {} if odds else {}
+    moneyline = odd.get("moneyline", {})
+    raw = {
+        "home": american_probability(moneyline.get("home", {}).get("close", {}).get("odds")),
+        "draw": american_probability(moneyline.get("draw", {}).get("close", {}).get("odds")),
+        "away": american_probability(moneyline.get("away", {}).get("close", {}).get("odds")),
+    }
+    if not all(raw.values()):
+        return None
+    total = sum(raw.values())
+    return {
+        "source": odd.get("provider", {}).get("displayName", "ESPN odds"),
+        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+        "home": round(raw["home"] / total * 100),
+        "draw": round(raw["draw"] / total * 100),
+        "away": round(raw["away"] / total * 100),
+    }
 
 
 def goal_scorers(summary: dict, match: dict) -> list[dict]:
@@ -216,6 +246,8 @@ def self_check() -> None:
     assert out["kickoffTaiwan"] == "2026-06-18T01:00:00+08:00"
     assert out["home"]["name"] == "Home"
     assert out["group"] == "Group K"
+    assert american_probability("-150") == 0.6
+    assert american_probability("300") == 0.25
     summary = {"keyEvents": [
         {"type": {"type": "goal"}, "scoringPlay": True, "shootout": False, "team": {"id": "1", "displayName": "Home"}, "participants": [{"athlete": {"id": "9", "displayName": "Nine"}}], "clock": {"displayValue": "9'"}},
         {"type": {"type": "goal"}, "scoringPlay": True, "shootout": True, "participants": [{"athlete": {"id": "10", "displayName": "Ten"}}]},

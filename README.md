@@ -13,6 +13,7 @@ python -m http.server 8000
 資料來源：ESPN 公開 scoreboard endpoint。網站只讀 `data/*.json`。
 射手榜資料來自 ESPN 單場 summary 的 `keyEvents`。
 守門員榜資料來自 ESPN 單場 summary 的 `rosters`。
+市場參考機率由 ESPN odds 換算，僅供參考，不是官方預測。
 
 GitHub Actions 會在每天以下台灣時間更新資料：
 

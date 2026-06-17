@@ -26,7 +26,8 @@
       "logo": "",
       "score": "0",
       "winner": false
-    }
+    },
+    "probabilities": null
   },
   {
     "id": "760507",
@@ -55,6 +56,7 @@
       "logo": "",
       "score": "0",
       "winner": false
-    }
+    },
+    "probabilities": null
   }
 ]

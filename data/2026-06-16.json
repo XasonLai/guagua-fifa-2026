@@ -26,7 +26,8 @@
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
       "score": "1",
       "winner": false
-    }
+    },
+    "probabilities": null
   },
   {
     "id": "760430",
@@ -55,7 +56,8 @@
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
       "score": "4",
       "winner": true
-    }
+    },
+    "probabilities": null
   },
   {
     "id": "760433",
@@ -84,6 +86,7 @@
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
       "score": "0",
       "winner": false
-    }
+    },
+    "probabilities": null
   }
 ]

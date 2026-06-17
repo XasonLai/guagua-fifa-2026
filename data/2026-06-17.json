@@ -26,7 +26,8 @@
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
       "score": "1",
       "winner": false
-    }
+    },
+    "probabilities": null
   },
   {
     "id": "760435",
@@ -55,6 +56,13 @@
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
       "score": "0",
       "winner": false
+    },
+    "probabilities": {
+      "source": "DraftKings",
+      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+      "home": 74,
+      "draw": 17,
+      "away": 9
     }
   },
   {
@@ -84,6 +92,13 @@
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
       "score": "0",
       "winner": false
+    },
+    "probabilities": {
+      "source": "ESPN odds",
+      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+      "home": 55,
+      "draw": 26,
+      "away": 19
     }
   },
   {
@@ -113,6 +128,13 @@
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
       "score": "0",
       "winner": false
+    },
+    "probabilities": {
+      "source": "ESPN odds",
+      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+      "home": 41,
+      "draw": 30,
+      "away": 29
     }
   },
   {
@@ -142,6 +164,13 @@
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
       "score": "0",
       "winner": false
+    },
+    "probabilities": {
+      "source": "ESPN odds",
+      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+      "home": 10,
+      "draw": 20,
+      "away": 70
     }
   }
 ]

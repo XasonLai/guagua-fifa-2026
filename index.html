@@ -25,12 +25,17 @@
     .name { font-weight: 700; overflow-wrap: anywhere; }
     .score { min-width: 70px; text-align: center; font-size: 24px; font-weight: 800; }
     .status { justify-self: center; color: #5d6a62; font-size: 14px; }
+    .prob { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; color: #5d6a62; font-size: 14px; }
+    .prob div { background: #f6f7f2; border-radius: 6px; padding: 8px; text-align: center; }
+    .prob strong { display: block; color: #17211b; font-size: 16px; }
+    .odds-note, footer { color: #5d6a62; font-size: 13px; }
     .teams-list { margin-top: 28px; }
     .teams-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
     .country { background: white; border: 1px solid #dbe1d8; border-radius: 8px; padding: 10px; display: flex; align-items: center; gap: 8px; }
     @media (max-width: 620px) {
       .meta { width: 100%; margin-left: 0; }
       .teams { grid-template-columns: 1fr; }
+      .prob { grid-template-columns: 1fr; }
       .team.away { justify-content: flex-start; text-align: left; flex-direction: row-reverse; }
       .score { text-align: left; }
     }
@@ -56,6 +61,9 @@
       <h2>參賽國家</h2>
       <div class="teams-grid" id="teams"></div>
     </section>
+    <footer>
+      <p>免責聲明：本站為個人靜態整理頁，資料與市場參考機率僅供快速瀏覽，不構成投注、投資或任何決策建議。正式賽事資訊、完整數據與賠率請以 FIFA、ESPN 與原始資料網站為準。</p>
+    </footer>
   </main>
   <script>
     const fmt = new Intl.DateTimeFormat('zh-TW', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'Asia/Taipei' });
@@ -71,6 +79,19 @@
       return t.logo ? `<img src="${t.logo}" alt="">` : '';
     }
 
+    function odds(m) {
+      if (!m.probabilities) return '';
+      const p = m.probabilities;
+      return `
+        <div class="prob">
+          <div><span>${m.home.shortName}</span><strong>${p.home}%</strong></div>
+          <div><span>和局</span><strong>${p.draw}%</strong></div>
+          <div><span>${m.away.shortName}</span><strong>${p.away}%</strong></div>
+        </div>
+        <div class="odds-note">市場參考機率：${p.note} 來源：${p.source}，實際資訊請至 ESPN 或原始賠率網站查詢。</div>
+      `;
+    }
+
     function render() {
       const day = $('date').value;
       const shown = $('view').value === 'all' ? matches : matches.filter(m => m.kickoffTaiwan.slice(0, 10) === day);
@@ -83,6 +104,7 @@
             <div class="team away"><span class="name">${m.away.name}</span>${badge(m.away)}</div>
           </div>
           <div class="status">${fmt.format(new Date(m.kickoffTaiwan))} · ${m.status}</div>
+          ${odds(m)}
         </article>
       `).join('') || '<p>這天沒有比賽。</p>';
     }

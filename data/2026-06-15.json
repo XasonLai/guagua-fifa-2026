@@ -26,7 +26,8 @@
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
       "score": "0",
       "winner": false
-    }
+    },
+    "probabilities": null
   },
   {
     "id": "760426",
@@ -55,7 +56,8 @@
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
       "score": "1",
       "winner": false
-    }
+    },
+    "probabilities": null
   },
   {
     "id": "760429",
@@ -84,7 +86,8 @@
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
       "score": "1",
       "winner": false
-    }
+    },
+    "probabilities": null
   },
   {
     "id": "760427",
@@ -113,6 +116,7 @@
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
       "score": "2",
       "winner": false
-    }
+    },
+    "probabilities": null
   }
 ]
