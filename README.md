@@ -2,6 +2,8 @@
 
 靜態 2026 FIFA 世界盃賽程頁。
 
+此專案使用 OpenAI Codex 協助開發，內容僅供快速瀏覽賽程、比分與簡易統計參考。正式賽事資訊、完整數據與公告請以 FIFA 官方網站為準。
+
 ```sh
 python scripts/update_data.py --check
 python scripts/update_data.py
