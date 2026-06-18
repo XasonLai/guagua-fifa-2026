@@ -12,18 +12,22 @@
     "home": {
       "id": "19278",
       "name": "Round of 16 5 Winner",
+      "zhName": "Round of 16 5 Winner",
       "shortName": "RD16 W5",
       "abbr": "RD16 W5",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "19279",
       "name": "Round of 16 6 Winner",
+      "zhName": "Round of 16 6 Winner",
       "shortName": "RD16 W6",
       "abbr": "RD16 W6",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },

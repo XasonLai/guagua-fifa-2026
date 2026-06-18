@@ -16,6 +16,7 @@
     .rank { color: #5d6a62; font-weight: 700; }
     .name { font-weight: 800; }
     .team { color: #5d6a62; font-size: 14px; margin-top: 2px; }
+    .english { margin-left: 4px; }
     .goals { font-size: 24px; font-weight: 900; color: #d6293e; }
   </style>
 </head>
@@ -38,7 +39,7 @@
       document.getElementById('scorers').innerHTML = scorers.map((s, i) => `
         <article class="row">
           <div class="rank">${i + 1}</div>
-          <div><div class="name">${s.name}</div><div class="team">${s.team}</div></div>
+          <div><div class="name">${s.name}</div><div class="team">${s.teamZh || s.team}<span class="english">(${s.team})</span></div></div>
           <div class="goals">${s.goals}</div>
         </article>
       `).join('') || '<p>目前沒有進球資料。</p>';

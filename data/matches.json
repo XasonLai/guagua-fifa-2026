@@ -12,18 +12,22 @@
     "home": {
       "id": "203",
       "name": "Mexico",
+      "zhName": "墨西哥",
       "shortName": "Mexico",
       "abbr": "MEX",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+      "homeAway": "home",
       "score": "2",
       "winner": true
     },
     "away": {
       "id": "467",
       "name": "South Africa",
+      "zhName": "南非",
       "shortName": "South Africa",
       "abbr": "RSA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -42,18 +46,22 @@
     "home": {
       "id": "451",
       "name": "South Korea",
+      "zhName": "南韓",
       "shortName": "South Korea",
       "abbr": "KOR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+      "homeAway": "home",
       "score": "2",
       "winner": true
     },
     "away": {
       "id": "450",
       "name": "Czechia",
+      "zhName": "捷克",
       "shortName": "Czechia",
       "abbr": "CZE",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+      "homeAway": "away",
       "score": "1",
       "winner": false
     },
@@ -72,18 +80,22 @@
     "home": {
       "id": "206",
       "name": "Canada",
+      "zhName": "加拿大",
       "shortName": "Canada",
       "abbr": "CAN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+      "homeAway": "home",
       "score": "1",
       "winner": false
     },
     "away": {
       "id": "452",
       "name": "Bosnia-Herzegovina",
+      "zhName": "波士尼亞與赫塞哥維納",
       "shortName": "Bosnia-Herz",
       "abbr": "BIH",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+      "homeAway": "away",
       "score": "1",
       "winner": false
     },
@@ -102,18 +114,22 @@
     "home": {
       "id": "660",
       "name": "United States",
+      "zhName": "美國",
       "shortName": "USA",
       "abbr": "USA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+      "homeAway": "home",
       "score": "4",
       "winner": true
     },
     "away": {
       "id": "210",
       "name": "Paraguay",
+      "zhName": "巴拉圭",
       "shortName": "Paraguay",
       "abbr": "PAR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+      "homeAway": "away",
       "score": "1",
       "winner": false
     },
@@ -132,18 +148,22 @@
     "home": {
       "id": "4398",
       "name": "Qatar",
+      "zhName": "卡達",
       "shortName": "Qatar",
       "abbr": "QAT",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+      "homeAway": "home",
       "score": "1",
       "winner": false
     },
     "away": {
       "id": "475",
       "name": "Switzerland",
+      "zhName": "瑞士",
       "shortName": "Switzerland",
       "abbr": "SUI",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "homeAway": "away",
       "score": "1",
       "winner": false
     },
@@ -162,18 +182,22 @@
     "home": {
       "id": "205",
       "name": "Brazil",
+      "zhName": "巴西",
       "shortName": "Brazil",
       "abbr": "BRA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+      "homeAway": "home",
       "score": "1",
       "winner": false
     },
     "away": {
       "id": "2869",
       "name": "Morocco",
+      "zhName": "摩洛哥",
       "shortName": "Morocco",
       "abbr": "MAR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+      "homeAway": "away",
       "score": "1",
       "winner": false
     },
@@ -192,18 +216,22 @@
     "home": {
       "id": "2654",
       "name": "Haiti",
+      "zhName": "海地",
       "shortName": "Haiti",
       "abbr": "HAI",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "580",
       "name": "Scotland",
+      "zhName": "蘇格蘭",
       "shortName": "Scotland",
       "abbr": "SCO",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+      "homeAway": "away",
       "score": "1",
       "winner": true
     },
@@ -222,18 +250,22 @@
     "home": {
       "id": "628",
       "name": "Australia",
+      "zhName": "澳洲",
       "shortName": "Australia",
       "abbr": "AUS",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+      "homeAway": "home",
       "score": "2",
       "winner": true
     },
     "away": {
       "id": "465",
       "name": "Türkiye",
+      "zhName": "土耳其",
       "shortName": "Türkiye",
       "abbr": "TUR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -252,18 +284,22 @@
     "home": {
       "id": "481",
       "name": "Germany",
+      "zhName": "德國",
       "shortName": "Germany",
       "abbr": "GER",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+      "homeAway": "home",
       "score": "7",
       "winner": true
     },
     "away": {
       "id": "11678",
       "name": "Curaçao",
+      "zhName": "庫拉索",
       "shortName": "Curaçao",
       "abbr": "CUW",
       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
+      "homeAway": "away",
       "score": "1",
       "winner": false
     },
@@ -282,18 +318,22 @@
     "home": {
       "id": "449",
       "name": "Netherlands",
+      "zhName": "荷蘭",
       "shortName": "Netherlands",
       "abbr": "NED",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+      "homeAway": "home",
       "score": "2",
       "winner": false
     },
     "away": {
       "id": "627",
       "name": "Japan",
+      "zhName": "日本",
       "shortName": "Japan",
       "abbr": "JPN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+      "homeAway": "away",
       "score": "2",
       "winner": false
     },
@@ -312,18 +352,22 @@
     "home": {
       "id": "4789",
       "name": "Ivory Coast",
+      "zhName": "象牙海岸",
       "shortName": "Ivory Coast",
       "abbr": "CIV",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+      "homeAway": "home",
       "score": "1",
       "winner": true
     },
     "away": {
       "id": "209",
       "name": "Ecuador",
+      "zhName": "厄瓜多",
       "shortName": "Ecuador",
       "abbr": "ECU",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -342,18 +386,22 @@
     "home": {
       "id": "466",
       "name": "Sweden",
+      "zhName": "瑞典",
       "shortName": "Sweden",
       "abbr": "SWE",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+      "homeAway": "home",
       "score": "5",
       "winner": true
     },
     "away": {
       "id": "659",
       "name": "Tunisia",
+      "zhName": "突尼西亞",
       "shortName": "Tunisia",
       "abbr": "TUN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+      "homeAway": "away",
       "score": "1",
       "winner": false
     },
@@ -372,18 +420,22 @@
     "home": {
       "id": "164",
       "name": "Spain",
+      "zhName": "西班牙",
       "shortName": "Spain",
       "abbr": "ESP",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "2597",
       "name": "Cape Verde",
+      "zhName": "維德角",
       "shortName": "Cape Verde",
       "abbr": "CPV",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -402,18 +454,22 @@
     "home": {
       "id": "459",
       "name": "Belgium",
+      "zhName": "比利時",
       "shortName": "Belgium",
       "abbr": "BEL",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+      "homeAway": "home",
       "score": "1",
       "winner": false
     },
     "away": {
       "id": "2620",
       "name": "Egypt",
+      "zhName": "埃及",
       "shortName": "Egypt",
       "abbr": "EGY",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+      "homeAway": "away",
       "score": "1",
       "winner": false
     },
@@ -432,18 +488,22 @@
     "home": {
       "id": "655",
       "name": "Saudi Arabia",
+      "zhName": "沙烏地阿拉伯",
       "shortName": "Saudi Arabia",
       "abbr": "KSA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
+      "homeAway": "home",
       "score": "1",
       "winner": false
     },
     "away": {
       "id": "212",
       "name": "Uruguay",
+      "zhName": "烏拉圭",
       "shortName": "Uruguay",
       "abbr": "URU",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+      "homeAway": "away",
       "score": "1",
       "winner": false
     },
@@ -462,18 +522,22 @@
     "home": {
       "id": "469",
       "name": "Iran",
+      "zhName": "伊朗",
       "shortName": "Iran",
       "abbr": "IRN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
+      "homeAway": "home",
       "score": "2",
       "winner": false
     },
     "away": {
       "id": "2666",
       "name": "New Zealand",
+      "zhName": "紐西蘭",
       "shortName": "New Zealand",
       "abbr": "NZL",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+      "homeAway": "away",
       "score": "2",
       "winner": false
     },
@@ -492,18 +556,22 @@
     "home": {
       "id": "478",
       "name": "France",
+      "zhName": "法國",
       "shortName": "France",
       "abbr": "FRA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "homeAway": "home",
       "score": "3",
       "winner": true
     },
     "away": {
       "id": "654",
       "name": "Senegal",
+      "zhName": "塞內加爾",
       "shortName": "Senegal",
       "abbr": "SEN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+      "homeAway": "away",
       "score": "1",
       "winner": false
     },
@@ -522,18 +590,22 @@
     "home": {
       "id": "4375",
       "name": "Iraq",
+      "zhName": "伊拉克",
       "shortName": "Iraq",
       "abbr": "IRQ",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+      "homeAway": "home",
       "score": "1",
       "winner": false
     },
     "away": {
       "id": "464",
       "name": "Norway",
+      "zhName": "挪威",
       "shortName": "Norway",
       "abbr": "NOR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "homeAway": "away",
       "score": "4",
       "winner": true
     },
@@ -552,18 +624,22 @@
     "home": {
       "id": "202",
       "name": "Argentina",
+      "zhName": "阿根廷",
       "shortName": "Argentina",
       "abbr": "ARG",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+      "homeAway": "home",
       "score": "3",
       "winner": true
     },
     "away": {
       "id": "624",
       "name": "Algeria",
+      "zhName": "阿爾及利亞",
       "shortName": "Algeria",
       "abbr": "ALG",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -582,18 +658,22 @@
     "home": {
       "id": "474",
       "name": "Austria",
+      "zhName": "奧地利",
       "shortName": "Austria",
       "abbr": "AUT",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+      "homeAway": "home",
       "score": "3",
       "winner": true
     },
     "away": {
       "id": "2917",
       "name": "Jordan",
+      "zhName": "約旦",
       "shortName": "Jordan",
       "abbr": "JOR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
+      "homeAway": "away",
       "score": "1",
       "winner": false
     },
@@ -612,18 +692,22 @@
     "home": {
       "id": "482",
       "name": "Portugal",
+      "zhName": "葡萄牙",
       "shortName": "Portugal",
       "abbr": "POR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+      "homeAway": "home",
       "score": "1",
       "winner": false
     },
     "away": {
       "id": "2850",
       "name": "Congo DR",
+      "zhName": "剛果民主共和國",
       "shortName": "Congo DR",
       "abbr": "COD",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+      "homeAway": "away",
       "score": "1",
       "winner": false
     },
@@ -642,18 +726,22 @@
     "home": {
       "id": "448",
       "name": "England",
+      "zhName": "英格蘭",
       "shortName": "England",
       "abbr": "ENG",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+      "homeAway": "home",
       "score": "4",
       "winner": true
     },
     "away": {
       "id": "477",
       "name": "Croatia",
+      "zhName": "克羅埃西亞",
       "shortName": "Croatia",
       "abbr": "CRO",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+      "homeAway": "away",
       "score": "2",
       "winner": false
     },
@@ -672,18 +760,22 @@
     "home": {
       "id": "4469",
       "name": "Ghana",
+      "zhName": "迦納",
       "shortName": "Ghana",
       "abbr": "GHA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+      "homeAway": "home",
       "score": "1",
       "winner": true
     },
     "away": {
       "id": "2659",
       "name": "Panama",
+      "zhName": "巴拿馬",
       "shortName": "Panama",
       "abbr": "PAN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -697,32 +789,36 @@
     "kickoffTaiwan": "2026-06-18T10:00:00+08:00",
     "venue": "Estadio Banorte",
     "city": "Mexico City",
-    "status": "Scheduled",
+    "status": "First Half",
     "completed": false,
     "home": {
       "id": "2570",
       "name": "Uzbekistan",
+      "zhName": "烏茲別克",
       "shortName": "Uzbekistan",
       "abbr": "UZB",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "208",
       "name": "Colombia",
+      "zhName": "哥倫比亞",
       "shortName": "Colombia",
       "abbr": "COL",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 10,
-      "draw": 20,
-      "away": 70
+      "home": 9,
+      "draw": 17,
+      "away": 74
     }
   },
   {
@@ -738,18 +834,22 @@
     "home": {
       "id": "450",
       "name": "Czechia",
+      "zhName": "捷克",
       "shortName": "Czechia",
       "abbr": "CZE",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "467",
       "name": "South Africa",
+      "zhName": "南非",
       "shortName": "South Africa",
       "abbr": "RSA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -774,18 +874,22 @@
     "home": {
       "id": "475",
       "name": "Switzerland",
+      "zhName": "瑞士",
       "shortName": "Switzerland",
       "abbr": "SUI",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "452",
       "name": "Bosnia-Herzegovina",
+      "zhName": "波士尼亞與赫塞哥維納",
       "shortName": "Bosnia-Herz",
       "abbr": "BIH",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -810,18 +914,22 @@
     "home": {
       "id": "206",
       "name": "Canada",
+      "zhName": "加拿大",
       "shortName": "Canada",
       "abbr": "CAN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "4398",
       "name": "Qatar",
+      "zhName": "卡達",
       "shortName": "Qatar",
       "abbr": "QAT",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -846,18 +954,22 @@
     "home": {
       "id": "203",
       "name": "Mexico",
+      "zhName": "墨西哥",
       "shortName": "Mexico",
       "abbr": "MEX",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "451",
       "name": "South Korea",
+      "zhName": "南韓",
       "shortName": "South Korea",
       "abbr": "KOR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -882,18 +994,22 @@
     "home": {
       "id": "660",
       "name": "United States",
+      "zhName": "美國",
       "shortName": "USA",
       "abbr": "USA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "628",
       "name": "Australia",
+      "zhName": "澳洲",
       "shortName": "Australia",
       "abbr": "AUS",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -918,25 +1034,29 @@
     "home": {
       "id": "580",
       "name": "Scotland",
+      "zhName": "蘇格蘭",
       "shortName": "Scotland",
       "abbr": "SCO",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "2869",
       "name": "Morocco",
+      "zhName": "摩洛哥",
       "shortName": "Morocco",
       "abbr": "MAR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 19,
+      "home": 18,
       "draw": 26,
       "away": 55
     }
@@ -954,18 +1074,22 @@
     "home": {
       "id": "205",
       "name": "Brazil",
+      "zhName": "巴西",
       "shortName": "Brazil",
       "abbr": "BRA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "2654",
       "name": "Haiti",
+      "zhName": "海地",
       "shortName": "Haiti",
       "abbr": "HAI",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -990,18 +1114,22 @@
     "home": {
       "id": "465",
       "name": "Türkiye",
+      "zhName": "土耳其",
       "shortName": "Türkiye",
       "abbr": "TUR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "210",
       "name": "Paraguay",
+      "zhName": "巴拉圭",
       "shortName": "Paraguay",
       "abbr": "PAR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1026,18 +1154,22 @@
     "home": {
       "id": "449",
       "name": "Netherlands",
+      "zhName": "荷蘭",
       "shortName": "Netherlands",
       "abbr": "NED",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "466",
       "name": "Sweden",
+      "zhName": "瑞典",
       "shortName": "Sweden",
       "abbr": "SWE",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1062,18 +1194,22 @@
     "home": {
       "id": "481",
       "name": "Germany",
+      "zhName": "德國",
       "shortName": "Germany",
       "abbr": "GER",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "4789",
       "name": "Ivory Coast",
+      "zhName": "象牙海岸",
       "shortName": "Ivory Coast",
       "abbr": "CIV",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1098,18 +1234,22 @@
     "home": {
       "id": "209",
       "name": "Ecuador",
+      "zhName": "厄瓜多",
       "shortName": "Ecuador",
       "abbr": "ECU",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "11678",
       "name": "Curaçao",
+      "zhName": "庫拉索",
       "shortName": "Curaçao",
       "abbr": "CUW",
       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1134,18 +1274,22 @@
     "home": {
       "id": "659",
       "name": "Tunisia",
+      "zhName": "突尼西亞",
       "shortName": "Tunisia",
       "abbr": "TUN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "627",
       "name": "Japan",
+      "zhName": "日本",
       "shortName": "Japan",
       "abbr": "JPN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1170,18 +1314,22 @@
     "home": {
       "id": "164",
       "name": "Spain",
+      "zhName": "西班牙",
       "shortName": "Spain",
       "abbr": "ESP",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "655",
       "name": "Saudi Arabia",
+      "zhName": "沙烏地阿拉伯",
       "shortName": "Saudi Arabia",
       "abbr": "KSA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1206,18 +1354,22 @@
     "home": {
       "id": "459",
       "name": "Belgium",
+      "zhName": "比利時",
       "shortName": "Belgium",
       "abbr": "BEL",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "469",
       "name": "Iran",
+      "zhName": "伊朗",
       "shortName": "Iran",
       "abbr": "IRN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1242,18 +1394,22 @@
     "home": {
       "id": "212",
       "name": "Uruguay",
+      "zhName": "烏拉圭",
       "shortName": "Uruguay",
       "abbr": "URU",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "2597",
       "name": "Cape Verde",
+      "zhName": "維德角",
       "shortName": "Cape Verde",
       "abbr": "CPV",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1278,18 +1434,22 @@
     "home": {
       "id": "2666",
       "name": "New Zealand",
+      "zhName": "紐西蘭",
       "shortName": "New Zealand",
       "abbr": "NZL",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "2620",
       "name": "Egypt",
+      "zhName": "埃及",
       "shortName": "Egypt",
       "abbr": "EGY",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1314,18 +1474,22 @@
     "home": {
       "id": "202",
       "name": "Argentina",
+      "zhName": "阿根廷",
       "shortName": "Argentina",
       "abbr": "ARG",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "474",
       "name": "Austria",
+      "zhName": "奧地利",
       "shortName": "Austria",
       "abbr": "AUT",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1350,18 +1514,22 @@
     "home": {
       "id": "478",
       "name": "France",
+      "zhName": "法國",
       "shortName": "France",
       "abbr": "FRA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "4375",
       "name": "Iraq",
+      "zhName": "伊拉克",
       "shortName": "Iraq",
       "abbr": "IRQ",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1386,18 +1554,22 @@
     "home": {
       "id": "464",
       "name": "Norway",
+      "zhName": "挪威",
       "shortName": "Norway",
       "abbr": "NOR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "654",
       "name": "Senegal",
+      "zhName": "塞內加爾",
       "shortName": "Senegal",
       "abbr": "SEN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1422,18 +1594,22 @@
     "home": {
       "id": "2917",
       "name": "Jordan",
+      "zhName": "約旦",
       "shortName": "Jordan",
       "abbr": "JOR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "624",
       "name": "Algeria",
+      "zhName": "阿爾及利亞",
       "shortName": "Algeria",
       "abbr": "ALG",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1458,18 +1634,22 @@
     "home": {
       "id": "482",
       "name": "Portugal",
+      "zhName": "葡萄牙",
       "shortName": "Portugal",
       "abbr": "POR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "2570",
       "name": "Uzbekistan",
+      "zhName": "烏茲別克",
       "shortName": "Uzbekistan",
       "abbr": "UZB",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1494,18 +1674,22 @@
     "home": {
       "id": "448",
       "name": "England",
+      "zhName": "英格蘭",
       "shortName": "England",
       "abbr": "ENG",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "4469",
       "name": "Ghana",
+      "zhName": "迦納",
       "shortName": "Ghana",
       "abbr": "GHA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1530,18 +1714,22 @@
     "home": {
       "id": "2659",
       "name": "Panama",
+      "zhName": "巴拿馬",
       "shortName": "Panama",
       "abbr": "PAN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "477",
       "name": "Croatia",
+      "zhName": "克羅埃西亞",
       "shortName": "Croatia",
       "abbr": "CRO",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1566,18 +1754,22 @@
     "home": {
       "id": "208",
       "name": "Colombia",
+      "zhName": "哥倫比亞",
       "shortName": "Colombia",
       "abbr": "COL",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "2850",
       "name": "Congo DR",
+      "zhName": "剛果民主共和國",
       "shortName": "Congo DR",
       "abbr": "COD",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1602,18 +1794,22 @@
     "home": {
       "id": "452",
       "name": "Bosnia-Herzegovina",
+      "zhName": "波士尼亞與赫塞哥維納",
       "shortName": "Bosnia-Herz",
       "abbr": "BIH",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "4398",
       "name": "Qatar",
+      "zhName": "卡達",
       "shortName": "Qatar",
       "abbr": "QAT",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1638,18 +1834,22 @@
     "home": {
       "id": "475",
       "name": "Switzerland",
+      "zhName": "瑞士",
       "shortName": "Switzerland",
       "abbr": "SUI",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "206",
       "name": "Canada",
+      "zhName": "加拿大",
       "shortName": "Canada",
       "abbr": "CAN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1674,18 +1874,22 @@
     "home": {
       "id": "2869",
       "name": "Morocco",
+      "zhName": "摩洛哥",
       "shortName": "Morocco",
       "abbr": "MAR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "2654",
       "name": "Haiti",
+      "zhName": "海地",
       "shortName": "Haiti",
       "abbr": "HAI",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1710,18 +1914,22 @@
     "home": {
       "id": "580",
       "name": "Scotland",
+      "zhName": "蘇格蘭",
       "shortName": "Scotland",
       "abbr": "SCO",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "205",
       "name": "Brazil",
+      "zhName": "巴西",
       "shortName": "Brazil",
       "abbr": "BRA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1746,18 +1954,22 @@
     "home": {
       "id": "450",
       "name": "Czechia",
+      "zhName": "捷克",
       "shortName": "Czechia",
       "abbr": "CZE",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "203",
       "name": "Mexico",
+      "zhName": "墨西哥",
       "shortName": "Mexico",
       "abbr": "MEX",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1782,18 +1994,22 @@
     "home": {
       "id": "467",
       "name": "South Africa",
+      "zhName": "南非",
       "shortName": "South Africa",
       "abbr": "RSA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "451",
       "name": "South Korea",
+      "zhName": "南韓",
       "shortName": "South Korea",
       "abbr": "KOR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1818,18 +2034,22 @@
     "home": {
       "id": "11678",
       "name": "Curaçao",
+      "zhName": "庫拉索",
       "shortName": "Curaçao",
       "abbr": "CUW",
       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "4789",
       "name": "Ivory Coast",
+      "zhName": "象牙海岸",
       "shortName": "Ivory Coast",
       "abbr": "CIV",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1854,18 +2074,22 @@
     "home": {
       "id": "209",
       "name": "Ecuador",
+      "zhName": "厄瓜多",
       "shortName": "Ecuador",
       "abbr": "ECU",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "481",
       "name": "Germany",
+      "zhName": "德國",
       "shortName": "Germany",
       "abbr": "GER",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1890,18 +2114,22 @@
     "home": {
       "id": "627",
       "name": "Japan",
+      "zhName": "日本",
       "shortName": "Japan",
       "abbr": "JPN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "466",
       "name": "Sweden",
+      "zhName": "瑞典",
       "shortName": "Sweden",
       "abbr": "SWE",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1926,18 +2154,22 @@
     "home": {
       "id": "659",
       "name": "Tunisia",
+      "zhName": "突尼西亞",
       "shortName": "Tunisia",
       "abbr": "TUN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "449",
       "name": "Netherlands",
+      "zhName": "荷蘭",
       "shortName": "Netherlands",
       "abbr": "NED",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1962,18 +2194,22 @@
     "home": {
       "id": "210",
       "name": "Paraguay",
+      "zhName": "巴拉圭",
       "shortName": "Paraguay",
       "abbr": "PAR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "628",
       "name": "Australia",
+      "zhName": "澳洲",
       "shortName": "Australia",
       "abbr": "AUS",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -1998,18 +2234,22 @@
     "home": {
       "id": "465",
       "name": "Türkiye",
+      "zhName": "土耳其",
       "shortName": "Türkiye",
       "abbr": "TUR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "660",
       "name": "United States",
+      "zhName": "美國",
       "shortName": "USA",
       "abbr": "USA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2034,18 +2274,22 @@
     "home": {
       "id": "464",
       "name": "Norway",
+      "zhName": "挪威",
       "shortName": "Norway",
       "abbr": "NOR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "478",
       "name": "France",
+      "zhName": "法國",
       "shortName": "France",
       "abbr": "FRA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2070,18 +2314,22 @@
     "home": {
       "id": "654",
       "name": "Senegal",
+      "zhName": "塞內加爾",
       "shortName": "Senegal",
       "abbr": "SEN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "4375",
       "name": "Iraq",
+      "zhName": "伊拉克",
       "shortName": "Iraq",
       "abbr": "IRQ",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2106,18 +2354,22 @@
     "home": {
       "id": "2597",
       "name": "Cape Verde",
+      "zhName": "維德角",
       "shortName": "Cape Verde",
       "abbr": "CPV",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "655",
       "name": "Saudi Arabia",
+      "zhName": "沙烏地阿拉伯",
       "shortName": "Saudi Arabia",
       "abbr": "KSA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2142,18 +2394,22 @@
     "home": {
       "id": "212",
       "name": "Uruguay",
+      "zhName": "烏拉圭",
       "shortName": "Uruguay",
       "abbr": "URU",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "164",
       "name": "Spain",
+      "zhName": "西班牙",
       "shortName": "Spain",
       "abbr": "ESP",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2178,18 +2434,22 @@
     "home": {
       "id": "2620",
       "name": "Egypt",
+      "zhName": "埃及",
       "shortName": "Egypt",
       "abbr": "EGY",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "469",
       "name": "Iran",
+      "zhName": "伊朗",
       "shortName": "Iran",
       "abbr": "IRN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2214,18 +2474,22 @@
     "home": {
       "id": "2666",
       "name": "New Zealand",
+      "zhName": "紐西蘭",
       "shortName": "New Zealand",
       "abbr": "NZL",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "459",
       "name": "Belgium",
+      "zhName": "比利時",
       "shortName": "Belgium",
       "abbr": "BEL",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2250,18 +2514,22 @@
     "home": {
       "id": "477",
       "name": "Croatia",
+      "zhName": "克羅埃西亞",
       "shortName": "Croatia",
       "abbr": "CRO",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "4469",
       "name": "Ghana",
+      "zhName": "迦納",
       "shortName": "Ghana",
       "abbr": "GHA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2286,18 +2554,22 @@
     "home": {
       "id": "2659",
       "name": "Panama",
+      "zhName": "巴拿馬",
       "shortName": "Panama",
       "abbr": "PAN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "448",
       "name": "England",
+      "zhName": "英格蘭",
       "shortName": "England",
       "abbr": "ENG",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2322,18 +2594,22 @@
     "home": {
       "id": "208",
       "name": "Colombia",
+      "zhName": "哥倫比亞",
       "shortName": "Colombia",
       "abbr": "COL",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "482",
       "name": "Portugal",
+      "zhName": "葡萄牙",
       "shortName": "Portugal",
       "abbr": "POR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2358,18 +2634,22 @@
     "home": {
       "id": "2850",
       "name": "Congo DR",
+      "zhName": "剛果民主共和國",
       "shortName": "Congo DR",
       "abbr": "COD",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "2570",
       "name": "Uzbekistan",
+      "zhName": "烏茲別克",
       "shortName": "Uzbekistan",
       "abbr": "UZB",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2394,18 +2674,22 @@
     "home": {
       "id": "624",
       "name": "Algeria",
+      "zhName": "阿爾及利亞",
       "shortName": "Algeria",
       "abbr": "ALG",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "474",
       "name": "Austria",
+      "zhName": "奧地利",
       "shortName": "Austria",
       "abbr": "AUT",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2430,18 +2714,22 @@
     "home": {
       "id": "2917",
       "name": "Jordan",
+      "zhName": "約旦",
       "shortName": "Jordan",
       "abbr": "JOR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "202",
       "name": "Argentina",
+      "zhName": "阿根廷",
       "shortName": "Argentina",
       "abbr": "ARG",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2466,18 +2754,22 @@
     "home": {
       "id": "5926",
       "name": "Group A 2nd Place",
+      "zhName": "Group A 2nd Place",
       "shortName": "2A",
       "abbr": "2A",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "5924",
       "name": "Group B 2nd Place",
+      "zhName": "Group B 2nd Place",
       "shortName": "2B",
       "abbr": "2B",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2496,18 +2788,22 @@
     "home": {
       "id": "5927",
       "name": "Group C Winner",
+      "zhName": "Group C Winner",
       "shortName": "1C",
       "abbr": "1C",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "5934",
       "name": "Group F 2nd Place",
+      "zhName": "Group F 2nd Place",
       "shortName": "2F",
       "abbr": "2F",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2526,18 +2822,22 @@
     "home": {
       "id": "5931",
       "name": "Group E Winner",
+      "zhName": "Group E Winner",
       "shortName": "1E",
       "abbr": "1E",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131541",
       "name": "Third Place Group A/B/C/D/F",
+      "zhName": "Third Place Group A/B/C/D/F",
       "shortName": "3RD A/B/C/D/F",
       "abbr": "3RD",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2556,18 +2856,22 @@
     "home": {
       "id": "5933",
       "name": "Group F Winner",
+      "zhName": "Group F Winner",
       "shortName": "1F",
       "abbr": "1F",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "5930",
       "name": "Group C 2nd Place",
+      "zhName": "Group C 2nd Place",
       "shortName": "2C",
       "abbr": "2C",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2586,18 +2890,22 @@
     "home": {
       "id": "5932",
       "name": "Group E 2nd Place",
+      "zhName": "Group E 2nd Place",
       "shortName": "2E",
       "abbr": "2E",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131501",
       "name": "Group I 2nd Place",
+      "zhName": "Group I 2nd Place",
       "shortName": "2I",
       "abbr": "2I",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2616,18 +2924,22 @@
     "home": {
       "id": "131505",
       "name": "Group I Winner",
+      "zhName": "Group I Winner",
       "shortName": "1I",
       "abbr": "1I",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131544",
       "name": "Third Place Group C/D/F/G/H",
+      "zhName": "Third Place Group C/D/F/G/H",
       "shortName": "3RD C/D/F/G/H",
       "abbr": "3RD",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2646,18 +2958,22 @@
     "home": {
       "id": "5923",
       "name": "Group A Winner",
+      "zhName": "Group A Winner",
       "shortName": "1A",
       "abbr": "1A",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131545",
       "name": "Third Place Group C/E/F/H/I",
+      "zhName": "Third Place Group C/E/F/H/I",
       "shortName": "3RD C/E/F/H/I",
       "abbr": "3RD",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2676,18 +2992,22 @@
     "home": {
       "id": "131508",
       "name": "Group L Winner",
+      "zhName": "Group L Winner",
       "shortName": "1L",
       "abbr": "1L",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131548",
       "name": "Third Place Group E/H/I/J/K",
+      "zhName": "Third Place Group E/H/I/J/K",
       "shortName": "3RD E/H/I/J/K",
       "abbr": "3RD",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2706,18 +3026,22 @@
     "home": {
       "id": "5935",
       "name": "Group G Winner",
+      "zhName": "Group G Winner",
       "shortName": "1G",
       "abbr": "1G",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131542",
       "name": "Third Place Group A/E/H/I/J",
+      "zhName": "Third Place Group A/E/H/I/J",
       "shortName": "3RD A/E/H/I/J",
       "abbr": "3RD",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2736,18 +3060,22 @@
     "home": {
       "id": "5929",
       "name": "Group D Winner",
+      "zhName": "Group D Winner",
       "shortName": "1D",
       "abbr": "1D",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131543",
       "name": "Third Place Group B/E/F/I/J",
+      "zhName": "Third Place Group B/E/F/I/J",
       "shortName": "3RD B/E/F/I/J",
       "abbr": "3RD",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2766,18 +3094,22 @@
     "home": {
       "id": "5937",
       "name": "Group H Winner",
+      "zhName": "Group H Winner",
       "shortName": "1H",
       "abbr": "1H",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131502",
       "name": "Group J 2nd Place",
+      "zhName": "Group J 2nd Place",
       "shortName": "2J",
       "abbr": "2J",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2796,18 +3128,22 @@
     "home": {
       "id": "131503",
       "name": "Group K 2nd Place",
+      "zhName": "Group K 2nd Place",
       "shortName": "2K",
       "abbr": "2K",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131504",
       "name": "Group L 2nd Place",
+      "zhName": "Group L 2nd Place",
       "shortName": "2L",
       "abbr": "2L",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2826,18 +3162,22 @@
     "home": {
       "id": "5925",
       "name": "Group B Winner",
+      "zhName": "Group B Winner",
       "shortName": "1B",
       "abbr": "1B",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131547",
       "name": "Third Place Group E/F/G/I/J",
+      "zhName": "Third Place Group E/F/G/I/J",
       "shortName": "3RD E/F/G/I/J",
       "abbr": "3RD",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2856,18 +3196,22 @@
     "home": {
       "id": "5928",
       "name": "Group D 2nd Place",
+      "zhName": "Group D 2nd Place",
       "shortName": "2D",
       "abbr": "2D",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "5936",
       "name": "Group G 2nd Place",
+      "zhName": "Group G 2nd Place",
       "shortName": "2G",
       "abbr": "2G",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2886,18 +3230,22 @@
     "home": {
       "id": "131506",
       "name": "Group J Winner",
+      "zhName": "Group J Winner",
       "shortName": "1J",
       "abbr": "1J",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "5938",
       "name": "Group H 2nd Place",
+      "zhName": "Group H 2nd Place",
       "shortName": "2H",
       "abbr": "2H",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2916,18 +3264,22 @@
     "home": {
       "id": "131507",
       "name": "Group K Winner",
+      "zhName": "Group K Winner",
       "shortName": "1K",
       "abbr": "1K",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131546",
       "name": "Third Place Group D/E/I/J/L",
+      "zhName": "Third Place Group D/E/I/J/L",
       "shortName": "3RD D/E/I/J/L",
       "abbr": "3RD",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2946,18 +3298,22 @@
     "home": {
       "id": "131525",
       "name": "Round of 32 1 Winner",
+      "zhName": "Round of 32 1 Winner",
       "shortName": "RD32 W1",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131527",
       "name": "Round of 32 3 Winner",
+      "zhName": "Round of 32 3 Winner",
       "shortName": "RD32 W3",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -2976,18 +3332,22 @@
     "home": {
       "id": "131526",
       "name": "Round of 32 2 Winner",
+      "zhName": "Round of 32 2 Winner",
       "shortName": "RD32 W2",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131529",
       "name": "Round of 32 5 Winner",
+      "zhName": "Round of 32 5 Winner",
       "shortName": "RD32 W5",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -3006,18 +3366,22 @@
     "home": {
       "id": "131528",
       "name": "Round of 32 4 Winner",
+      "zhName": "Round of 32 4 Winner",
       "shortName": "RD32 W4",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131530",
       "name": "Round of 32 6 Winner",
+      "zhName": "Round of 32 6 Winner",
       "shortName": "RD32 W6",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -3036,18 +3400,22 @@
     "home": {
       "id": "131531",
       "name": "Round of 32 7 Winner",
+      "zhName": "Round of 32 7 Winner",
       "shortName": "RD32 W7",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131532",
       "name": "Round of 32 8 Winner",
+      "zhName": "Round of 32 8 Winner",
       "shortName": "RD32 W8",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -3066,18 +3434,22 @@
     "home": {
       "id": "131535",
       "name": "Round of 32 11 Winner",
+      "zhName": "Round of 32 11 Winner",
       "shortName": "RD32 W11",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131536",
       "name": "Round of 32 12 Winner",
+      "zhName": "Round of 32 12 Winner",
       "shortName": "RD32 W12",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -3096,18 +3468,22 @@
     "home": {
       "id": "131533",
       "name": "Round of 32 9 Winner",
+      "zhName": "Round of 32 9 Winner",
       "shortName": "RD32 W9",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131534",
       "name": "Round of 32 10 Winner",
+      "zhName": "Round of 32 10 Winner",
       "shortName": "RD32 W10",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -3126,18 +3502,22 @@
     "home": {
       "id": "131538",
       "name": "Round of 32 14 Winner",
+      "zhName": "Round of 32 14 Winner",
       "shortName": "RD32 W14",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131540",
       "name": "Round of 32 16 Winner",
+      "zhName": "Round of 32 16 Winner",
       "shortName": "RD32 W16",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -3156,18 +3536,22 @@
     "home": {
       "id": "131537",
       "name": "Round of 32 13 Winner",
+      "zhName": "Round of 32 13 Winner",
       "shortName": "RD32 W13",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131539",
       "name": "Round of 32 15 Winner",
+      "zhName": "Round of 32 15 Winner",
       "shortName": "RD32 W15",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -3186,18 +3570,22 @@
     "home": {
       "id": "19282",
       "name": "Round of 16 1 Winner",
+      "zhName": "Round of 16 1 Winner",
       "shortName": "RD16 W1",
       "abbr": "RD16 W1",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "19283",
       "name": "Round of 16 2 Winner",
+      "zhName": "Round of 16 2 Winner",
       "shortName": "RD16 W2",
       "abbr": "RD16 W2",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -3216,18 +3604,22 @@
     "home": {
       "id": "19278",
       "name": "Round of 16 5 Winner",
+      "zhName": "Round of 16 5 Winner",
       "shortName": "RD16 W5",
       "abbr": "RD16 W5",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "19279",
       "name": "Round of 16 6 Winner",
+      "zhName": "Round of 16 6 Winner",
       "shortName": "RD16 W6",
       "abbr": "RD16 W6",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -3246,18 +3638,22 @@
     "home": {
       "id": "19284",
       "name": "Round of 16 3 Winner",
+      "zhName": "Round of 16 3 Winner",
       "shortName": "RD16 W3",
       "abbr": "RD16 W3",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "19285",
       "name": "Round of 16 4 Winner",
+      "zhName": "Round of 16 4 Winner",
       "shortName": "RD16 W4",
       "abbr": "RD16 W4",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -3276,18 +3672,22 @@
     "home": {
       "id": "19280",
       "name": "Round of 16 7 Winner",
+      "zhName": "Round of 16 7 Winner",
       "shortName": "RD16 W7",
       "abbr": "RD16 W7",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "19281",
       "name": "Round of 16 8 Winner",
+      "zhName": "Round of 16 8 Winner",
       "shortName": "RD16 W8",
       "abbr": "RD16 W8",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -3306,18 +3706,22 @@
     "home": {
       "id": "17631",
       "name": "Quarterfinal 1 Winner",
+      "zhName": "Quarterfinal 1 Winner",
       "shortName": "QF W1",
       "abbr": "QFW1",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "17629",
       "name": "Quarterfinal 2 Winner",
+      "zhName": "Quarterfinal 2 Winner",
       "shortName": "QF W2",
       "abbr": "QFW2",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -3336,18 +3740,22 @@
     "home": {
       "id": "17630",
       "name": "Quarterfinal 3 Winner",
+      "zhName": "Quarterfinal 3 Winner",
       "shortName": "QF W3",
       "abbr": "QFW3",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "17632",
       "name": "Quarterfinal 4 Winner",
+      "zhName": "Quarterfinal 4 Winner",
       "shortName": "QF W4",
       "abbr": "QW4",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -3366,18 +3774,22 @@
     "home": {
       "id": "5958",
       "name": "Semifinal 1 Loser",
+      "zhName": "Semifinal 1 Loser",
       "shortName": "SF L1",
       "abbr": "SF L1",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "5959",
       "name": "Semifinal 2 Loser",
+      "zhName": "Semifinal 2 Loser",
       "shortName": "SF L2",
       "abbr": "SF L2",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -3396,18 +3808,22 @@
     "home": {
       "id": "5960",
       "name": "Semifinal 1 Winner",
+      "zhName": "Semifinal 1 Winner",
       "shortName": "SF W1",
       "abbr": "SFW1",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "5961",
       "name": "Semifinal 2 Winner",
+      "zhName": "Semifinal 2 Winner",
       "shortName": "SF W2",
       "abbr": "SFW2",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },

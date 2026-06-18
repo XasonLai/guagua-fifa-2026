@@ -23,6 +23,8 @@
     .team.away { justify-content: flex-end; text-align: right; }
     img { width: 34px; height: 34px; object-fit: contain; flex: 0 0 auto; }
     .name { font-weight: 700; overflow-wrap: anywhere; }
+    .english, .side-label { color: #5d6a62; font-size: 13px; font-weight: 500; margin-left: 6px; }
+    .side-label { background: #eef1eb; border-radius: 999px; padding: 2px 7px; }
     .score { min-width: 70px; text-align: center; font-size: 24px; font-weight: 800; }
     .status { justify-self: center; color: #5d6a62; font-size: 14px; }
     .prob { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; color: #5d6a62; font-size: 14px; }
@@ -79,14 +81,18 @@
       return t.logo ? `<img src="${t.logo}" alt="">` : '';
     }
 
+    function teamName(t) {
+      return `${t.zhName || t.name}<span class="english">(${t.name})</span>`;
+    }
+
     function odds(m) {
       if (!m.probabilities) return '';
       const p = m.probabilities;
       return `
         <div class="prob">
-          <div><span>${m.home.shortName}</span><strong>${p.home}%</strong></div>
+          <div><span>${m.home.zhName || m.home.shortName}</span><strong>${p.home}%</strong></div>
           <div><span>和局</span><strong>${p.draw}%</strong></div>
-          <div><span>${m.away.shortName}</span><strong>${p.away}%</strong></div>
+          <div><span>${m.away.zhName || m.away.shortName}</span><strong>${p.away}%</strong></div>
         </div>
         <div class="odds-note">市場參考機率：${p.note} 來源：${p.source}，實際資訊請至 ESPN 或原始賠率網站查詢。</div>
       `;
@@ -99,9 +105,9 @@
         <article class="match">
           <div class="top"><span>${m.group || m.stage}</span><span>${m.venue}${m.city ? ` · ${m.city}` : ''}</span></div>
           <div class="teams">
-            <div class="team">${badge(m.home)}<span class="name">${m.home.name}</span></div>
+            <div class="team">${badge(m.home)}<span class="name">${teamName(m.home)}<span class="side-label">主場</span></span></div>
             <div class="score">${score(m)}</div>
-            <div class="team away"><span class="name">${m.away.name}</span>${badge(m.away)}</div>
+            <div class="team away"><span class="name">${teamName(m.away)}<span class="side-label">客場</span></span>${badge(m.away)}</div>
           </div>
           <div class="status">${fmt.format(new Date(m.kickoffTaiwan))} · ${m.status}</div>
           ${odds(m)}
@@ -120,7 +126,7 @@
       $('date').min = meta.start;
       $('date').max = meta.end;
       $('meta').textContent = `更新：${fmt.format(new Date(meta.updatedAt))}`;
-      $('teams').innerHTML = teams.map(t => `<div class="country"><img src="${t.logo}" alt=""><span>${t.name}</span></div>`).join('');
+      $('teams').innerHTML = teams.map(t => `<div class="country"><img src="${t.logo}" alt=""><span>${teamName(t)}</span></div>`).join('');
       render();
     }
 

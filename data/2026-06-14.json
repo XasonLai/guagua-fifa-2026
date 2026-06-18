@@ -12,18 +12,22 @@
     "home": {
       "id": "628",
       "name": "Australia",
+      "zhName": "澳洲",
       "shortName": "Australia",
       "abbr": "AUS",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+      "homeAway": "home",
       "score": "2",
       "winner": true
     },
     "away": {
       "id": "465",
       "name": "Türkiye",
+      "zhName": "土耳其",
       "shortName": "Türkiye",
       "abbr": "TUR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -42,18 +46,22 @@
     "home": {
       "id": "481",
       "name": "Germany",
+      "zhName": "德國",
       "shortName": "Germany",
       "abbr": "GER",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+      "homeAway": "home",
       "score": "7",
       "winner": true
     },
     "away": {
       "id": "11678",
       "name": "Curaçao",
+      "zhName": "庫拉索",
       "shortName": "Curaçao",
       "abbr": "CUW",
       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
+      "homeAway": "away",
       "score": "1",
       "winner": false
     },
@@ -72,18 +80,22 @@
     "home": {
       "id": "449",
       "name": "Netherlands",
+      "zhName": "荷蘭",
       "shortName": "Netherlands",
       "abbr": "NED",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+      "homeAway": "home",
       "score": "2",
       "winner": false
     },
     "away": {
       "id": "627",
       "name": "Japan",
+      "zhName": "日本",
       "shortName": "Japan",
       "abbr": "JPN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+      "homeAway": "away",
       "score": "2",
       "winner": false
     },
@@ -102,18 +114,22 @@
     "home": {
       "id": "4789",
       "name": "Ivory Coast",
+      "zhName": "象牙海岸",
       "shortName": "Ivory Coast",
       "abbr": "CIV",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+      "homeAway": "home",
       "score": "1",
       "winner": true
     },
     "away": {
       "id": "209",
       "name": "Ecuador",
+      "zhName": "厄瓜多",
       "shortName": "Ecuador",
       "abbr": "ECU",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -132,18 +148,22 @@
     "home": {
       "id": "466",
       "name": "Sweden",
+      "zhName": "瑞典",
       "shortName": "Sweden",
       "abbr": "SWE",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+      "homeAway": "home",
       "score": "5",
       "winner": true
     },
     "away": {
       "id": "659",
       "name": "Tunisia",
+      "zhName": "突尼西亞",
       "shortName": "Tunisia",
       "abbr": "TUN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+      "homeAway": "away",
       "score": "1",
       "winner": false
     },

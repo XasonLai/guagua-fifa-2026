@@ -15,6 +15,23 @@ DATA = ROOT / "data"
 SOURCE = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 SUMMARY = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary"
 TAIPEI = ZoneInfo("Asia/Taipei")
+TEAM_ZH = {
+    "ALG": "阿爾及利亞", "ARG": "阿根廷", "AUS": "澳洲", "AUT": "奧地利", "BEL": "比利時",
+    "BIH": "波士尼亞與赫塞哥維納", "BRA": "巴西", "CAN": "加拿大", "CPV": "維德角", "COL": "哥倫比亞",
+    "COD": "剛果民主共和國", "CRO": "克羅埃西亞", "CUW": "庫拉索", "CZE": "捷克", "ECU": "厄瓜多",
+    "EGY": "埃及", "ENG": "英格蘭", "FRA": "法國", "GER": "德國", "GHA": "迦納",
+    "HAI": "海地", "IRN": "伊朗", "IRQ": "伊拉克", "CIV": "象牙海岸", "JPN": "日本",
+    "JOR": "約旦", "MEX": "墨西哥", "MAR": "摩洛哥", "NED": "荷蘭", "NZL": "紐西蘭",
+    "NOR": "挪威", "PAN": "巴拿馬", "PAR": "巴拉圭", "POR": "葡萄牙", "QAT": "卡達",
+    "KSA": "沙烏地阿拉伯", "SCO": "蘇格蘭", "SEN": "塞內加爾", "RSA": "南非", "KOR": "南韓",
+    "ESP": "西班牙", "SWE": "瑞典", "SUI": "瑞士", "TUN": "突尼西亞", "TUR": "土耳其",
+    "USA": "美國", "URU": "烏拉圭", "UZB": "烏茲別克",
+}
+TEAM_ZH_BY_NAME = {
+    "Bosnia-Herzegovina": "波士尼亞與赫塞哥維納", "Cape Verde": "維德角", "Congo DR": "剛果民主共和國",
+    "Curaçao": "庫拉索", "Czechia": "捷克", "Ivory Coast": "象牙海岸", "New Zealand": "紐西蘭",
+    "Saudi Arabia": "沙烏地阿拉伯", "South Africa": "南非", "South Korea": "南韓", "United States": "美國",
+}
 
 
 def fetch_json(url: str) -> dict:
@@ -57,12 +74,16 @@ def normalize_event(event: dict) -> dict:
 
 def team(item: dict) -> dict:
     data = item["team"]
+    abbr = data.get("abbreviation", "")
+    name = data["displayName"]
     return {
         "id": data["id"],
-        "name": data["displayName"],
-        "shortName": data.get("shortDisplayName", data["displayName"]),
-        "abbr": data.get("abbreviation", ""),
+        "name": name,
+        "zhName": zh_name(name, abbr),
+        "shortName": data.get("shortDisplayName", name),
+        "abbr": abbr,
         "logo": data.get("logo", ""),
+        "homeAway": item.get("homeAway", ""),
         "score": item.get("score"),
         "winner": item.get("winner"),
     }
@@ -76,6 +97,10 @@ def daterange(start: date, end: date):
 
 def write_json(path: Path, value) -> None:
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def zh_name(name: str, abbr: str = "") -> str:
+    return TEAM_ZH.get(abbr) or TEAM_ZH_BY_NAME.get(name) or name
 
 
 def american_probability(value) -> float | None:
@@ -123,6 +148,7 @@ def goal_scorers(summary: dict, match: dict) -> list[dict]:
             "name": athlete.get("displayName", ""),
             "teamId": event.get("team", {}).get("id", ""),
             "team": event.get("team", {}).get("displayName", ""),
+            "teamZh": zh_name(event.get("team", {}).get("displayName", "")),
             "matchId": match["id"],
             "minute": event.get("clock", {}).get("displayValue", ""),
         })
@@ -137,6 +163,7 @@ def scorer_table(goals: list[dict]) -> list[dict]:
             "name": goal["name"],
             "teamId": goal["teamId"],
             "team": goal["team"],
+            "teamZh": goal["teamZh"],
             "goals": 0,
             "matches": [],
         })
@@ -156,6 +183,7 @@ def goalkeepers(summary: dict) -> list[dict]:
     rows = []
     for side in summary.get("rosters", []):
         team = side.get("team", {})
+        team_name = team.get("displayName", "")
         for player in side.get("roster", []):
             if player.get("position", {}).get("name") != "Goalkeeper" or not player.get("active"):
                 continue
@@ -164,7 +192,8 @@ def goalkeepers(summary: dict) -> list[dict]:
                 "id": athlete.get("id", ""),
                 "name": athlete.get("displayName", ""),
                 "teamId": team.get("id", ""),
-                "team": team.get("displayName", ""),
+                "team": team_name,
+                "teamZh": zh_name(team_name, team.get("abbreviation", "")),
                 "saves": stat(player, "saves"),
                 "goalsConceded": stat(player, "goalsConceded"),
                 "appearances": stat(player, "appearances"),
@@ -182,6 +211,7 @@ def goalkeeper_table(rows: list[dict]) -> list[dict]:
             "name": item["name"],
             "teamId": item["teamId"],
             "team": item["team"],
+            "teamZh": item["teamZh"],
             "saves": 0,
             "goalsConceded": 0,
             "appearances": 0,
@@ -205,7 +235,7 @@ def update(start: date, end: date) -> None:
                 continue
             for side in ("home", "away"):
                 t = match[side]
-                teams[t["id"]] = {k: t[k] for k in ("id", "name", "shortName", "abbr", "logo")}
+                teams[t["id"]] = {k: t[k] for k in ("id", "name", "zhName", "shortName", "abbr", "logo")}
 
     matches.sort(key=lambda m: m["kickoffUtc"])
     for match in matches:
@@ -246,6 +276,7 @@ def self_check() -> None:
     assert out["kickoffTaiwan"] == "2026-06-18T01:00:00+08:00"
     assert out["home"]["name"] == "Home"
     assert out["group"] == "Group K"
+    assert zh_name("Portugal", "POR") == "葡萄牙"
     assert american_probability("-150") == 0.6
     assert american_probability("300") == 0.25
     summary = {"keyEvents": [

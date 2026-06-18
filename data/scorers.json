@@ -4,6 +4,7 @@
     "name": "Lionel Messi",
     "teamId": "202",
     "team": "Argentina",
+    "teamZh": "Argentina",
     "goals": 3,
     "matches": [
       {
@@ -25,6 +26,7 @@
     "name": "Elijah Just",
     "teamId": "2666",
     "team": "New Zealand",
+    "teamZh": "紐西蘭",
     "goals": 2,
     "matches": [
       {
@@ -42,6 +44,7 @@
     "name": "Erling Haaland",
     "teamId": "464",
     "team": "Norway",
+    "teamZh": "Norway",
     "goals": 2,
     "matches": [
       {
@@ -59,6 +62,7 @@
     "name": "Folarin Balogun",
     "teamId": "660",
     "team": "United States",
+    "teamZh": "美國",
     "goals": 2,
     "matches": [
       {
@@ -76,6 +80,7 @@
     "name": "Kylian Mbappé",
     "teamId": "478",
     "team": "France",
+    "teamZh": "France",
     "goals": 2,
     "matches": [
       {
@@ -93,6 +98,7 @@
     "name": "Yasin Ayari",
     "teamId": "466",
     "team": "Sweden",
+    "teamZh": "Sweden",
     "goals": 2,
     "matches": [
       {
@@ -110,6 +116,7 @@
     "name": "Abdulelah Al-Amri",
     "teamId": "655",
     "team": "Saudi Arabia",
+    "teamZh": "沙烏地阿拉伯",
     "goals": 1,
     "matches": [
       {
@@ -123,6 +130,7 @@
     "name": "Alexander Isak",
     "teamId": "466",
     "team": "Sweden",
+    "teamZh": "Sweden",
     "goals": 1,
     "matches": [
       {
@@ -136,6 +144,7 @@
     "name": "Ali Olwan",
     "teamId": "2917",
     "team": "Jordan",
+    "teamZh": "Jordan",
     "goals": 1,
     "matches": [
       {
@@ -149,6 +158,7 @@
     "name": "Amad Diallo",
     "teamId": "4789",
     "team": "Ivory Coast",
+    "teamZh": "象牙海岸",
     "goals": 1,
     "matches": [
       {

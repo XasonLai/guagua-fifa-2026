@@ -12,18 +12,22 @@
     "home": {
       "id": "5932",
       "name": "Group E 2nd Place",
+      "zhName": "Group E 2nd Place",
       "shortName": "2E",
       "abbr": "2E",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131501",
       "name": "Group I 2nd Place",
+      "zhName": "Group I 2nd Place",
       "shortName": "2I",
       "abbr": "2I",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -42,18 +46,22 @@
     "home": {
       "id": "131505",
       "name": "Group I Winner",
+      "zhName": "Group I Winner",
       "shortName": "1I",
       "abbr": "1I",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131544",
       "name": "Third Place Group C/D/F/G/H",
+      "zhName": "Third Place Group C/D/F/G/H",
       "shortName": "3RD C/D/F/G/H",
       "abbr": "3RD",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -72,18 +80,22 @@
     "home": {
       "id": "5923",
       "name": "Group A Winner",
+      "zhName": "Group A Winner",
       "shortName": "1A",
       "abbr": "1A",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131545",
       "name": "Third Place Group C/E/F/H/I",
+      "zhName": "Third Place Group C/E/F/H/I",
       "shortName": "3RD C/E/F/H/I",
       "abbr": "3RD",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },

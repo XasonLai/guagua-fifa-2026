@@ -12,18 +12,22 @@
     "home": {
       "id": "206",
       "name": "Canada",
+      "zhName": "加拿大",
       "shortName": "Canada",
       "abbr": "CAN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+      "homeAway": "home",
       "score": "1",
       "winner": false
     },
     "away": {
       "id": "452",
       "name": "Bosnia-Herzegovina",
+      "zhName": "波士尼亞與赫塞哥維納",
       "shortName": "Bosnia-Herz",
       "abbr": "BIH",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+      "homeAway": "away",
       "score": "1",
       "winner": false
     },
@@ -42,18 +46,22 @@
     "home": {
       "id": "660",
       "name": "United States",
+      "zhName": "美國",
       "shortName": "USA",
       "abbr": "USA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+      "homeAway": "home",
       "score": "4",
       "winner": true
     },
     "away": {
       "id": "210",
       "name": "Paraguay",
+      "zhName": "巴拉圭",
       "shortName": "Paraguay",
       "abbr": "PAR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+      "homeAway": "away",
       "score": "1",
       "winner": false
     },

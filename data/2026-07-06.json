@@ -12,18 +12,22 @@
     "home": {
       "id": "131535",
       "name": "Round of 32 11 Winner",
+      "zhName": "Round of 32 11 Winner",
       "shortName": "RD32 W11",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131536",
       "name": "Round of 32 12 Winner",
+      "zhName": "Round of 32 12 Winner",
       "shortName": "RD32 W12",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -42,18 +46,22 @@
     "home": {
       "id": "131533",
       "name": "Round of 32 9 Winner",
+      "zhName": "Round of 32 9 Winner",
       "shortName": "RD32 W9",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "131534",
       "name": "Round of 32 10 Winner",
+      "zhName": "Round of 32 10 Winner",
       "shortName": "RD32 W10",
       "abbr": "RD32",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },

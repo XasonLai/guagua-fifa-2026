@@ -12,18 +12,22 @@
     "home": {
       "id": "17631",
       "name": "Quarterfinal 1 Winner",
+      "zhName": "Quarterfinal 1 Winner",
       "shortName": "QF W1",
       "abbr": "QFW1",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "17629",
       "name": "Quarterfinal 2 Winner",
+      "zhName": "Quarterfinal 2 Winner",
       "shortName": "QF W2",
       "abbr": "QFW2",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },

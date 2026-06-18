@@ -2,6 +2,7 @@
   {
     "id": "624",
     "name": "Algeria",
+    "zhName": "阿爾及利亞",
     "shortName": "Algeria",
     "abbr": "ALG",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png"
@@ -9,6 +10,7 @@
   {
     "id": "202",
     "name": "Argentina",
+    "zhName": "阿根廷",
     "shortName": "Argentina",
     "abbr": "ARG",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
@@ -16,6 +18,7 @@
   {
     "id": "628",
     "name": "Australia",
+    "zhName": "澳洲",
     "shortName": "Australia",
     "abbr": "AUS",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png"
@@ -23,6 +26,7 @@
   {
     "id": "474",
     "name": "Austria",
+    "zhName": "奧地利",
     "shortName": "Austria",
     "abbr": "AUT",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png"
@@ -30,6 +34,7 @@
   {
     "id": "459",
     "name": "Belgium",
+    "zhName": "比利時",
     "shortName": "Belgium",
     "abbr": "BEL",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
@@ -37,6 +42,7 @@
   {
     "id": "452",
     "name": "Bosnia-Herzegovina",
+    "zhName": "波士尼亞與赫塞哥維納",
     "shortName": "Bosnia-Herz",
     "abbr": "BIH",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png"
@@ -44,6 +50,7 @@
   {
     "id": "205",
     "name": "Brazil",
+    "zhName": "巴西",
     "shortName": "Brazil",
     "abbr": "BRA",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png"
@@ -51,6 +58,7 @@
   {
     "id": "206",
     "name": "Canada",
+    "zhName": "加拿大",
     "shortName": "Canada",
     "abbr": "CAN",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png"
@@ -58,6 +66,7 @@
   {
     "id": "2597",
     "name": "Cape Verde",
+    "zhName": "維德角",
     "shortName": "Cape Verde",
     "abbr": "CPV",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png"
@@ -65,6 +74,7 @@
   {
     "id": "208",
     "name": "Colombia",
+    "zhName": "哥倫比亞",
     "shortName": "Colombia",
     "abbr": "COL",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png"
@@ -72,6 +82,7 @@
   {
     "id": "2850",
     "name": "Congo DR",
+    "zhName": "剛果民主共和國",
     "shortName": "Congo DR",
     "abbr": "COD",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
@@ -79,6 +90,7 @@
   {
     "id": "477",
     "name": "Croatia",
+    "zhName": "克羅埃西亞",
     "shortName": "Croatia",
     "abbr": "CRO",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png"
@@ -86,6 +98,7 @@
   {
     "id": "11678",
     "name": "Curaçao",
+    "zhName": "庫拉索",
     "shortName": "Curaçao",
     "abbr": "CUW",
     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png"
@@ -93,6 +106,7 @@
   {
     "id": "450",
     "name": "Czechia",
+    "zhName": "捷克",
     "shortName": "Czechia",
     "abbr": "CZE",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png"
@@ -100,6 +114,7 @@
   {
     "id": "209",
     "name": "Ecuador",
+    "zhName": "厄瓜多",
     "shortName": "Ecuador",
     "abbr": "ECU",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png"
@@ -107,6 +122,7 @@
   {
     "id": "2620",
     "name": "Egypt",
+    "zhName": "埃及",
     "shortName": "Egypt",
     "abbr": "EGY",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png"
@@ -114,6 +130,7 @@
   {
     "id": "448",
     "name": "England",
+    "zhName": "英格蘭",
     "shortName": "England",
     "abbr": "ENG",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
@@ -121,6 +138,7 @@
   {
     "id": "478",
     "name": "France",
+    "zhName": "法國",
     "shortName": "France",
     "abbr": "FRA",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
@@ -128,6 +146,7 @@
   {
     "id": "481",
     "name": "Germany",
+    "zhName": "德國",
     "shortName": "Germany",
     "abbr": "GER",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png"
@@ -135,6 +154,7 @@
   {
     "id": "4469",
     "name": "Ghana",
+    "zhName": "迦納",
     "shortName": "Ghana",
     "abbr": "GHA",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
@@ -142,6 +162,7 @@
   {
     "id": "2654",
     "name": "Haiti",
+    "zhName": "海地",
     "shortName": "Haiti",
     "abbr": "HAI",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png"
@@ -149,6 +170,7 @@
   {
     "id": "469",
     "name": "Iran",
+    "zhName": "伊朗",
     "shortName": "Iran",
     "abbr": "IRN",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png"
@@ -156,6 +178,7 @@
   {
     "id": "4375",
     "name": "Iraq",
+    "zhName": "伊拉克",
     "shortName": "Iraq",
     "abbr": "IRQ",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png"
@@ -163,6 +186,7 @@
   {
     "id": "4789",
     "name": "Ivory Coast",
+    "zhName": "象牙海岸",
     "shortName": "Ivory Coast",
     "abbr": "CIV",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png"
@@ -170,6 +194,7 @@
   {
     "id": "627",
     "name": "Japan",
+    "zhName": "日本",
     "shortName": "Japan",
     "abbr": "JPN",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png"
@@ -177,6 +202,7 @@
   {
     "id": "2917",
     "name": "Jordan",
+    "zhName": "約旦",
     "shortName": "Jordan",
     "abbr": "JOR",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png"
@@ -184,6 +210,7 @@
   {
     "id": "203",
     "name": "Mexico",
+    "zhName": "墨西哥",
     "shortName": "Mexico",
     "abbr": "MEX",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png"
@@ -191,6 +218,7 @@
   {
     "id": "2869",
     "name": "Morocco",
+    "zhName": "摩洛哥",
     "shortName": "Morocco",
     "abbr": "MAR",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png"
@@ -198,6 +226,7 @@
   {
     "id": "449",
     "name": "Netherlands",
+    "zhName": "荷蘭",
     "shortName": "Netherlands",
     "abbr": "NED",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
@@ -205,6 +234,7 @@
   {
     "id": "2666",
     "name": "New Zealand",
+    "zhName": "紐西蘭",
     "shortName": "New Zealand",
     "abbr": "NZL",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png"
@@ -212,6 +242,7 @@
   {
     "id": "464",
     "name": "Norway",
+    "zhName": "挪威",
     "shortName": "Norway",
     "abbr": "NOR",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png"
@@ -219,6 +250,7 @@
   {
     "id": "2659",
     "name": "Panama",
+    "zhName": "巴拿馬",
     "shortName": "Panama",
     "abbr": "PAN",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png"
@@ -226,6 +258,7 @@
   {
     "id": "210",
     "name": "Paraguay",
+    "zhName": "巴拉圭",
     "shortName": "Paraguay",
     "abbr": "PAR",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png"
@@ -233,6 +266,7 @@
   {
     "id": "482",
     "name": "Portugal",
+    "zhName": "葡萄牙",
     "shortName": "Portugal",
     "abbr": "POR",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png"
@@ -240,6 +274,7 @@
   {
     "id": "4398",
     "name": "Qatar",
+    "zhName": "卡達",
     "shortName": "Qatar",
     "abbr": "QAT",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png"
@@ -247,6 +282,7 @@
   {
     "id": "655",
     "name": "Saudi Arabia",
+    "zhName": "沙烏地阿拉伯",
     "shortName": "Saudi Arabia",
     "abbr": "KSA",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png"
@@ -254,6 +290,7 @@
   {
     "id": "580",
     "name": "Scotland",
+    "zhName": "蘇格蘭",
     "shortName": "Scotland",
     "abbr": "SCO",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png"
@@ -261,6 +298,7 @@
   {
     "id": "654",
     "name": "Senegal",
+    "zhName": "塞內加爾",
     "shortName": "Senegal",
     "abbr": "SEN",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png"
@@ -268,6 +306,7 @@
   {
     "id": "467",
     "name": "South Africa",
+    "zhName": "南非",
     "shortName": "South Africa",
     "abbr": "RSA",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png"
@@ -275,6 +314,7 @@
   {
     "id": "451",
     "name": "South Korea",
+    "zhName": "南韓",
     "shortName": "South Korea",
     "abbr": "KOR",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png"
@@ -282,6 +322,7 @@
   {
     "id": "164",
     "name": "Spain",
+    "zhName": "西班牙",
     "shortName": "Spain",
     "abbr": "ESP",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
@@ -289,6 +330,7 @@
   {
     "id": "466",
     "name": "Sweden",
+    "zhName": "瑞典",
     "shortName": "Sweden",
     "abbr": "SWE",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png"
@@ -296,6 +338,7 @@
   {
     "id": "475",
     "name": "Switzerland",
+    "zhName": "瑞士",
     "shortName": "Switzerland",
     "abbr": "SUI",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png"
@@ -303,6 +346,7 @@
   {
     "id": "659",
     "name": "Tunisia",
+    "zhName": "突尼西亞",
     "shortName": "Tunisia",
     "abbr": "TUN",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png"
@@ -310,6 +354,7 @@
   {
     "id": "465",
     "name": "Türkiye",
+    "zhName": "土耳其",
     "shortName": "Türkiye",
     "abbr": "TUR",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png"
@@ -317,6 +362,7 @@
   {
     "id": "660",
     "name": "United States",
+    "zhName": "美國",
     "shortName": "USA",
     "abbr": "USA",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
@@ -324,6 +370,7 @@
   {
     "id": "212",
     "name": "Uruguay",
+    "zhName": "烏拉圭",
     "shortName": "Uruguay",
     "abbr": "URU",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png"
@@ -331,6 +378,7 @@
   {
     "id": "2570",
     "name": "Uzbekistan",
+    "zhName": "烏茲別克",
     "shortName": "Uzbekistan",
     "abbr": "UZB",
     "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png"

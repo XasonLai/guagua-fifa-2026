@@ -12,18 +12,22 @@
     "home": {
       "id": "5926",
       "name": "Group A 2nd Place",
+      "zhName": "Group A 2nd Place",
       "shortName": "2A",
       "abbr": "2A",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "5924",
       "name": "Group B 2nd Place",
+      "zhName": "Group B 2nd Place",
       "shortName": "2B",
       "abbr": "2B",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },

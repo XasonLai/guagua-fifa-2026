@@ -12,18 +12,22 @@
     "home": {
       "id": "164",
       "name": "Spain",
+      "zhName": "西班牙",
       "shortName": "Spain",
       "abbr": "ESP",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "2597",
       "name": "Cape Verde",
+      "zhName": "維德角",
       "shortName": "Cape Verde",
       "abbr": "CPV",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },
@@ -42,18 +46,22 @@
     "home": {
       "id": "459",
       "name": "Belgium",
+      "zhName": "比利時",
       "shortName": "Belgium",
       "abbr": "BEL",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+      "homeAway": "home",
       "score": "1",
       "winner": false
     },
     "away": {
       "id": "2620",
       "name": "Egypt",
+      "zhName": "埃及",
       "shortName": "Egypt",
       "abbr": "EGY",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+      "homeAway": "away",
       "score": "1",
       "winner": false
     },
@@ -72,18 +80,22 @@
     "home": {
       "id": "655",
       "name": "Saudi Arabia",
+      "zhName": "沙烏地阿拉伯",
       "shortName": "Saudi Arabia",
       "abbr": "KSA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
+      "homeAway": "home",
       "score": "1",
       "winner": false
     },
     "away": {
       "id": "212",
       "name": "Uruguay",
+      "zhName": "烏拉圭",
       "shortName": "Uruguay",
       "abbr": "URU",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+      "homeAway": "away",
       "score": "1",
       "winner": false
     },
@@ -102,18 +114,22 @@
     "home": {
       "id": "469",
       "name": "Iran",
+      "zhName": "伊朗",
       "shortName": "Iran",
       "abbr": "IRN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
+      "homeAway": "home",
       "score": "2",
       "winner": false
     },
     "away": {
       "id": "2666",
       "name": "New Zealand",
+      "zhName": "紐西蘭",
       "shortName": "New Zealand",
       "abbr": "NZL",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+      "homeAway": "away",
       "score": "2",
       "winner": false
     },

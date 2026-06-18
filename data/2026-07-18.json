@@ -12,18 +12,22 @@
     "home": {
       "id": "5958",
       "name": "Semifinal 1 Loser",
+      "zhName": "Semifinal 1 Loser",
       "shortName": "SF L1",
       "abbr": "SF L1",
       "logo": "",
+      "homeAway": "home",
       "score": "0",
       "winner": false
     },
     "away": {
       "id": "5959",
       "name": "Semifinal 2 Loser",
+      "zhName": "Semifinal 2 Loser",
       "shortName": "SF L2",
       "abbr": "SF L2",
       "logo": "",
+      "homeAway": "away",
       "score": "0",
       "winner": false
     },

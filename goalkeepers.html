@@ -16,6 +16,7 @@
     .rank { color: #5d6a62; font-weight: 700; }
     .name { font-weight: 800; }
     .team, .label { color: #5d6a62; font-size: 14px; }
+    .english { margin-left: 4px; }
     .stat { text-align: right; font-size: 22px; font-weight: 900; color: #d6293e; }
     .label { display: block; font-weight: 500; color: #5d6a62; }
     @media (max-width: 640px) {
@@ -43,7 +44,7 @@
       document.getElementById('goalkeepers').innerHTML = keepers.map((g, i) => `
         <article class="row">
           <div class="rank">${i + 1}</div>
-          <div><div class="name">${g.name}</div><div class="team">${g.team}</div></div>
+          <div><div class="name">${g.name}</div><div class="team">${g.teamZh || g.team}<span class="english">(${g.team})</span></div></div>
           <div class="stat"><span class="label">撲救</span>${g.saves}</div>
           <div class="stat"><span class="label">失球</span>${g.goalsConceded}</div>
           <div class="stat"><span class="label">出賽</span>${g.appearances}</div>

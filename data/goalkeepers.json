@@ -4,6 +4,7 @@
     "name": "Mohammed Al-Owais",
     "teamId": "655",
     "team": "Saudi Arabia",
+    "teamZh": "沙烏地阿拉伯",
     "saves": 9,
     "goalsConceded": 1,
     "appearances": 1
@@ -13,6 +14,7 @@
     "name": "Patrick Beach",
     "teamId": "628",
     "team": "Australia",
+    "teamZh": "澳洲",
     "saves": 8,
     "goalsConceded": 0,
     "appearances": 1
@@ -22,6 +24,7 @@
     "name": "Vozinha",
     "teamId": "2597",
     "team": "Cape Verde",
+    "teamZh": "維德角",
     "saves": 7,
     "goalsConceded": 0,
     "appearances": 1
@@ -31,6 +34,7 @@
     "name": "Dominik Livakovic",
     "teamId": "477",
     "team": "Croatia",
+    "teamZh": "克羅埃西亞",
     "saves": 7,
     "goalsConceded": 4,
     "appearances": 1
@@ -40,6 +44,7 @@
     "name": "Alireza Beiranvand",
     "teamId": "469",
     "team": "Iran",
+    "teamZh": "伊朗",
     "saves": 6,
     "goalsConceded": 2,
     "appearances": 1
@@ -49,6 +54,7 @@
     "name": "Mahmoud Abunada",
     "teamId": "4398",
     "team": "Qatar",
+    "teamZh": "卡達",
     "saves": 5,
     "goalsConceded": 1,
     "appearances": 1
@@ -58,6 +64,7 @@
     "name": "Édouard Mendy",
     "teamId": "654",
     "team": "Senegal",
+    "teamZh": "塞內加爾",
     "saves": 5,
     "goalsConceded": 3,
     "appearances": 1
@@ -67,6 +74,7 @@
     "name": "Yassine Bounou",
     "teamId": "2869",
     "team": "Morocco",
+    "teamZh": "摩洛哥",
     "saves": 4,
     "goalsConceded": 1,
     "appearances": 1
@@ -76,6 +84,7 @@
     "name": "Matej Kovár",
     "teamId": "450",
     "team": "Czechia",
+    "teamZh": "捷克",
     "saves": 4,
     "goalsConceded": 2,
     "appearances": 1
@@ -85,6 +94,7 @@
     "name": "Zion Suzuki",
     "teamId": "627",
     "team": "Japan",
+    "teamZh": "日本",
     "saves": 4,
     "goalsConceded": 2,
     "appearances": 1
