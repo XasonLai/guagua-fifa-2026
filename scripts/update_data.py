@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 SOURCE = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 SUMMARY = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary"
+STANDINGS = "https://site.api.espn.com/apis/v2/sports/soccer/fifa.world/standings?season=2026"
 TAIPEI = ZoneInfo("Asia/Taipei")
 TEAM_ZH = {
     "ALG": "阿爾及利亞", "ARG": "阿根廷", "AUS": "澳洲", "AUT": "奧地利", "BEL": "比利時",
@@ -46,6 +47,10 @@ def fetch(day: date) -> dict:
 
 def fetch_summary(event_id: str) -> dict:
     return fetch_json(f"{SUMMARY}?event={event_id}")
+
+
+def fetch_standings() -> dict:
+    return fetch_json(STANDINGS)
 
 
 def tw_time(iso: str) -> str:
@@ -179,6 +184,43 @@ def stat(player: dict, name: str) -> int:
     return 0
 
 
+def entry_stat(entry: dict, name: str) -> int | str:
+    for item in entry.get("stats", []):
+        if item.get("name") == name:
+            return item.get("displayValue") if name == "pointDifferential" else int(item.get("value", 0))
+    return ""
+
+
+def group_standings(raw: dict) -> list[dict]:
+    groups = []
+    for group in raw.get("children", []):
+        letter = group.get("name", "").replace("Group ", "")
+        rows = []
+        for entry in group.get("standings", {}).get("entries", []):
+            team_data = entry.get("team", {})
+            name = team_data.get("displayName", "")
+            abbr = team_data.get("abbreviation", "")
+            logos = team_data.get("logos") or [{}]
+            rows.append({
+                "id": team_data.get("id", ""),
+                "name": name,
+                "zhName": zh_name(name, abbr),
+                "abbr": abbr,
+                "logo": logos[0].get("href", ""),
+                "rank": entry_stat(entry, "rank"),
+                "played": entry_stat(entry, "gamesPlayed"),
+                "wins": entry_stat(entry, "wins"),
+                "draws": entry_stat(entry, "ties"),
+                "losses": entry_stat(entry, "losses"),
+                "goalsFor": entry_stat(entry, "pointsFor"),
+                "goalsAgainst": entry_stat(entry, "pointsAgainst"),
+                "goalDifference": entry_stat(entry, "pointDifferential"),
+                "points": entry_stat(entry, "points"),
+            })
+        groups.append({"id": letter, "name": f"{letter}組", "rows": rows})
+    return groups
+
+
 def goalkeepers(summary: dict) -> list[dict]:
     rows = []
     for side in summary.get("rosters", []):
@@ -248,6 +290,7 @@ def update(start: date, end: date) -> None:
     write_json(DATA / "teams.json", sorted(teams.values(), key=lambda t: t["name"]))
     write_json(DATA / "scorers.json", scorer_table(goals))
     write_json(DATA / "goalkeepers.json", goalkeeper_table(keepers))
+    write_json(DATA / "standings.json", group_standings(fetch_standings()))
     write_json(DATA / "meta.json", {
         "source": SOURCE,
         "updatedAt": datetime.now(UTC).isoformat(),
@@ -279,6 +322,7 @@ def self_check() -> None:
     assert zh_name("Portugal", "POR") == "葡萄牙"
     assert american_probability("-150") == 0.6
     assert american_probability("300") == 0.25
+    assert group_standings({"children": [{"name": "Group A", "standings": {"entries": [{"team": {"id": "1", "displayName": "Portugal", "abbreviation": "POR"}, "stats": [{"name": "points", "value": 3}, {"name": "pointDifferential", "displayValue": "+1"}]}]}}]})[0]["rows"][0]["zhName"] == "葡萄牙"
     summary = {"keyEvents": [
         {"type": {"type": "goal"}, "scoringPlay": True, "shootout": False, "team": {"id": "1", "displayName": "Home"}, "participants": [{"athlete": {"id": "9", "displayName": "Nine"}}], "clock": {"displayValue": "9'"}},
         {"type": {"type": "goal"}, "scoringPlay": True, "shootout": True, "participants": [{"athlete": {"id": "10", "displayName": "Ten"}}]},

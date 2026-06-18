@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026 FIFA 世界盃小組積分表</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { margin: 0; background: #f6f7f2; color: #17211b; }
+    header { padding: 28px clamp(16px, 5vw, 56px) 18px; background: #143c35; color: white; }
+    h1 { margin: 0 0 10px; font-size: clamp(28px, 5vw, 48px); letter-spacing: 0; }
+    a { color: inherit; }
+    main { max-width: 1100px; margin: 0 auto; padding: 22px clamp(14px, 4vw, 28px) 48px; }
+    .meta { color: #5d6a62; margin-bottom: 18px; }
+    .groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+    .group { background: white; border: 1px solid #dbe1d8; border-radius: 8px; overflow: hidden; }
+    h2 { margin: 0; padding: 12px 14px; background: #143c35; color: white; font-size: 18px; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { padding: 8px; border-bottom: 1px solid #edf0eb; text-align: right; white-space: nowrap; }
+    th:first-child, td:first-child { text-align: left; }
+    img { width: 22px; height: 22px; object-fit: contain; vertical-align: middle; margin-right: 6px; }
+    .team { font-weight: 700; }
+    .english { color: #5d6a62; font-weight: 500; margin-left: 4px; }
+    .points { color: #d6293e; font-weight: 900; }
+    @media (max-width: 520px) {
+      th, td { padding: 7px 5px; font-size: 12px; }
+      .english { display: block; margin-left: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>小組積分表</h1>
+    <p><a href="./">回賽程</a> · <a href="scorers.html">射手榜</a> · <a href="goalkeepers.html">守門員榜</a></p>
+  </header>
+  <main>
+    <div class="meta" id="meta"></div>
+    <section class="groups" id="groups"></section>
+  </main>
+  <script>
+    const fmt = new Intl.DateTimeFormat('zh-TW', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'Asia/Taipei' });
+    Promise.all([
+      fetch('data/meta.json').then(r => r.json()),
+      fetch('data/standings.json').then(r => r.json()),
+    ]).then(([meta, groups]) => {
+      document.getElementById('meta').textContent = `ESPN 小組積分 · 更新：${fmt.format(new Date(meta.updatedAt))}`;
+      document.getElementById('groups').innerHTML = groups.map(group => `
+        <article class="group">
+          <h2>${group.name}</h2>
+          <table>
+            <thead><tr><th>隊伍</th><th>賽</th><th>勝</th><th>和</th><th>負</th><th>進</th><th>失</th><th>淨</th><th>分</th></tr></thead>
+            <tbody>${group.rows.map(t => `
+              <tr>
+                <td class="team"><img src="${t.logo}" alt="">${t.zhName}<span class="english">(${t.name})</span></td>
+                <td>${t.played}</td><td>${t.wins}</td><td>${t.draws}</td><td>${t.losses}</td>
+                <td>${t.goalsFor}</td><td>${t.goalsAgainst}</td><td>${t.goalDifference}</td><td class="points">${t.points}</td>
+              </tr>
+            `).join('')}</tbody>
+          </table>
+        </article>
+      `).join('');
+    }).catch(err => { document.getElementById('groups').textContent = err.message; });
+  </script>
+</body>
+</html>
