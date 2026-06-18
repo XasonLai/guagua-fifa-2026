@@ -12,6 +12,13 @@
     header p { margin: 0; color: #d7e7df; }
     main { max-width: 1040px; margin: 0 auto; padding: 22px clamp(14px, 4vw, 28px) 48px; }
     .bar { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 18px; }
+    .featured { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; margin-bottom: 18px; }
+    .featured-card { background: white; border: 1px solid #dbe1d8; border-radius: 8px; padding: 14px; }
+    .featured-card h2 { margin: 0 0 8px; font-size: 16px; }
+    .featured-time { color: #5d6a62; font-size: 14px; margin-bottom: 10px; }
+    .featured-teams { display: flex; align-items: center; justify-content: space-between; gap: 10px; font-weight: 800; }
+    .featured-team { display: flex; align-items: center; gap: 8px; min-width: 0; }
+    .placeholder { color: #5d6a62; font-weight: 700; }
     input, select { font: inherit; padding: 10px 12px; border: 1px solid #c8d0c6; border-radius: 6px; background: white; }
     button { font: inherit; padding: 10px 14px; border: 0; border-radius: 6px; background: #d6293e; color: white; cursor: pointer; }
     .meta { margin-left: auto; color: #5d6a62; font-size: 14px; }
@@ -58,6 +65,7 @@
       <button id="today">今天</button>
       <span class="meta" id="meta"></span>
     </div>
+    <section class="featured" id="featured"></section>
     <section class="matches" id="matches"></section>
     <section class="teams-list">
       <h2>參賽國家</h2>
@@ -83,6 +91,23 @@
 
     function teamName(t) {
       return `${t.zhName || t.name}<span class="english">(${t.name})</span>`;
+    }
+
+    function finalTeam(t) {
+      if (!t.logo) return '<span class="placeholder">待定</span>';
+      return `<span class="featured-team">${badge(t)}<span>${teamName(t)}</span></span>`;
+    }
+
+    function renderFeatured() {
+      const labels = { '3rd-place-match': '季軍賽', final: '冠軍賽' };
+      const games = matches.filter(m => labels[m.stage]);
+      $('featured').innerHTML = games.map(m => `
+        <article class="featured-card">
+          <h2>${labels[m.stage]}</h2>
+          <div class="featured-time">${fmt.format(new Date(m.kickoffTaiwan))}</div>
+          <div class="featured-teams">${finalTeam(m.home)}<span>vs</span>${finalTeam(m.away)}</div>
+        </article>
+      `).join('');
     }
 
     function odds(m) {
@@ -127,6 +152,7 @@
       $('date').max = meta.end;
       $('meta').textContent = `更新：${fmt.format(new Date(meta.updatedAt))}`;
       $('teams').innerHTML = teams.map(t => `<div class="country"><img src="${t.logo}" alt=""><span>${teamName(t)}</span></div>`).join('');
+      renderFeatured();
       render();
     }
 
