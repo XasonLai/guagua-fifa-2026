@@ -67,16 +67,16 @@
     "kickoffTaiwan": "2026-06-18T04:00:00+08:00",
     "venue": "AT&T Stadium",
     "city": "Arlington, Texas",
-    "status": "In Progress",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "448",
       "name": "England",
       "shortName": "England",
       "abbr": "ENG",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-      "score": "3",
-      "winner": false
+      "score": "4",
+      "winner": true
     },
     "away": {
       "id": "477",
@@ -87,13 +87,7 @@
       "score": "2",
       "winner": false
     },
-    "probabilities": {
-      "source": "DraftKings",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 58,
-      "draw": 25,
-      "away": 17
-    }
+    "probabilities": null
   },
   {
     "id": "760434",
@@ -103,16 +97,16 @@
     "kickoffTaiwan": "2026-06-18T07:00:00+08:00",
     "venue": "BMO Field",
     "city": "Toronto",
-    "status": "Scheduled",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "4469",
       "name": "Ghana",
       "shortName": "Ghana",
       "abbr": "GHA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
-      "score": "0",
-      "winner": false
+      "score": "1",
+      "winner": true
     },
     "away": {
       "id": "2659",
@@ -123,13 +117,7 @@
       "score": "0",
       "winner": false
     },
-    "probabilities": {
-      "source": "ESPN odds",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 40,
-      "draw": 31,
-      "away": 29
-    }
+    "probabilities": null
   },
   {
     "id": "760436",
@@ -160,7 +148,7 @@
       "winner": false
     },
     "probabilities": {
-      "source": "ESPN odds",
+      "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 10,
       "draw": 20,

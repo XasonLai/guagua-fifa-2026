@@ -27,6 +27,15 @@
     "appearances": 1
   },
   {
+    "id": "187946",
+    "name": "Dominik Livakovic",
+    "teamId": "477",
+    "team": "Croatia",
+    "saves": 7,
+    "goalsConceded": 4,
+    "appearances": 1
+  },
+  {
     "id": "214798",
     "name": "Alireza Beiranvand",
     "teamId": "469",
@@ -78,15 +87,6 @@
     "team": "Japan",
     "saves": 4,
     "goalsConceded": 2,
-    "appearances": 1
-  },
-  {
-    "id": "127444",
-    "name": "Eloy Room",
-    "teamId": "11678",
-    "team": "Curaçao",
-    "saves": 4,
-    "goalsConceded": 7,
     "appearances": 1
   }
 ]
