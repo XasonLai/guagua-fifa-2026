@@ -14,6 +14,7 @@ python -m http.server 8000
 射手榜資料來自 ESPN 單場 summary 的 `keyEvents`。
 守門員榜資料來自 ESPN 單場 summary 的 `rosters`。
 市場參考機率由 ESPN odds 換算，僅供參考，不是官方預測。
+小組積分資料來自 ESPN standings endpoint。
 
 GitHub Actions 會在每天以下台灣時間更新資料：
 
