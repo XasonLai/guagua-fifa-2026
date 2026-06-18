@@ -76,6 +76,24 @@
     ]
   },
   {
+    "id": "386992",
+    "name": "Johan Manzambi",
+    "teamId": "475",
+    "team": "Switzerland",
+    "teamZh": "Switzerland",
+    "goals": 2,
+    "matches": [
+      {
+        "matchId": "760439",
+        "minute": "74'"
+      },
+      {
+        "matchId": "760439",
+        "minute": "90'"
+      }
+    ]
+  },
+  {
     "id": "231388",
     "name": "Kylian Mbappé",
     "teamId": "478",
@@ -150,20 +168,6 @@
       {
         "matchId": "760431",
         "minute": "50'"
-      }
-    ]
-  },
-  {
-    "id": "291630",
-    "name": "Amad Diallo",
-    "teamId": "4789",
-    "team": "Ivory Coast",
-    "teamZh": "象牙海岸",
-    "goals": 1,
-    "matches": [
-      {
-        "matchId": "760423",
-        "minute": "90'"
       }
     ]
   }
