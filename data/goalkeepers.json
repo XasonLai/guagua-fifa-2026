@@ -10,6 +10,16 @@
     "appearances": 1
   },
   {
+    "id": "335240",
+    "name": "Patrick Beach",
+    "teamId": "628",
+    "team": "Australia",
+    "teamZh": "澳洲",
+    "saves": 9,
+    "goalsConceded": 2,
+    "appearances": 2
+  },
+  {
     "id": "310372",
     "name": "Mahmoud Abunada",
     "teamId": "4398",
@@ -18,16 +28,6 @@
     "saves": 9,
     "goalsConceded": 7,
     "appearances": 2
-  },
-  {
-    "id": "335240",
-    "name": "Patrick Beach",
-    "teamId": "628",
-    "team": "Australia",
-    "teamZh": "澳洲",
-    "saves": 8,
-    "goalsConceded": 0,
-    "appearances": 1
   },
   {
     "id": "181330",

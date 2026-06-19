@@ -252,13 +252,13 @@
         "abbr": "AUS",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
         "rank": 2,
-        "played": 1,
+        "played": 2,
         "wins": 1,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "goalsFor": 2,
-        "goalsAgainst": 0,
-        "goalDifference": "+2",
+        "goalsAgainst": 2,
+        "goalDifference": "0",
         "points": 3
       },
       {
@@ -268,14 +268,14 @@
         "abbr": "USA",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
         "rank": 1,
-        "played": 1,
-        "wins": 1,
+        "played": 2,
+        "wins": 2,
         "draws": 0,
         "losses": 0,
-        "goalsFor": 4,
+        "goalsFor": 6,
         "goalsAgainst": 1,
-        "goalDifference": "+3",
-        "points": 3
+        "goalDifference": "+5",
+        "points": 6
       }
     ]
   },
