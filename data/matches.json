@@ -891,8 +891,8 @@
     "kickoffTaiwan": "2026-06-19T06:00:00+08:00",
     "venue": "BC Place",
     "city": "Vancouver",
-    "status": "Scheduled",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "206",
       "name": "Canada",
@@ -901,8 +901,8 @@
       "abbr": "CAN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
       "homeAway": "home",
-      "score": "0",
-      "winner": false
+      "score": "6",
+      "winner": true
     },
     "away": {
       "id": "4398",
@@ -915,13 +915,7 @@
       "score": "0",
       "winner": false
     },
-    "probabilities": {
-      "source": "DraftKings",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 76,
-      "draw": 16,
-      "away": 8
-    }
+    "probabilities": null
   },
   {
     "id": "760441",
@@ -931,7 +925,7 @@
     "kickoffTaiwan": "2026-06-19T09:00:00+08:00",
     "venue": "Estadio Akron",
     "city": "Guadalajara",
-    "status": "Scheduled",
+    "status": "First Half",
     "completed": false,
     "home": {
       "id": "203",
@@ -956,11 +950,11 @@
       "winner": false
     },
     "probabilities": {
-      "source": "ESPN odds",
+      "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 48,
-      "draw": 29,
-      "away": 23
+      "draw": 30,
+      "away": 22
     }
   },
   {
@@ -1118,8 +1112,8 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 47,
-      "draw": 28,
+      "home": 46,
+      "draw": 29,
       "away": 25
     }
   },
@@ -1158,9 +1152,9 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 56,
-      "draw": 24,
-      "away": 20
+      "home": 54,
+      "draw": 25,
+      "away": 21
     }
   },
   {
@@ -1798,9 +1792,9 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 60,
-      "draw": 23,
-      "away": 17
+      "home": 69,
+      "draw": 18,
+      "away": 13
     }
   },
   {
@@ -1838,9 +1832,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 42,
-      "draw": 29,
-      "away": 30
+      "home": 41,
+      "draw": 31,
+      "away": 28
     }
   },
   {
@@ -1958,8 +1952,8 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 20,
-      "draw": 26,
+      "home": 21,
+      "draw": 25,
       "away": 54
     }
   },
@@ -2118,8 +2112,8 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 44,
-      "draw": 28,
+      "home": 45,
+      "draw": 27,
       "away": 28
     }
   },
@@ -2238,9 +2232,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 35,
+      "home": 36,
       "draw": 26,
-      "away": 39
+      "away": 38
     }
   },
   {
@@ -2318,9 +2312,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 72,
+      "home": 73,
       "draw": 18,
-      "away": 10
+      "away": 9
     }
   },
   {
@@ -2558,9 +2552,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 11,
-      "draw": 15,
-      "away": 75
+      "home": 10,
+      "draw": 14,
+      "away": 77
     }
   },
   {
