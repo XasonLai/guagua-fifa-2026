@@ -10,14 +10,14 @@
         "abbr": "MEX",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
         "rank": 1,
-        "played": 1,
-        "wins": 1,
+        "played": 2,
+        "wins": 2,
         "draws": 0,
         "losses": 0,
-        "goalsFor": 2,
+        "goalsFor": 3,
         "goalsAgainst": 0,
-        "goalDifference": "+2",
-        "points": 3
+        "goalDifference": "+3",
+        "points": 6
       },
       {
         "id": "450",
@@ -42,13 +42,13 @@
         "abbr": "KOR",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
         "rank": 2,
-        "played": 1,
+        "played": 2,
         "wins": 1,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "goalsFor": 2,
-        "goalsAgainst": 1,
-        "goalDifference": "+1",
+        "goalsAgainst": 2,
+        "goalDifference": "0",
         "points": 3
       },
       {

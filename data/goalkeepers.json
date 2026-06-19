@@ -70,6 +70,16 @@
     "appearances": 1
   },
   {
+    "id": "175921",
+    "name": "Kim Seung-Gyu",
+    "teamId": "451",
+    "team": "South Korea",
+    "teamZh": "南韓",
+    "saves": 6,
+    "goalsConceded": 2,
+    "appearances": 2
+  },
+  {
     "id": "238544",
     "name": "Gregor Kobel",
     "teamId": "475",
@@ -87,16 +97,6 @@
     "teamZh": "塞內加爾",
     "saves": 5,
     "goalsConceded": 3,
-    "appearances": 1
-  },
-  {
-    "id": "175149",
-    "name": "Yassine Bounou",
-    "teamId": "2869",
-    "team": "Morocco",
-    "teamZh": "摩洛哥",
-    "saves": 4,
-    "goalsConceded": 1,
     "appearances": 1
   }
 ]
