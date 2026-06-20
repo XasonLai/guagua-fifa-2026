@@ -44,6 +44,60 @@
     ]
   },
   {
+    "id": "282229",
+    "name": "Brian Brobbey",
+    "teamId": "449",
+    "team": "Netherlands",
+    "teamZh": "Netherlands",
+    "goals": 2,
+    "matches": [
+      {
+        "matchId": "760447",
+        "minute": "5'"
+      },
+      {
+        "matchId": "760447",
+        "minute": "17'"
+      }
+    ]
+  },
+  {
+    "id": "249524",
+    "name": "Cody Gakpo",
+    "teamId": "449",
+    "team": "Netherlands",
+    "teamZh": "Netherlands",
+    "goals": 2,
+    "matches": [
+      {
+        "matchId": "760447",
+        "minute": "47'"
+      },
+      {
+        "matchId": "760447",
+        "minute": "54'"
+      }
+    ]
+  },
+  {
+    "id": "284792",
+    "name": "Crysencio Summerville",
+    "teamId": "449",
+    "team": "Netherlands",
+    "teamZh": "Netherlands",
+    "goals": 2,
+    "matches": [
+      {
+        "matchId": "760425",
+        "minute": "64'"
+      },
+      {
+        "matchId": "760447",
+        "minute": "89'"
+      }
+    ]
+  },
+  {
     "id": "205024",
     "name": "Cyle Larin",
     "teamId": "206",
@@ -130,60 +184,6 @@
       {
         "matchId": "760445",
         "minute": "2'"
-      }
-    ]
-  },
-  {
-    "id": "386992",
-    "name": "Johan Manzambi",
-    "teamId": "475",
-    "team": "Switzerland",
-    "teamZh": "Switzerland",
-    "goals": 2,
-    "matches": [
-      {
-        "matchId": "760439",
-        "minute": "74'"
-      },
-      {
-        "matchId": "760439",
-        "minute": "90'"
-      }
-    ]
-  },
-  {
-    "id": "231388",
-    "name": "Kylian Mbappé",
-    "teamId": "478",
-    "team": "France",
-    "teamZh": "France",
-    "goals": 2,
-    "matches": [
-      {
-        "matchId": "760432",
-        "minute": "66'"
-      },
-      {
-        "matchId": "760432",
-        "minute": "90'+6'"
-      }
-    ]
-  },
-  {
-    "id": "259902",
-    "name": "Matheus Cunha",
-    "teamId": "205",
-    "team": "Brazil",
-    "teamZh": "Brazil",
-    "goals": 2,
-    "matches": [
-      {
-        "matchId": "760444",
-        "minute": "23'"
-      },
-      {
-        "matchId": "760444",
-        "minute": "36'"
       }
     ]
   }
