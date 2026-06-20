@@ -78,12 +78,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "5929",
-      "name": "Group D Winner",
-      "zhName": "Group D Winner",
-      "shortName": "1D",
-      "abbr": "1D",
-      "logo": "",
+      "id": "660",
+      "name": "United States",
+      "zhName": "美國",
+      "shortName": "USA",
+      "abbr": "USA",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
       "homeAway": "home",
       "score": "0",
       "winner": false
