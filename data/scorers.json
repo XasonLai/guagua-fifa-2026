@@ -94,6 +94,24 @@
     ]
   },
   {
+    "id": "304572",
+    "name": "Ismael Saibari",
+    "teamId": "2869",
+    "team": "Morocco",
+    "teamZh": "Morocco",
+    "goals": 2,
+    "matches": [
+      {
+        "matchId": "760419",
+        "minute": "21'"
+      },
+      {
+        "matchId": "760445",
+        "minute": "2'"
+      }
+    ]
+  },
+  {
     "id": "231388",
     "name": "Kylian Mbappé",
     "teamId": "478",
@@ -154,20 +172,6 @@
       {
         "matchId": "760424",
         "minute": "30'"
-      }
-    ]
-  },
-  {
-    "id": "320908",
-    "name": "Ali Olwan",
-    "teamId": "2917",
-    "team": "Jordan",
-    "teamZh": "Jordan",
-    "goals": 1,
-    "matches": [
-      {
-        "matchId": "760431",
-        "minute": "50'"
       }
     ]
   }
