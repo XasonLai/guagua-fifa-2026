@@ -290,14 +290,14 @@
         "abbr": "ECU",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
         "rank": 3,
-        "played": 1,
+        "played": 2,
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 1,
         "goalsFor": 0,
         "goalsAgainst": 1,
         "goalDifference": "-1",
-        "points": 0
+        "points": 1
       },
       {
         "id": "481",
@@ -338,14 +338,14 @@
         "abbr": "CUW",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
         "rank": 4,
-        "played": 1,
+        "played": 2,
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 1,
         "goalsFor": 1,
         "goalsAgainst": 7,
         "goalDifference": "-6",
-        "points": 0
+        "points": 1
       }
     ]
   },

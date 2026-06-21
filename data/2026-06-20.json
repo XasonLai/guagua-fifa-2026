@@ -75,8 +75,8 @@
     "kickoffTaiwan": "2026-06-21T08:00:00+08:00",
     "venue": "GEHA Field at Arrowhead Stadium",
     "city": "Kansas City, Missouri",
-    "status": "Second Half",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "209",
       "name": "Ecuador",
@@ -99,12 +99,6 @@
       "score": "0",
       "winner": false
     },
-    "probabilities": {
-      "source": "DraftKings",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 83,
-      "draw": 11,
-      "away": 6
-    }
+    "probabilities": null
   }
 ]
