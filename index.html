@@ -36,6 +36,7 @@
     .side-label { background: #eef1eb; border-radius: 999px; padding: 2px 7px; }
     .score { min-width: 70px; text-align: center; font-size: 24px; font-weight: 800; }
     .status { justify-self: center; color: #5d6a62; font-size: 14px; }
+    .freshness { justify-self: center; color: #7b6a3a; font-size: 13px; }
     .prob { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; color: #5d6a62; font-size: 14px; }
     .prob div { background: #f6f7f2; border-radius: 6px; padding: 8px; text-align: center; }
     .prob strong { display: block; color: #17211b; font-size: 16px; }
@@ -82,6 +83,7 @@
     const todayTaiwan = () => new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Taipei' }).format(new Date());
     const $ = id => document.getElementById(id);
     let matches = [];
+    let updatedAt = '';
 
     function score(m) {
       return `${m.home.score ?? '-'} : ${m.away.score ?? '-'}`;
@@ -132,6 +134,11 @@
       `;
     }
 
+    function freshness(m) {
+      if (m.completed || !updatedAt) return '';
+      return `<div class="freshness">資料更新時間：${fmt.format(new Date(updatedAt))}</div>`;
+    }
+
     function render() {
       const day = $('date').value;
       const shown = $('view').value === 'all' ? matches : matches.filter(m => m.kickoffTaiwan.slice(0, 10) === day);
@@ -144,6 +151,7 @@
             <div class="team away"><span class="name">${teamName(m.away)}<span class="side-label">客場</span></span>${badge(m.away)}</div>
           </div>
           <div class="status">${fmt.format(new Date(m.kickoffTaiwan))} · ${m.status}</div>
+          ${freshness(m)}
           ${odds(m)}
         </article>
       `).join('') || '<p>這天沒有比賽。</p>';
@@ -156,6 +164,7 @@
         fetch('data/teams.json').then(r => r.json()),
       ]);
       matches = matchData;
+      updatedAt = meta.updatedAt;
       $('date').value = todayTaiwan();
       $('date').min = meta.start;
       $('date').max = meta.end;
