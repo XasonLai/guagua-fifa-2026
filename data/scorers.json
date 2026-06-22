@@ -1,5 +1,27 @@
 [
   {
+    "id": "273300",
+    "name": "Deniz Undav",
+    "teamId": "481",
+    "team": "Germany",
+    "teamZh": "Germany",
+    "goals": 3,
+    "matches": [
+      {
+        "matchId": "760422",
+        "minute": "78'"
+      },
+      {
+        "matchId": "760448",
+        "minute": "68'"
+      },
+      {
+        "matchId": "760448",
+        "minute": "90'+4'"
+      }
+    ]
+  },
+  {
     "id": "273499",
     "name": "Jonathan David",
     "teamId": "206",
@@ -112,24 +134,6 @@
       {
         "matchId": "760440",
         "minute": "16'"
-      }
-    ]
-  },
-  {
-    "id": "273300",
-    "name": "Deniz Undav",
-    "teamId": "481",
-    "team": "Germany",
-    "teamZh": "Germany",
-    "goals": 2,
-    "matches": [
-      {
-        "matchId": "760422",
-        "minute": "78'"
-      },
-      {
-        "matchId": "760448",
-        "minute": "90'+4'"
       }
     ]
   },
