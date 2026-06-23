@@ -1571,7 +1571,7 @@
     "kickoffTaiwan": "2026-06-24T07:00:00+08:00",
     "venue": "BMO Field",
     "city": "Toronto",
-    "status": "Scheduled",
+    "status": "In Progress",
     "completed": false,
     "home": {
       "id": "2659",
@@ -1678,9 +1678,9 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 69,
-      "draw": 18,
-      "away": 13
+      "home": 67,
+      "draw": 19,
+      "away": 14
     }
   },
   {
@@ -1759,7 +1759,7 @@
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 81,
-      "draw": 13,
+      "draw": 14,
       "away": 6
     }
   },
@@ -2398,7 +2398,7 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 55,
+      "home": 56,
       "draw": 27,
       "away": 17
     }
@@ -2599,8 +2599,8 @@
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 7,
-      "draw": 14,
-      "away": 79
+      "draw": 13,
+      "away": 80
     }
   },
   {
