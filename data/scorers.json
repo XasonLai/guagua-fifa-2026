@@ -30,6 +30,32 @@
     ]
   },
   {
+    "id": "253989",
+    "name": "Erling Haaland",
+    "teamId": "464",
+    "team": "Norway",
+    "teamZh": "Norway",
+    "goals": 4,
+    "matches": [
+      {
+        "matchId": "760430",
+        "minute": "29'"
+      },
+      {
+        "matchId": "760430",
+        "minute": "43'"
+      },
+      {
+        "matchId": "760454",
+        "minute": "48'"
+      },
+      {
+        "matchId": "760454",
+        "minute": "58'"
+      }
+    ]
+  },
+  {
     "id": "231388",
     "name": "Kylian Mbappé",
     "teamId": "478",
@@ -186,24 +212,6 @@
       {
         "matchId": "760427",
         "minute": "54'"
-      }
-    ]
-  },
-  {
-    "id": "253989",
-    "name": "Erling Haaland",
-    "teamId": "464",
-    "team": "Norway",
-    "teamZh": "Norway",
-    "goals": 2,
-    "matches": [
-      {
-        "matchId": "760430",
-        "minute": "29'"
-      },
-      {
-        "matchId": "760430",
-        "minute": "43'"
       }
     ]
   }
