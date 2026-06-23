@@ -569,7 +569,7 @@
         "zhName": "挪威",
         "abbr": "NOR",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
-        "rank": 1,
+        "rank": 2,
         "played": 1,
         "wins": 1,
         "draws": 0,
@@ -585,15 +585,15 @@
         "zhName": "法國",
         "abbr": "FRA",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
-        "rank": 2,
-        "played": 1,
-        "wins": 1,
+        "rank": 1,
+        "played": 2,
+        "wins": 2,
         "draws": 0,
         "losses": 0,
-        "goalsFor": 3,
+        "goalsFor": 6,
         "goalsAgainst": 1,
-        "goalDifference": "+2",
-        "points": 3
+        "goalDifference": "+5",
+        "points": 6
       },
       {
         "id": "654",
@@ -618,13 +618,13 @@
         "abbr": "IRQ",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
         "rank": 4,
-        "played": 1,
+        "played": 2,
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 2,
         "goalsFor": 1,
-        "goalsAgainst": 4,
-        "goalDifference": "-3",
+        "goalsAgainst": 7,
+        "goalDifference": "-6",
         "points": 0
       }
     ]
