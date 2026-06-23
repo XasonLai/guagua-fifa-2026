@@ -162,6 +162,24 @@
     ]
   },
   {
+    "id": "22774",
+    "name": "Cristiano Ronaldo",
+    "teamId": "482",
+    "team": "Portugal",
+    "teamZh": "Portugal",
+    "goals": 2,
+    "matches": [
+      {
+        "matchId": "760461",
+        "minute": "6'"
+      },
+      {
+        "matchId": "760461",
+        "minute": "39'"
+      }
+    ]
+  },
+  {
     "id": "284792",
     "name": "Crysencio Summerville",
     "teamId": "449",
@@ -194,24 +212,6 @@
       {
         "matchId": "760440",
         "minute": "16'"
-      }
-    ]
-  },
-  {
-    "id": "266555",
-    "name": "Elijah Just",
-    "teamId": "2666",
-    "team": "New Zealand",
-    "teamZh": "紐西蘭",
-    "goals": 2,
-    "matches": [
-      {
-        "matchId": "760427",
-        "minute": "7'"
-      },
-      {
-        "matchId": "760427",
-        "minute": "54'"
       }
     ]
   }
