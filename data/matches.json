@@ -1537,7 +1537,7 @@
     "kickoffTaiwan": "2026-06-24T04:00:00+08:00",
     "venue": "Gillette Stadium",
     "city": "Foxborough, Massachusetts",
-    "status": "Scheduled",
+    "status": "In Progress",
     "completed": false,
     "home": {
       "id": "448",
@@ -2404,9 +2404,9 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 57,
-      "draw": 27,
-      "away": 17
+      "home": 56,
+      "draw": 28,
+      "away": 16
     }
   },
   {
@@ -2565,7 +2565,7 @@
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 25,
-      "draw": 42,
+      "draw": 43,
       "away": 33
     }
   },
