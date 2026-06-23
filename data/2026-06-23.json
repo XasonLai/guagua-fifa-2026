@@ -7,7 +7,7 @@
     "kickoffTaiwan": "2026-06-24T01:00:00+08:00",
     "venue": "NRG Stadium",
     "city": "Houston, Texas",
-    "status": "First Half",
+    "status": "Second Half",
     "completed": false,
     "home": {
       "id": "482",
@@ -17,7 +17,7 @@
       "abbr": "POR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
       "homeAway": "home",
-      "score": "2",
+      "score": "3",
       "winner": false
     },
     "away": {
@@ -74,8 +74,8 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 80,
-      "draw": 14,
+      "home": 81,
+      "draw": 13,
       "away": 6
     }
   },
@@ -115,8 +115,8 @@
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 14,
-      "draw": 22,
-      "away": 64
+      "draw": 21,
+      "away": 65
     }
   },
   {
@@ -154,7 +154,7 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 63,
+      "home": 62,
       "draw": 24,
       "away": 14
     }
