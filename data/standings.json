@@ -780,14 +780,14 @@
         "abbr": "ENG",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
         "rank": 1,
-        "played": 1,
+        "played": 2,
         "wins": 1,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
         "goalsFor": 4,
         "goalsAgainst": 2,
         "goalDifference": "+2",
-        "points": 3
+        "points": 4
       },
       {
         "id": "477",
@@ -828,14 +828,14 @@
         "abbr": "GHA",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
         "rank": 2,
-        "played": 1,
+        "played": 2,
         "wins": 1,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
         "goalsFor": 1,
         "goalsAgainst": 0,
         "goalDifference": "+1",
-        "points": 3
+        "points": 4
       }
     ]
   }

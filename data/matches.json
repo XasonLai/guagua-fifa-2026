@@ -1537,8 +1537,8 @@
     "kickoffTaiwan": "2026-06-24T04:00:00+08:00",
     "venue": "Gillette Stadium",
     "city": "Foxborough, Massachusetts",
-    "status": "Second Half",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "448",
       "name": "England",
@@ -1561,13 +1561,7 @@
       "score": "0",
       "winner": false
     },
-    "probabilities": {
-      "source": "DraftKings",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 81,
-      "draw": 13,
-      "away": 6
-    }
+    "probabilities": null
   },
   {
     "id": "760460",
@@ -1602,11 +1596,11 @@
       "winner": false
     },
     "probabilities": {
-      "source": "ESPN odds",
+      "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 12,
+      "home": 13,
       "draw": 21,
-      "away": 67
+      "away": 66
     }
   },
   {
@@ -2444,9 +2438,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 8,
-      "draw": 14,
-      "away": 78
+      "home": 7,
+      "draw": 13,
+      "away": 80
     }
   },
   {
@@ -2564,7 +2558,7 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 25,
+      "home": 24,
       "draw": 43,
       "away": 33
     }
