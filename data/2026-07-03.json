@@ -44,12 +44,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "131506",
-      "name": "Group J Winner",
-      "zhName": "Group J Winner",
-      "shortName": "1J",
-      "abbr": "1J",
-      "logo": "",
+      "id": "202",
+      "name": "Argentina",
+      "zhName": "阿根廷",
+      "shortName": "Argentina",
+      "abbr": "ARG",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "homeAway": "home",
       "score": "0",
       "winner": false
