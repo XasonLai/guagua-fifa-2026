@@ -50,6 +50,16 @@
     "appearances": 2
   },
   {
+    "id": "211669",
+    "name": "Lionel Mpasi",
+    "teamId": "2850",
+    "team": "Congo DR",
+    "teamZh": "剛果民主共和國",
+    "saves": 8,
+    "goalsConceded": 2,
+    "appearances": 2
+  },
+  {
     "id": "291609",
     "name": "Bart Verbruggen",
     "teamId": "449",
@@ -87,16 +97,6 @@
     "teamZh": "塞內加爾",
     "saves": 8,
     "goalsConceded": 6,
-    "appearances": 2
-  },
-  {
-    "id": "308915",
-    "name": "Mostafa Shoubir",
-    "teamId": "2620",
-    "team": "Egypt",
-    "teamZh": "埃及",
-    "saves": 7,
-    "goalsConceded": 2,
     "appearances": 2
   }
 ]
