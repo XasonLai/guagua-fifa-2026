@@ -60,6 +60,16 @@
     "appearances": 2
   },
   {
+    "id": "187946",
+    "name": "Dominik Livakovic",
+    "teamId": "477",
+    "team": "Croatia",
+    "teamZh": "克羅埃西亞",
+    "saves": 8,
+    "goalsConceded": 4,
+    "appearances": 2
+  },
+  {
     "id": "301648",
     "name": "Orlando Gil",
     "teamId": "210",
@@ -85,16 +95,6 @@
     "teamId": "2620",
     "team": "Egypt",
     "teamZh": "埃及",
-    "saves": 7,
-    "goalsConceded": 2,
-    "appearances": 2
-  },
-  {
-    "id": "181330",
-    "name": "Vozinha",
-    "teamId": "2597",
-    "team": "Cape Verde",
-    "teamZh": "維德角",
     "saves": 7,
     "goalsConceded": 2,
     "appearances": 2

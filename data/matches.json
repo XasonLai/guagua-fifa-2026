@@ -1571,8 +1571,8 @@
     "kickoffTaiwan": "2026-06-24T07:00:00+08:00",
     "venue": "BMO Field",
     "city": "Toronto",
-    "status": "Halftime",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "2659",
       "name": "Panama",
@@ -1592,16 +1592,10 @@
       "abbr": "CRO",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
       "homeAway": "away",
-      "score": "0",
-      "winner": false
+      "score": "1",
+      "winner": true
     },
-    "probabilities": {
-      "source": "DraftKings",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 12,
-      "draw": 21,
-      "away": 67
-    }
+    "probabilities": null
   },
   {
     "id": "760459",
@@ -1636,11 +1630,11 @@
       "winner": false
     },
     "probabilities": {
-      "source": "ESPN odds",
+      "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 62,
+      "home": 63,
       "draw": 24,
-      "away": 14
+      "away": 13
     }
   },
   {
@@ -1758,7 +1752,7 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 81,
+      "home": 80,
       "draw": 14,
       "away": 6
     }
@@ -1838,9 +1832,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 26,
+      "home": 27,
       "draw": 25,
-      "away": 49
+      "away": 48
     }
   },
   {
@@ -2439,8 +2433,8 @@
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 7,
-      "draw": 13,
-      "away": 80
+      "draw": 12,
+      "away": 81
     }
   },
   {
