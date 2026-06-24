@@ -75,7 +75,7 @@
     "kickoffTaiwan": "2026-06-25T06:00:00+08:00",
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta, Georgia",
-    "status": "Scheduled",
+    "status": "First Half",
     "completed": false,
     "home": {
       "id": "2869",
@@ -96,15 +96,15 @@
       "abbr": "HAI",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
       "homeAway": "away",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 75,
-      "draw": 16,
-      "away": 9
+      "home": 74,
+      "draw": 17,
+      "away": 10
     }
   },
   {
@@ -115,7 +115,7 @@
     "kickoffTaiwan": "2026-06-25T06:00:00+08:00",
     "venue": "Hard Rock Stadium",
     "city": "Miami Gardens, Florida",
-    "status": "Scheduled",
+    "status": "In Progress",
     "completed": false,
     "home": {
       "id": "580",
@@ -136,7 +136,7 @@
       "abbr": "BRA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
       "homeAway": "away",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "probabilities": {
@@ -182,9 +182,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 25,
+      "home": 24,
       "draw": 25,
-      "away": 49
+      "away": 50
     }
   },
   {
@@ -223,8 +223,8 @@
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 16,
-      "draw": 23,
-      "away": 61
+      "draw": 24,
+      "away": 60
     }
   }
 ]
