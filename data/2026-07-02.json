@@ -78,12 +78,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "5925",
-      "name": "Group B Winner",
-      "zhName": "Group B Winner",
-      "shortName": "1B",
-      "abbr": "1B",
-      "logo": "",
+      "id": "475",
+      "name": "Switzerland",
+      "zhName": "瑞士",
+      "shortName": "Switzerland",
+      "abbr": "SUI",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
       "homeAway": "home",
       "score": "0",
       "winner": false

@@ -21,12 +21,12 @@
       "winner": false
     },
     "away": {
-      "id": "5924",
-      "name": "Group B 2nd Place",
-      "zhName": "Group B 2nd Place",
-      "shortName": "2B",
-      "abbr": "2B",
-      "logo": "",
+      "id": "206",
+      "name": "Canada",
+      "zhName": "加拿大",
+      "shortName": "Canada",
+      "abbr": "CAN",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
       "homeAway": "away",
       "score": "0",
       "winner": false

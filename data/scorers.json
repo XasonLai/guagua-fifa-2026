@@ -104,6 +104,28 @@
     ]
   },
   {
+    "id": "386992",
+    "name": "Johan Manzambi",
+    "teamId": "475",
+    "team": "Switzerland",
+    "teamZh": "Switzerland",
+    "goals": 3,
+    "matches": [
+      {
+        "matchId": "760439",
+        "minute": "74'"
+      },
+      {
+        "matchId": "760439",
+        "minute": "90'"
+      },
+      {
+        "matchId": "760463",
+        "minute": "57'"
+      }
+    ]
+  },
+  {
     "id": "273499",
     "name": "Jonathan David",
     "teamId": "206",
@@ -194,24 +216,6 @@
       {
         "matchId": "760440",
         "minute": "16'"
-      }
-    ]
-  },
-  {
-    "id": "146679",
-    "name": "Daniel Muñoz",
-    "teamId": "208",
-    "team": "Colombia",
-    "teamZh": "Colombia",
-    "goals": 2,
-    "matches": [
-      {
-        "matchId": "760436",
-        "minute": "40'"
-      },
-      {
-        "matchId": "760459",
-        "minute": "76'"
       }
     ]
   }
