@@ -1639,7 +1639,7 @@
     "kickoffTaiwan": "2026-06-25T03:00:00+08:00",
     "venue": "Lumen Field",
     "city": "Seattle, Washington",
-    "status": "First Half",
+    "status": "Second Half",
     "completed": false,
     "home": {
       "id": "452",
@@ -1649,7 +1649,7 @@
       "abbr": "BIH",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
       "homeAway": "home",
-      "score": "2",
+      "score": "3",
       "winner": false
     },
     "away": {
@@ -1679,7 +1679,7 @@
     "kickoffTaiwan": "2026-06-25T03:00:00+08:00",
     "venue": "BC Place",
     "city": "Vancouver",
-    "status": "First Half",
+    "status": "Second Half",
     "completed": false,
     "home": {
       "id": "475",
@@ -1689,7 +1689,7 @@
       "abbr": "SUI",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
       "homeAway": "home",
-      "score": "0",
+      "score": "2",
       "winner": false
     },
     "away": {
@@ -1700,7 +1700,7 @@
       "abbr": "CAN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
       "homeAway": "away",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "probabilities": {
@@ -1746,8 +1746,8 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 81,
-      "draw": 13,
+      "home": 80,
+      "draw": 14,
       "away": 6
     }
   },
@@ -1786,9 +1786,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 9,
+      "home": 10,
       "draw": 18,
-      "away": 73
+      "away": 72
     }
   },
   {
@@ -1826,8 +1826,8 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 25,
-      "draw": 25,
+      "home": 26,
+      "draw": 26,
       "away": 49
     }
   },
@@ -1986,7 +1986,7 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 50,
+      "home": 51,
       "draw": 27,
       "away": 22
     }
@@ -2506,8 +2506,8 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 53,
-      "draw": 23,
+      "home": 54,
+      "draw": 24,
       "away": 23
     }
   },
