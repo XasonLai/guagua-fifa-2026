@@ -1666,9 +1666,9 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 69,
-      "draw": 18,
-      "away": 13
+      "home": 71,
+      "draw": 17,
+      "away": 12
     }
   },
   {
@@ -1706,8 +1706,8 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 40,
-      "draw": 31,
+      "home": 39,
+      "draw": 32,
       "away": 29
     }
   },
@@ -1746,8 +1746,8 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 80,
-      "draw": 14,
+      "home": 81,
+      "draw": 13,
       "away": 6
     }
   },
@@ -1786,9 +1786,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 11,
-      "draw": 18,
-      "away": 71
+      "home": 10,
+      "draw": 17,
+      "away": 72
     }
   },
   {
@@ -1826,7 +1826,7 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 27,
+      "home": 26,
       "draw": 25,
       "away": 49
     }
@@ -1866,9 +1866,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 18,
+      "home": 16,
       "draw": 24,
-      "away": 57
+      "away": 60
     }
   },
   {
@@ -1946,9 +1946,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 26,
+      "home": 25,
       "draw": 23,
-      "away": 51
+      "away": 52
     }
   },
   {
@@ -1986,7 +1986,7 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 50,
+      "home": 51,
       "draw": 27,
       "away": 22
     }
@@ -2027,8 +2027,8 @@
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 5,
-      "draw": 11,
-      "away": 85
+      "draw": 9,
+      "away": 86
     }
   },
   {
@@ -2066,8 +2066,8 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 32,
-      "draw": 44,
+      "home": 33,
+      "draw": 43,
       "away": 24
     }
   },
@@ -2146,8 +2146,8 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 21,
-      "draw": 23,
+      "home": 20,
+      "draw": 22,
       "away": 57
     }
   },
@@ -2266,7 +2266,7 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 14,
+      "home": 13,
       "draw": 23,
       "away": 64
     }
