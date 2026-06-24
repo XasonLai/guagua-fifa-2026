@@ -34,7 +34,7 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 55,
+      "home": 54,
       "draw": 28,
       "away": 17
     }
@@ -74,9 +74,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 7,
+      "home": 6,
       "draw": 12,
-      "away": 81
+      "away": 82
     }
   },
   {
