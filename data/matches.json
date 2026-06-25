@@ -1843,7 +1843,7 @@
     "kickoffTaiwan": "2026-06-26T04:00:00+08:00",
     "venue": "Lincoln Financial Field",
     "city": "Philadelphia, Pennsylvania",
-    "status": "Scheduled",
+    "status": "In Progress",
     "completed": false,
     "home": {
       "id": "11678",
@@ -1864,15 +1864,15 @@
       "abbr": "CIV",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
       "homeAway": "away",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 6,
-      "draw": 13,
-      "away": 81
+      "draw": 12,
+      "away": 82
     }
   },
   {
@@ -1883,7 +1883,7 @@
     "kickoffTaiwan": "2026-06-26T04:00:00+08:00",
     "venue": "MetLife Stadium",
     "city": "East Rutherford, New Jersey",
-    "status": "Scheduled",
+    "status": "First Half",
     "completed": false,
     "home": {
       "id": "209",
@@ -1893,7 +1893,7 @@
       "abbr": "ECU",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
       "homeAway": "home",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {
@@ -1904,15 +1904,15 @@
       "abbr": "GER",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
       "homeAway": "away",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 20,
-      "draw": 22,
-      "away": 58
+      "home": 22,
+      "draw": 23,
+      "away": 55
     }
   },
   {
@@ -2070,9 +2070,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 25,
+      "home": 24,
       "draw": 23,
-      "away": 52
+      "away": 53
     }
   },
   {
@@ -2270,7 +2270,7 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 38,
+      "home": 39,
       "draw": 36,
       "away": 25
     }
@@ -2590,9 +2590,9 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 17,
-      "draw": 25,
-      "away": 57
+      "home": 18,
+      "draw": 26,
+      "away": 56
     }
   },
   {
