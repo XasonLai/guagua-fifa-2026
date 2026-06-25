@@ -50,6 +50,26 @@
     "appearances": 3
   },
   {
+    "id": "89090",
+    "name": "Johny Placide",
+    "teamId": "2654",
+    "team": "Haiti",
+    "teamZh": "海地",
+    "saves": 11,
+    "goalsConceded": 8,
+    "appearances": 3
+  },
+  {
+    "id": "196876",
+    "name": "Alisson Becker",
+    "teamId": "205",
+    "team": "Brazil",
+    "teamZh": "巴西",
+    "saves": 10,
+    "goalsConceded": 1,
+    "appearances": 3
+  },
+  {
     "id": "335240",
     "name": "Patrick Beach",
     "teamId": "628",
@@ -77,26 +97,6 @@
     "teamZh": "荷蘭",
     "saves": 8,
     "goalsConceded": 3,
-    "appearances": 2
-  },
-  {
-    "id": "187946",
-    "name": "Dominik Livakovic",
-    "teamId": "477",
-    "team": "Croatia",
-    "teamZh": "克羅埃西亞",
-    "saves": 8,
-    "goalsConceded": 4,
-    "appearances": 2
-  },
-  {
-    "id": "301648",
-    "name": "Orlando Gil",
-    "teamId": "210",
-    "team": "Paraguay",
-    "teamZh": "巴拉圭",
-    "saves": 8,
-    "goalsConceded": 4,
     "appearances": 2
   }
 ]

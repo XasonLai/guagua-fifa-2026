@@ -75,8 +75,8 @@
     "kickoffTaiwan": "2026-06-25T06:00:00+08:00",
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta, Georgia",
-    "status": "Second Half",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "2869",
       "name": "Morocco",
@@ -85,8 +85,8 @@
       "abbr": "MAR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
       "homeAway": "home",
-      "score": "2",
-      "winner": false
+      "score": "4",
+      "winner": true
     },
     "away": {
       "id": "2654",
@@ -99,13 +99,7 @@
       "score": "2",
       "winner": false
     },
-    "probabilities": {
-      "source": "DraftKings",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 74,
-      "draw": 17,
-      "away": 10
-    }
+    "probabilities": null
   },
   {
     "id": "760465",
@@ -115,8 +109,8 @@
     "kickoffTaiwan": "2026-06-25T06:00:00+08:00",
     "venue": "Hard Rock Stadium",
     "city": "Miami Gardens, Florida",
-    "status": "Second Half",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "580",
       "name": "Scotland",
@@ -137,15 +131,9 @@
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
       "homeAway": "away",
       "score": "3",
-      "winner": false
+      "winner": true
     },
-    "probabilities": {
-      "source": "ESPN odds",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 10,
-      "draw": 18,
-      "away": 72
-    }
+    "probabilities": null
   },
   {
     "id": "760467",
@@ -180,11 +168,11 @@
       "winner": false
     },
     "probabilities": {
-      "source": "ESPN odds",
+      "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 24,
-      "draw": 25,
-      "away": 51
+      "home": 20,
+      "draw": 24,
+      "away": 56
     }
   },
   {
@@ -223,8 +211,8 @@
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 17,
-      "draw": 25,
-      "away": 58
+      "draw": 26,
+      "away": 57
     }
   }
 ]

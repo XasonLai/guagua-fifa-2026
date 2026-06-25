@@ -104,6 +104,28 @@
     ]
   },
   {
+    "id": "304572",
+    "name": "Ismael Saibari",
+    "teamId": "2869",
+    "team": "Morocco",
+    "teamZh": "Morocco",
+    "goals": 3,
+    "matches": [
+      {
+        "matchId": "760419",
+        "minute": "21'"
+      },
+      {
+        "matchId": "760445",
+        "minute": "2'"
+      },
+      {
+        "matchId": "760464",
+        "minute": "45'+1'"
+      }
+    ]
+  },
+  {
     "id": "386992",
     "name": "Johan Manzambi",
     "teamId": "475",
@@ -148,6 +170,50 @@
     ]
   },
   {
+    "id": "259902",
+    "name": "Matheus Cunha",
+    "teamId": "205",
+    "team": "Brazil",
+    "teamZh": "Brazil",
+    "goals": 3,
+    "matches": [
+      {
+        "matchId": "760444",
+        "minute": "23'"
+      },
+      {
+        "matchId": "760444",
+        "minute": "36'"
+      },
+      {
+        "matchId": "760465",
+        "minute": "60'"
+      }
+    ]
+  },
+  {
+    "id": "252107",
+    "name": "Vinícius Júnior",
+    "teamId": "205",
+    "team": "Brazil",
+    "teamZh": "Brazil",
+    "goals": 3,
+    "matches": [
+      {
+        "matchId": "760419",
+        "minute": "32'"
+      },
+      {
+        "matchId": "760444",
+        "minute": "45'+3'"
+      },
+      {
+        "matchId": "760465",
+        "minute": "7'"
+      }
+    ]
+  },
+  {
     "id": "282229",
     "name": "Brian Brobbey",
     "teamId": "449",
@@ -162,60 +228,6 @@
       {
         "matchId": "760447",
         "minute": "17'"
-      }
-    ]
-  },
-  {
-    "id": "249524",
-    "name": "Cody Gakpo",
-    "teamId": "449",
-    "team": "Netherlands",
-    "teamZh": "Netherlands",
-    "goals": 2,
-    "matches": [
-      {
-        "matchId": "760447",
-        "minute": "47'"
-      },
-      {
-        "matchId": "760447",
-        "minute": "54'"
-      }
-    ]
-  },
-  {
-    "id": "284792",
-    "name": "Crysencio Summerville",
-    "teamId": "449",
-    "team": "Netherlands",
-    "teamZh": "Netherlands",
-    "goals": 2,
-    "matches": [
-      {
-        "matchId": "760425",
-        "minute": "64'"
-      },
-      {
-        "matchId": "760447",
-        "minute": "89'"
-      }
-    ]
-  },
-  {
-    "id": "205024",
-    "name": "Cyle Larin",
-    "teamId": "206",
-    "team": "Canada",
-    "teamZh": "Canada",
-    "goals": 2,
-    "matches": [
-      {
-        "matchId": "760416",
-        "minute": "78'"
-      },
-      {
-        "matchId": "760440",
-        "minute": "16'"
       }
     ]
   }
