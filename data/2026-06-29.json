@@ -2,7 +2,7 @@
   {
     "id": "760487",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-06-29T17:00Z",
     "kickoffTaiwan": "2026-06-30T01:00:00+08:00",
     "venue": "NRG Stadium",
@@ -36,7 +36,7 @@
   {
     "id": "760489",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-06-29T20:30Z",
     "kickoffTaiwan": "2026-06-30T04:30:00+08:00",
     "venue": "Gillette Stadium",
@@ -70,7 +70,7 @@
   {
     "id": "760488",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-06-30T01:00Z",
     "kickoffTaiwan": "2026-06-30T09:00:00+08:00",
     "venue": "Estadio BBVA",

@@ -2,7 +2,7 @@
   {
     "id": "760486",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-06-28T19:00Z",
     "kickoffTaiwan": "2026-06-29T03:00:00+08:00",
     "venue": "SoFi Stadium",
@@ -34,9 +34,9 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 19,
-      "draw": 27,
-      "away": 54
+      "home": 17,
+      "draw": 25,
+      "away": 57
     }
   }
 ]

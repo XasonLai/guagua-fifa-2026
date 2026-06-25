@@ -2,7 +2,7 @@
   {
     "id": "760497",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-07-02T19:00Z",
     "kickoffTaiwan": "2026-07-03T03:00:00+08:00",
     "venue": "SoFi Stadium",
@@ -36,7 +36,7 @@
   {
     "id": "760496",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-07-02T23:00Z",
     "kickoffTaiwan": "2026-07-03T07:00:00+08:00",
     "venue": "BMO Field",
@@ -70,7 +70,7 @@
   {
     "id": "760498",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-07-03T03:00Z",
     "kickoffTaiwan": "2026-07-03T11:00:00+08:00",
     "venue": "BC Place",

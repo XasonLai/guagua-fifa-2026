@@ -1911,8 +1911,8 @@
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 20,
-      "draw": 21,
-      "away": 59
+      "draw": 22,
+      "away": 58
     }
   },
   {
@@ -2111,8 +2111,8 @@
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 19,
-      "draw": 22,
-      "away": 59
+      "draw": 21,
+      "away": 60
     }
   },
   {
@@ -2558,7 +2558,7 @@
   {
     "id": "760486",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-06-28T19:00Z",
     "kickoffTaiwan": "2026-06-29T03:00:00+08:00",
     "venue": "SoFi Stadium",
@@ -2590,15 +2590,15 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 19,
-      "draw": 27,
-      "away": 54
+      "home": 17,
+      "draw": 25,
+      "away": 57
     }
   },
   {
     "id": "760487",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-06-29T17:00Z",
     "kickoffTaiwan": "2026-06-30T01:00:00+08:00",
     "venue": "NRG Stadium",
@@ -2632,7 +2632,7 @@
   {
     "id": "760489",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-06-29T20:30Z",
     "kickoffTaiwan": "2026-06-30T04:30:00+08:00",
     "venue": "Gillette Stadium",
@@ -2666,7 +2666,7 @@
   {
     "id": "760488",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-06-30T01:00Z",
     "kickoffTaiwan": "2026-06-30T09:00:00+08:00",
     "venue": "Estadio BBVA",
@@ -2700,7 +2700,7 @@
   {
     "id": "760490",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-06-30T17:00Z",
     "kickoffTaiwan": "2026-07-01T01:00:00+08:00",
     "venue": "AT&T Stadium",
@@ -2734,7 +2734,7 @@
   {
     "id": "760492",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-06-30T21:00Z",
     "kickoffTaiwan": "2026-07-01T05:00:00+08:00",
     "venue": "MetLife Stadium",
@@ -2768,7 +2768,7 @@
   {
     "id": "760491",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-07-01T01:00Z",
     "kickoffTaiwan": "2026-07-01T09:00:00+08:00",
     "venue": "Estadio Banorte",
@@ -2802,7 +2802,7 @@
   {
     "id": "760495",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-07-01T16:00Z",
     "kickoffTaiwan": "2026-07-02T00:00:00+08:00",
     "venue": "Mercedes-Benz Stadium",
@@ -2836,7 +2836,7 @@
   {
     "id": "760493",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-07-01T20:00Z",
     "kickoffTaiwan": "2026-07-02T04:00:00+08:00",
     "venue": "Lumen Field",
@@ -2870,7 +2870,7 @@
   {
     "id": "760494",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-07-02T00:00Z",
     "kickoffTaiwan": "2026-07-02T08:00:00+08:00",
     "venue": "Levi's Stadium",
@@ -2904,7 +2904,7 @@
   {
     "id": "760497",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-07-02T19:00Z",
     "kickoffTaiwan": "2026-07-03T03:00:00+08:00",
     "venue": "SoFi Stadium",
@@ -2938,7 +2938,7 @@
   {
     "id": "760496",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-07-02T23:00Z",
     "kickoffTaiwan": "2026-07-03T07:00:00+08:00",
     "venue": "BMO Field",
@@ -2972,7 +2972,7 @@
   {
     "id": "760498",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-07-03T03:00Z",
     "kickoffTaiwan": "2026-07-03T11:00:00+08:00",
     "venue": "BC Place",
@@ -3006,7 +3006,7 @@
   {
     "id": "760499",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-07-03T18:00Z",
     "kickoffTaiwan": "2026-07-04T02:00:00+08:00",
     "venue": "AT&T Stadium",
@@ -3040,7 +3040,7 @@
   {
     "id": "760500",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-07-03T22:00Z",
     "kickoffTaiwan": "2026-07-04T06:00:00+08:00",
     "venue": "Hard Rock Stadium",
@@ -3074,7 +3074,7 @@
   {
     "id": "760501",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-07-04T01:30Z",
     "kickoffTaiwan": "2026-07-04T09:30:00+08:00",
     "venue": "GEHA Field at Arrowhead Stadium",
@@ -3108,7 +3108,7 @@
   {
     "id": "760502",
     "stage": "round-of-16",
-    "group": "FIFA World Cup",
+    "group": "Round of 16",
     "kickoffUtc": "2026-07-04T17:00Z",
     "kickoffTaiwan": "2026-07-05T01:00:00+08:00",
     "venue": "NRG Stadium",
@@ -3142,7 +3142,7 @@
   {
     "id": "760503",
     "stage": "round-of-16",
-    "group": "FIFA World Cup",
+    "group": "Round of 16",
     "kickoffUtc": "2026-07-04T21:00Z",
     "kickoffTaiwan": "2026-07-05T05:00:00+08:00",
     "venue": "Lincoln Financial Field",
@@ -3176,7 +3176,7 @@
   {
     "id": "760504",
     "stage": "round-of-16",
-    "group": "FIFA World Cup",
+    "group": "Round of 16",
     "kickoffUtc": "2026-07-05T20:00Z",
     "kickoffTaiwan": "2026-07-06T04:00:00+08:00",
     "venue": "MetLife Stadium",
@@ -3210,7 +3210,7 @@
   {
     "id": "760505",
     "stage": "round-of-16",
-    "group": "FIFA World Cup",
+    "group": "Round of 16",
     "kickoffUtc": "2026-07-06T00:00Z",
     "kickoffTaiwan": "2026-07-06T08:00:00+08:00",
     "venue": "Estadio Banorte",
@@ -3244,7 +3244,7 @@
   {
     "id": "760506",
     "stage": "round-of-16",
-    "group": "FIFA World Cup",
+    "group": "Round of 16",
     "kickoffUtc": "2026-07-06T19:00Z",
     "kickoffTaiwan": "2026-07-07T03:00:00+08:00",
     "venue": "AT&T Stadium",
@@ -3278,7 +3278,7 @@
   {
     "id": "760507",
     "stage": "round-of-16",
-    "group": "FIFA World Cup",
+    "group": "Round of 16",
     "kickoffUtc": "2026-07-07T00:00Z",
     "kickoffTaiwan": "2026-07-07T08:00:00+08:00",
     "venue": "Lumen Field",
@@ -3312,7 +3312,7 @@
   {
     "id": "760509",
     "stage": "round-of-16",
-    "group": "FIFA World Cup",
+    "group": "Round of 16",
     "kickoffUtc": "2026-07-07T16:00Z",
     "kickoffTaiwan": "2026-07-08T00:00:00+08:00",
     "venue": "Mercedes-Benz Stadium",
@@ -3346,7 +3346,7 @@
   {
     "id": "760508",
     "stage": "round-of-16",
-    "group": "FIFA World Cup",
+    "group": "Round of 16",
     "kickoffUtc": "2026-07-07T20:00Z",
     "kickoffTaiwan": "2026-07-08T04:00:00+08:00",
     "venue": "BC Place",
@@ -3380,7 +3380,7 @@
   {
     "id": "760510",
     "stage": "quarterfinals",
-    "group": "FIFA World Cup",
+    "group": "Quarterfinals",
     "kickoffUtc": "2026-07-09T20:00Z",
     "kickoffTaiwan": "2026-07-10T04:00:00+08:00",
     "venue": "Gillette Stadium",
@@ -3414,7 +3414,7 @@
   {
     "id": "760511",
     "stage": "quarterfinals",
-    "group": "FIFA World Cup",
+    "group": "Quarterfinals",
     "kickoffUtc": "2026-07-10T19:00Z",
     "kickoffTaiwan": "2026-07-11T03:00:00+08:00",
     "venue": "SoFi Stadium",
@@ -3448,7 +3448,7 @@
   {
     "id": "760512",
     "stage": "quarterfinals",
-    "group": "FIFA World Cup",
+    "group": "Quarterfinals",
     "kickoffUtc": "2026-07-11T21:00Z",
     "kickoffTaiwan": "2026-07-12T05:00:00+08:00",
     "venue": "Hard Rock Stadium",
@@ -3482,7 +3482,7 @@
   {
     "id": "760513",
     "stage": "quarterfinals",
-    "group": "FIFA World Cup",
+    "group": "Quarterfinals",
     "kickoffUtc": "2026-07-12T01:00Z",
     "kickoffTaiwan": "2026-07-12T09:00:00+08:00",
     "venue": "GEHA Field at Arrowhead Stadium",
@@ -3516,7 +3516,7 @@
   {
     "id": "760514",
     "stage": "semifinals",
-    "group": "FIFA World Cup",
+    "group": "Semifinals",
     "kickoffUtc": "2026-07-14T19:00Z",
     "kickoffTaiwan": "2026-07-15T03:00:00+08:00",
     "venue": "AT&T Stadium",
@@ -3550,7 +3550,7 @@
   {
     "id": "760515",
     "stage": "semifinals",
-    "group": "FIFA World Cup",
+    "group": "Semifinals",
     "kickoffUtc": "2026-07-15T19:00Z",
     "kickoffTaiwan": "2026-07-16T03:00:00+08:00",
     "venue": "Mercedes-Benz Stadium",
@@ -3584,7 +3584,7 @@
   {
     "id": "760516",
     "stage": "3rd-place-match",
-    "group": "FIFA World Cup",
+    "group": "3rd-Place Match",
     "kickoffUtc": "2026-07-18T21:00Z",
     "kickoffTaiwan": "2026-07-19T05:00:00+08:00",
     "venue": "Hard Rock Stadium",
@@ -3618,7 +3618,7 @@
   {
     "id": "760517",
     "stage": "final",
-    "group": "FIFA World Cup",
+    "group": "Final",
     "kickoffUtc": "2026-07-19T19:00Z",
     "kickoffTaiwan": "2026-07-20T03:00:00+08:00",
     "venue": "MetLife Stadium",

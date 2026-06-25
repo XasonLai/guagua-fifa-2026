@@ -2,7 +2,7 @@
   {
     "id": "760499",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-07-03T18:00Z",
     "kickoffTaiwan": "2026-07-04T02:00:00+08:00",
     "venue": "AT&T Stadium",
@@ -36,7 +36,7 @@
   {
     "id": "760500",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-07-03T22:00Z",
     "kickoffTaiwan": "2026-07-04T06:00:00+08:00",
     "venue": "Hard Rock Stadium",
@@ -70,7 +70,7 @@
   {
     "id": "760501",
     "stage": "round-of-32",
-    "group": "FIFA World Cup",
+    "group": "Round of 32",
     "kickoffUtc": "2026-07-04T01:30Z",
     "kickoffTaiwan": "2026-07-04T09:30:00+08:00",
     "venue": "GEHA Field at Arrowhead Stadium",

@@ -2,7 +2,7 @@
   {
     "id": "760509",
     "stage": "round-of-16",
-    "group": "FIFA World Cup",
+    "group": "Round of 16",
     "kickoffUtc": "2026-07-07T16:00Z",
     "kickoffTaiwan": "2026-07-08T00:00:00+08:00",
     "venue": "Mercedes-Benz Stadium",
@@ -36,7 +36,7 @@
   {
     "id": "760508",
     "stage": "round-of-16",
-    "group": "FIFA World Cup",
+    "group": "Round of 16",
     "kickoffUtc": "2026-07-07T20:00Z",
     "kickoffTaiwan": "2026-07-08T04:00:00+08:00",
     "venue": "BC Place",

@@ -2,7 +2,7 @@
   {
     "id": "760504",
     "stage": "round-of-16",
-    "group": "FIFA World Cup",
+    "group": "Round of 16",
     "kickoffUtc": "2026-07-05T20:00Z",
     "kickoffTaiwan": "2026-07-06T04:00:00+08:00",
     "venue": "MetLife Stadium",
@@ -36,7 +36,7 @@
   {
     "id": "760505",
     "stage": "round-of-16",
-    "group": "FIFA World Cup",
+    "group": "Round of 16",
     "kickoffUtc": "2026-07-06T00:00Z",
     "kickoffTaiwan": "2026-07-06T08:00:00+08:00",
     "venue": "Estadio Banorte",
