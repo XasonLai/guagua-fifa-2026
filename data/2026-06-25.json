@@ -74,9 +74,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 22,
-      "draw": 22,
-      "away": 56
+      "home": 17,
+      "draw": 20,
+      "away": 63
     }
   },
   {
@@ -235,8 +235,8 @@
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 27,
-      "draw": 24,
-      "away": 49
+      "draw": 23,
+      "away": 50
     }
   }
 ]

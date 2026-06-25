@@ -80,23 +80,23 @@
     "appearances": 2
   },
   {
-    "id": "211669",
-    "name": "Lionel Mpasi",
-    "teamId": "2850",
-    "team": "Congo DR",
-    "teamZh": "剛果民主共和國",
-    "saves": 8,
-    "goalsConceded": 2,
-    "appearances": 2
+    "id": "175921",
+    "name": "Kim Seung-Gyu",
+    "teamId": "451",
+    "team": "South Korea",
+    "teamZh": "南韓",
+    "saves": 9,
+    "goalsConceded": 3,
+    "appearances": 3
   },
   {
-    "id": "291609",
-    "name": "Bart Verbruggen",
-    "teamId": "449",
-    "team": "Netherlands",
-    "teamZh": "荷蘭",
-    "saves": 8,
-    "goalsConceded": 3,
-    "appearances": 2
+    "id": "277313",
+    "name": "Matej Kovár",
+    "teamId": "450",
+    "team": "Czechia",
+    "teamZh": "捷克",
+    "saves": 9,
+    "goalsConceded": 6,
+    "appearances": 3
   }
 ]
