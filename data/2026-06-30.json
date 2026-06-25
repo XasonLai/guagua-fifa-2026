@@ -10,12 +10,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "5932",
-      "name": "Group E 2nd Place",
-      "zhName": "Group E 2nd Place",
-      "shortName": "2E",
-      "abbr": "2E",
-      "logo": "",
+      "id": "4789",
+      "name": "Ivory Coast",
+      "zhName": "象牙海岸",
+      "shortName": "Ivory Coast",
+      "abbr": "CIV",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
       "homeAway": "home",
       "score": "0",
       "winner": false
