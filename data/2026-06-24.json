@@ -143,7 +143,7 @@
     "kickoffTaiwan": "2026-06-25T09:00:00+08:00",
     "venue": "Estadio Banorte",
     "city": "Mexico City",
-    "status": "Scheduled",
+    "status": "First Half",
     "completed": false,
     "home": {
       "id": "450",
@@ -171,8 +171,8 @@
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 20,
-      "draw": 24,
-      "away": 56
+      "draw": 25,
+      "away": 55
     }
   },
   {
@@ -183,7 +183,7 @@
     "kickoffTaiwan": "2026-06-25T09:00:00+08:00",
     "venue": "Estadio BBVA",
     "city": "Guadalupe",
-    "status": "Scheduled",
+    "status": "First Half",
     "completed": false,
     "home": {
       "id": "467",
@@ -210,9 +210,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 17,
+      "home": 18,
       "draw": 26,
-      "away": 57
+      "away": 56
     }
   }
 ]

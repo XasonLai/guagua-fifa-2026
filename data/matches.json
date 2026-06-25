@@ -1775,7 +1775,7 @@
     "kickoffTaiwan": "2026-06-25T09:00:00+08:00",
     "venue": "Estadio Banorte",
     "city": "Mexico City",
-    "status": "Scheduled",
+    "status": "First Half",
     "completed": false,
     "home": {
       "id": "450",
@@ -1803,8 +1803,8 @@
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 20,
-      "draw": 24,
-      "away": 56
+      "draw": 25,
+      "away": 55
     }
   },
   {
@@ -1815,7 +1815,7 @@
     "kickoffTaiwan": "2026-06-25T09:00:00+08:00",
     "venue": "Estadio BBVA",
     "city": "Guadalupe",
-    "status": "Scheduled",
+    "status": "First Half",
     "completed": false,
     "home": {
       "id": "467",
@@ -1842,9 +1842,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 17,
+      "home": 18,
       "draw": 26,
-      "away": 57
+      "away": 56
     }
   },
   {
@@ -1922,9 +1922,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 24,
+      "home": 23,
       "draw": 23,
-      "away": 53
+      "away": 55
     }
   },
   {
@@ -2002,9 +2002,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 5,
+      "home": 4,
       "draw": 9,
-      "away": 86
+      "away": 87
     }
   },
   {
@@ -2044,7 +2044,7 @@
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 34,
       "draw": 43,
-      "away": 24
+      "away": 23
     }
   },
   {
@@ -2324,7 +2324,7 @@
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 6,
       "draw": 12,
-      "away": 83
+      "away": 82
     }
   },
   {
@@ -2482,7 +2482,7 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 54,
+      "home": 55,
       "draw": 23,
       "away": 22
     }
@@ -2612,12 +2612,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "5927",
-      "name": "Group C Winner",
-      "zhName": "Group C Winner",
-      "shortName": "1C",
-      "abbr": "1C",
-      "logo": "",
+      "id": "205",
+      "name": "Brazil",
+      "zhName": "巴西",
+      "shortName": "Brazil",
+      "abbr": "BRA",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
       "homeAway": "home",
       "score": "0",
       "winner": false
@@ -2691,12 +2691,12 @@
       "winner": false
     },
     "away": {
-      "id": "5930",
-      "name": "Group C 2nd Place",
-      "zhName": "Group C 2nd Place",
-      "shortName": "2C",
-      "abbr": "2C",
-      "logo": "",
+      "id": "2869",
+      "name": "Morocco",
+      "zhName": "摩洛哥",
+      "shortName": "Morocco",
+      "abbr": "MAR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
       "homeAway": "away",
       "score": "0",
       "winner": false
