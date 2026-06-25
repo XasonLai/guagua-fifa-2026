@@ -1843,7 +1843,7 @@
     "kickoffTaiwan": "2026-06-26T04:00:00+08:00",
     "venue": "Lincoln Financial Field",
     "city": "Philadelphia, Pennsylvania",
-    "status": "In Progress",
+    "status": "Second Half",
     "completed": false,
     "home": {
       "id": "11678",
@@ -1883,7 +1883,7 @@
     "kickoffTaiwan": "2026-06-26T04:00:00+08:00",
     "venue": "MetLife Stadium",
     "city": "East Rutherford, New Jersey",
-    "status": "First Half",
+    "status": "Second Half",
     "completed": false,
     "home": {
       "id": "209",
@@ -1950,9 +1950,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 48,
+      "home": 47,
       "draw": 28,
-      "away": 24
+      "away": 25
     }
   },
   {
