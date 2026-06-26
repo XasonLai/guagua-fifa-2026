@@ -1911,8 +1911,8 @@
     "kickoffTaiwan": "2026-06-26T07:00:00+08:00",
     "venue": "AT&T Stadium",
     "city": "Arlington, Texas",
-    "status": "First Half",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "627",
       "name": "Japan",
@@ -1921,7 +1921,7 @@
       "abbr": "JPN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
       "homeAway": "home",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {
@@ -1932,16 +1932,10 @@
       "abbr": "SWE",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
       "homeAway": "away",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
-    "probabilities": {
-      "source": "DraftKings",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 40,
-      "draw": 28,
-      "away": 32
-    }
+    "probabilities": null
   },
   {
     "id": "760472",
@@ -1951,8 +1945,8 @@
     "kickoffTaiwan": "2026-06-26T07:00:00+08:00",
     "venue": "GEHA Field at Arrowhead Stadium",
     "city": "Kansas City, Missouri",
-    "status": "First Half",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "659",
       "name": "Tunisia",
@@ -1961,7 +1955,7 @@
       "abbr": "TUN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
       "homeAway": "home",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {
@@ -1972,16 +1966,10 @@
       "abbr": "NED",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
       "homeAway": "away",
-      "score": "2",
-      "winner": false
+      "score": "3",
+      "winner": true
     },
-    "probabilities": {
-      "source": "ESPN odds",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 5,
-      "draw": 11,
-      "away": 84
-    }
+    "probabilities": null
   },
   {
     "id": "760469",
@@ -2016,11 +2004,11 @@
       "winner": false
     },
     "probabilities": {
-      "source": "ESPN odds",
+      "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 37,
-      "draw": 42,
-      "away": 21
+      "draw": 41,
+      "away": 23
     }
   },
   {
@@ -2058,9 +2046,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 24,
-      "draw": 23,
-      "away": 54
+      "home": 27,
+      "draw": 25,
+      "away": 49
     }
   },
   {
@@ -2098,9 +2086,9 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 19,
-      "draw": 21,
-      "away": 60
+      "home": 18,
+      "draw": 20,
+      "away": 61
     }
   },
   {
@@ -2218,9 +2206,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 13,
-      "draw": 23,
-      "away": 64
+      "home": 12,
+      "draw": 22,
+      "away": 66
     }
   },
   {
@@ -2605,12 +2593,12 @@
       "winner": false
     },
     "away": {
-      "id": "5934",
-      "name": "Group F 2nd Place",
-      "zhName": "Group F 2nd Place",
-      "shortName": "2F",
-      "abbr": "2F",
-      "logo": "",
+      "id": "627",
+      "name": "Japan",
+      "zhName": "日本",
+      "shortName": "Japan",
+      "abbr": "JPN",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
       "homeAway": "away",
       "score": "0",
       "winner": false
@@ -2662,12 +2650,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "5933",
-      "name": "Group F Winner",
-      "zhName": "Group F Winner",
-      "shortName": "1F",
-      "abbr": "1F",
-      "logo": "",
+      "id": "449",
+      "name": "Netherlands",
+      "zhName": "荷蘭",
+      "shortName": "Netherlands",
+      "abbr": "NED",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
       "homeAway": "home",
       "score": "0",
       "winner": false
@@ -2877,12 +2865,12 @@
       "winner": false
     },
     "away": {
-      "id": "131543",
-      "name": "Third Place Group B/E/F/I/J",
-      "zhName": "Third Place Group B/E/F/I/J",
-      "shortName": "3RD B/E/F/I/J",
-      "abbr": "3RD",
-      "logo": "",
+      "id": "452",
+      "name": "Bosnia-Herzegovina",
+      "zhName": "波士尼亞與赫塞哥維納",
+      "shortName": "Bosnia-Herz",
+      "abbr": "BIH",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
       "homeAway": "away",
       "score": "0",
       "winner": false

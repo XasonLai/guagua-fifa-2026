@@ -360,14 +360,14 @@
         "abbr": "NED",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
         "rank": 1,
-        "played": 2,
-        "wins": 1,
+        "played": 3,
+        "wins": 2,
         "draws": 1,
         "losses": 0,
-        "goalsFor": 7,
-        "goalsAgainst": 3,
-        "goalDifference": "+4",
-        "points": 4
+        "goalsFor": 10,
+        "goalsAgainst": 4,
+        "goalDifference": "+6",
+        "points": 7
       },
       {
         "id": "466",
@@ -376,14 +376,14 @@
         "abbr": "SWE",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
         "rank": 3,
-        "played": 2,
+        "played": 3,
         "wins": 1,
-        "draws": 0,
+        "draws": 1,
         "losses": 1,
-        "goalsFor": 6,
-        "goalsAgainst": 6,
+        "goalsFor": 7,
+        "goalsAgainst": 7,
         "goalDifference": "0",
-        "points": 3
+        "points": 4
       },
       {
         "id": "627",
@@ -392,14 +392,14 @@
         "abbr": "JPN",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
         "rank": 2,
-        "played": 2,
+        "played": 3,
         "wins": 1,
-        "draws": 1,
+        "draws": 2,
         "losses": 0,
-        "goalsFor": 6,
-        "goalsAgainst": 2,
+        "goalsFor": 7,
+        "goalsAgainst": 3,
         "goalDifference": "+4",
-        "points": 4
+        "points": 5
       },
       {
         "id": "659",
@@ -408,13 +408,13 @@
         "abbr": "TUN",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
         "rank": 4,
-        "played": 2,
+        "played": 3,
         "wins": 0,
         "draws": 0,
-        "losses": 2,
-        "goalsFor": 1,
-        "goalsAgainst": 9,
-        "goalDifference": "-8",
+        "losses": 3,
+        "goalsFor": 2,
+        "goalsAgainst": 12,
+        "goalDifference": "-10",
         "points": 0
       }
     ]

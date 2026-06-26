@@ -82,6 +82,28 @@
     ]
   },
   {
+    "id": "282229",
+    "name": "Brian Brobbey",
+    "teamId": "449",
+    "team": "Netherlands",
+    "teamZh": "Netherlands",
+    "goals": 3,
+    "matches": [
+      {
+        "matchId": "760447",
+        "minute": "5'"
+      },
+      {
+        "matchId": "760447",
+        "minute": "17'"
+      },
+      {
+        "matchId": "760472",
+        "minute": "7'"
+      }
+    ]
+  },
+  {
     "id": "273300",
     "name": "Deniz Undav",
     "teamId": "481",
@@ -210,24 +232,6 @@
       {
         "matchId": "760465",
         "minute": "7'"
-      }
-    ]
-  },
-  {
-    "id": "282229",
-    "name": "Brian Brobbey",
-    "teamId": "449",
-    "team": "Netherlands",
-    "teamZh": "Netherlands",
-    "goals": 2,
-    "matches": [
-      {
-        "matchId": "760447",
-        "minute": "5'"
-      },
-      {
-        "matchId": "760447",
-        "minute": "17'"
       }
     ]
   }

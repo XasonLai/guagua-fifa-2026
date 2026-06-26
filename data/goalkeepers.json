@@ -50,6 +50,16 @@
     "appearances": 3
   },
   {
+    "id": "291609",
+    "name": "Bart Verbruggen",
+    "teamId": "449",
+    "team": "Netherlands",
+    "teamZh": "荷蘭",
+    "saves": 11,
+    "goalsConceded": 4,
+    "appearances": 3
+  },
+  {
     "id": "89090",
     "name": "Johny Placide",
     "teamId": "2654",
@@ -87,16 +97,6 @@
     "teamZh": "南韓",
     "saves": 9,
     "goalsConceded": 3,
-    "appearances": 3
-  },
-  {
-    "id": "277313",
-    "name": "Matej Kovár",
-    "teamId": "450",
-    "team": "Czechia",
-    "teamZh": "捷克",
-    "saves": 9,
-    "goalsConceded": 6,
     "appearances": 3
   }
 ]

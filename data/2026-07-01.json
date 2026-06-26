@@ -89,12 +89,12 @@
       "winner": false
     },
     "away": {
-      "id": "131543",
-      "name": "Third Place Group B/E/F/I/J",
-      "zhName": "Third Place Group B/E/F/I/J",
-      "shortName": "3RD B/E/F/I/J",
-      "abbr": "3RD",
-      "logo": "",
+      "id": "452",
+      "name": "Bosnia-Herzegovina",
+      "zhName": "波士尼亞與赫塞哥維納",
+      "shortName": "Bosnia-Herz",
+      "abbr": "BIH",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
       "homeAway": "away",
       "score": "0",
       "winner": false
