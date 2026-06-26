@@ -155,8 +155,8 @@
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 16,
-      "draw": 24,
-      "away": 60
+      "draw": 25,
+      "away": 59
     }
   },
   {
