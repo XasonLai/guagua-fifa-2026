@@ -99,6 +99,12 @@
       "score": "0",
       "winner": false
     },
-    "probabilities": null
+    "probabilities": {
+      "source": "DraftKings",
+      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+      "home": 63,
+      "draw": 22,
+      "away": 15
+    }
   }
 ]

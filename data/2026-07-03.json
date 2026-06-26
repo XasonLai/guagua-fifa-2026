@@ -10,12 +10,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "5928",
-      "name": "Group D 2nd Place",
-      "zhName": "Group D 2nd Place",
-      "shortName": "2D",
-      "abbr": "2D",
-      "logo": "",
+      "id": "628",
+      "name": "Australia",
+      "zhName": "澳洲",
+      "shortName": "Australia",
+      "abbr": "AUS",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
       "homeAway": "home",
       "score": "0",
       "winner": false

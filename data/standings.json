@@ -220,14 +220,14 @@
         "abbr": "PAR",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
         "rank": 3,
-        "played": 2,
+        "played": 3,
         "wins": 1,
-        "draws": 0,
+        "draws": 1,
         "losses": 1,
         "goalsFor": 2,
         "goalsAgainst": 4,
         "goalDifference": "-2",
-        "points": 3
+        "points": 4
       },
       {
         "id": "465",
@@ -236,14 +236,14 @@
         "abbr": "TUR",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
         "rank": 4,
-        "played": 2,
-        "wins": 0,
+        "played": 3,
+        "wins": 1,
         "draws": 0,
         "losses": 2,
-        "goalsFor": 0,
-        "goalsAgainst": 3,
-        "goalDifference": "-3",
-        "points": 0
+        "goalsFor": 3,
+        "goalsAgainst": 5,
+        "goalDifference": "-2",
+        "points": 3
       },
       {
         "id": "628",
@@ -252,14 +252,14 @@
         "abbr": "AUS",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
         "rank": 2,
-        "played": 2,
+        "played": 3,
         "wins": 1,
-        "draws": 0,
+        "draws": 1,
         "losses": 1,
         "goalsFor": 2,
         "goalsAgainst": 2,
         "goalDifference": "0",
-        "points": 3
+        "points": 4
       },
       {
         "id": "660",
@@ -268,13 +268,13 @@
         "abbr": "USA",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
         "rank": 1,
-        "played": 2,
+        "played": 3,
         "wins": 2,
         "draws": 0,
-        "losses": 0,
-        "goalsFor": 6,
-        "goalsAgainst": 1,
-        "goalDifference": "+5",
+        "losses": 1,
+        "goalsFor": 8,
+        "goalsAgainst": 4,
+        "goalDifference": "+4",
         "points": 6
       }
     ]
