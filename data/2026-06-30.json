@@ -21,12 +21,12 @@
       "winner": false
     },
     "away": {
-      "id": "131501",
-      "name": "Group I 2nd Place",
-      "zhName": "Group I 2nd Place",
-      "shortName": "2I",
-      "abbr": "2I",
-      "logo": "",
+      "id": "464",
+      "name": "Norway",
+      "zhName": "挪威",
+      "shortName": "Norway",
+      "abbr": "NOR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
       "homeAway": "away",
       "score": "0",
       "winner": false
@@ -44,12 +44,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "131505",
-      "name": "Group I Winner",
-      "zhName": "Group I Winner",
-      "shortName": "1I",
-      "abbr": "1I",
-      "logo": "",
+      "id": "478",
+      "name": "France",
+      "zhName": "法國",
+      "shortName": "France",
+      "abbr": "FRA",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "homeAway": "home",
       "score": "0",
       "winner": false

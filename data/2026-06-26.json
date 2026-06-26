@@ -7,8 +7,8 @@
     "kickoffTaiwan": "2026-06-27T03:00:00+08:00",
     "venue": "Gillette Stadium",
     "city": "Foxborough, Massachusetts",
-    "status": "Second Half",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "464",
       "name": "Norway",
@@ -28,16 +28,10 @@
       "abbr": "FRA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "homeAway": "away",
-      "score": "3",
-      "winner": false
+      "score": "4",
+      "winner": true
     },
-    "probabilities": {
-      "source": "DraftKings",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 12,
-      "draw": 17,
-      "away": 71
-    }
+    "probabilities": null
   },
   {
     "id": "760474",
@@ -47,8 +41,8 @@
     "kickoffTaiwan": "2026-06-27T03:00:00+08:00",
     "venue": "BMO Field",
     "city": "Toronto",
-    "status": "Second Half",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "654",
       "name": "Senegal",
@@ -57,8 +51,8 @@
       "abbr": "SEN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
       "homeAway": "home",
-      "score": "4",
-      "winner": false
+      "score": "5",
+      "winner": true
     },
     "away": {
       "id": "4375",
@@ -71,13 +65,7 @@
       "score": "0",
       "winner": false
     },
-    "probabilities": {
-      "source": "ESPN odds",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 79,
-      "draw": 14,
-      "away": 8
-    }
+    "probabilities": null
   },
   {
     "id": "760478",
@@ -112,11 +100,11 @@
       "winner": false
     },
     "probabilities": {
-      "source": "ESPN odds",
+      "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 36,
-      "draw": 29,
-      "away": 35
+      "home": 35,
+      "draw": 28,
+      "away": 37
     }
   },
   {
@@ -154,9 +142,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 17,
-      "draw": 28,
-      "away": 56
+      "home": 16,
+      "draw": 26,
+      "away": 58
     }
   },
   {

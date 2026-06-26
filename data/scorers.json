@@ -82,6 +82,32 @@
     ]
   },
   {
+    "id": "229744",
+    "name": "Ousmane Dembélé",
+    "teamId": "478",
+    "team": "France",
+    "teamZh": "France",
+    "goals": 4,
+    "matches": [
+      {
+        "matchId": "760457",
+        "minute": "66'"
+      },
+      {
+        "matchId": "760475",
+        "minute": "7'"
+      },
+      {
+        "matchId": "760475",
+        "minute": "20'"
+      },
+      {
+        "matchId": "760475",
+        "minute": "32'"
+      }
+    ]
+  },
+  {
     "id": "273300",
     "name": "Deniz Undav",
     "teamId": "481",
@@ -122,6 +148,28 @@
       {
         "matchId": "760464",
         "minute": "45'+1'"
+      }
+    ]
+  },
+  {
+    "id": "241012",
+    "name": "Ismaïla Sarr",
+    "teamId": "654",
+    "team": "Senegal",
+    "teamZh": "Senegal",
+    "goals": 3,
+    "matches": [
+      {
+        "matchId": "760454",
+        "minute": "53'"
+      },
+      {
+        "matchId": "760454",
+        "minute": "90'+3'"
+      },
+      {
+        "matchId": "760474",
+        "minute": "56'"
       }
     ]
   },
@@ -188,46 +236,6 @@
       {
         "matchId": "760465",
         "minute": "60'"
-      }
-    ]
-  },
-  {
-    "id": "252107",
-    "name": "Vinícius Júnior",
-    "teamId": "205",
-    "team": "Brazil",
-    "teamZh": "Brazil",
-    "goals": 3,
-    "matches": [
-      {
-        "matchId": "760419",
-        "minute": "32'"
-      },
-      {
-        "matchId": "760444",
-        "minute": "45'+3'"
-      },
-      {
-        "matchId": "760465",
-        "minute": "7'"
-      }
-    ]
-  },
-  {
-    "id": "296622",
-    "name": "Anthony Elanga",
-    "teamId": "466",
-    "team": "Sweden",
-    "teamZh": "Sweden",
-    "goals": 2,
-    "matches": [
-      {
-        "matchId": "760447",
-        "minute": "59'"
-      },
-      {
-        "matchId": "760471",
-        "minute": "62'"
       }
     ]
   }
