@@ -2047,7 +2047,7 @@
     "kickoffTaiwan": "2026-06-27T03:00:00+08:00",
     "venue": "Gillette Stadium",
     "city": "Foxborough, Massachusetts",
-    "status": "In Progress",
+    "status": "Second Half",
     "completed": false,
     "home": {
       "id": "464",
@@ -2087,7 +2087,7 @@
     "kickoffTaiwan": "2026-06-27T03:00:00+08:00",
     "venue": "BMO Field",
     "city": "Toronto",
-    "status": "First Half",
+    "status": "Second Half",
     "completed": false,
     "home": {
       "id": "654",
@@ -2097,7 +2097,7 @@
       "abbr": "SEN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
       "homeAway": "home",
-      "score": "1",
+      "score": "4",
       "winner": false
     },
     "away": {
@@ -2235,8 +2235,8 @@
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 38,
-      "draw": 38,
-      "away": 24
+      "draw": 36,
+      "away": 26
     }
   },
   {
@@ -2315,7 +2315,7 @@
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 54,
-      "draw": 28,
+      "draw": 29,
       "away": 17
     }
   },
