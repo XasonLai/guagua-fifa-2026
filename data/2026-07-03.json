@@ -55,12 +55,12 @@
       "winner": false
     },
     "away": {
-      "id": "5938",
-      "name": "Group H 2nd Place",
-      "zhName": "Group H 2nd Place",
-      "shortName": "2H",
-      "abbr": "2H",
-      "logo": "",
+      "id": "2597",
+      "name": "Cape Verde",
+      "zhName": "維德角",
+      "shortName": "Cape Verde",
+      "abbr": "CPV",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
       "homeAway": "away",
       "score": "0",
       "winner": false

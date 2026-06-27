@@ -61,12 +61,12 @@
       "winner": false
     },
     "away": {
-      "id": "131544",
-      "name": "Third Place Group C/D/F/G/H",
-      "zhName": "Third Place Group C/D/F/G/H",
-      "shortName": "3RD C/D/F/G/H",
-      "abbr": "3RD",
-      "logo": "",
+      "id": "466",
+      "name": "Sweden",
+      "zhName": "瑞典",
+      "shortName": "Sweden",
+      "abbr": "SWE",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
       "homeAway": "away",
       "score": "0",
       "winner": false

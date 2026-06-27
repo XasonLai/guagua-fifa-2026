@@ -61,12 +61,12 @@
       "winner": false
     },
     "away": {
-      "id": "131541",
-      "name": "Third Place Group A/B/C/D/F",
-      "zhName": "Third Place Group A/B/C/D/F",
-      "shortName": "3RD A/B/C/D/F",
-      "abbr": "3RD",
-      "logo": "",
+      "id": "210",
+      "name": "Paraguay",
+      "zhName": "巴拉圭",
+      "shortName": "Paraguay",
+      "abbr": "PAR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
       "homeAway": "away",
       "score": "0",
       "winner": false

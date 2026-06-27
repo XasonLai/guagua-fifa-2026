@@ -2115,8 +2115,8 @@
     "kickoffTaiwan": "2026-06-27T08:00:00+08:00",
     "venue": "NRG Stadium",
     "city": "Houston, Texas",
-    "status": "Second Half",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "2597",
       "name": "Cape Verde",
@@ -2139,13 +2139,7 @@
       "score": "0",
       "winner": false
     },
-    "probabilities": {
-      "source": "DraftKings",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 38,
-      "draw": 27,
-      "away": 34
-    }
+    "probabilities": null
   },
   {
     "id": "760479",
@@ -2155,8 +2149,8 @@
     "kickoffTaiwan": "2026-06-27T08:00:00+08:00",
     "venue": "Estadio Akron",
     "city": "Guadalajara",
-    "status": "Second Half",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "212",
       "name": "Uruguay",
@@ -2177,15 +2171,9 @@
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "homeAway": "away",
       "score": "1",
-      "winner": false
+      "winner": true
     },
-    "probabilities": {
-      "source": "ESPN odds",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 17,
-      "draw": 26,
-      "away": 57
-    }
+    "probabilities": null
   },
   {
     "id": "760476",
@@ -2220,7 +2208,7 @@
       "winner": false
     },
     "probabilities": {
-      "source": "ESPN odds",
+      "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 36,
       "draw": 36,
@@ -2609,12 +2597,12 @@
       "winner": false
     },
     "away": {
-      "id": "131541",
-      "name": "Third Place Group A/B/C/D/F",
-      "zhName": "Third Place Group A/B/C/D/F",
-      "shortName": "3RD A/B/C/D/F",
-      "abbr": "3RD",
-      "logo": "",
+      "id": "210",
+      "name": "Paraguay",
+      "zhName": "巴拉圭",
+      "shortName": "Paraguay",
+      "abbr": "PAR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
       "homeAway": "away",
       "score": "0",
       "winner": false
@@ -2723,12 +2711,12 @@
       "winner": false
     },
     "away": {
-      "id": "131544",
-      "name": "Third Place Group C/D/F/G/H",
-      "zhName": "Third Place Group C/D/F/G/H",
-      "shortName": "3RD C/D/F/G/H",
-      "abbr": "3RD",
-      "logo": "",
+      "id": "466",
+      "name": "Sweden",
+      "zhName": "瑞典",
+      "shortName": "Sweden",
+      "abbr": "SWE",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
       "homeAway": "away",
       "score": "0",
       "winner": false
@@ -2888,12 +2876,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "5937",
-      "name": "Group H Winner",
-      "zhName": "Group H Winner",
-      "shortName": "1H",
-      "abbr": "1H",
-      "logo": "",
+      "id": "164",
+      "name": "Spain",
+      "zhName": "西班牙",
+      "shortName": "Spain",
+      "abbr": "ESP",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "homeAway": "home",
       "score": "0",
       "winner": false
@@ -3035,12 +3023,12 @@
       "winner": false
     },
     "away": {
-      "id": "5938",
-      "name": "Group H 2nd Place",
-      "zhName": "Group H 2nd Place",
-      "shortName": "2H",
-      "abbr": "2H",
-      "logo": "",
+      "id": "2597",
+      "name": "Cape Verde",
+      "zhName": "維德角",
+      "shortName": "Cape Verde",
+      "abbr": "CPV",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
       "homeAway": "away",
       "score": "0",
       "winner": false

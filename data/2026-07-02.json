@@ -10,12 +10,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "5937",
-      "name": "Group H Winner",
-      "zhName": "Group H Winner",
-      "shortName": "1H",
-      "abbr": "1H",
-      "logo": "",
+      "id": "164",
+      "name": "Spain",
+      "zhName": "西班牙",
+      "shortName": "Spain",
+      "abbr": "ESP",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "homeAway": "home",
       "score": "0",
       "winner": false
