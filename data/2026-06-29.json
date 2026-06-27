@@ -71,7 +71,13 @@
       "score": "0",
       "winner": false
     },
-    "probabilities": null
+    "probabilities": {
+      "source": "ESPN odds",
+      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+      "home": 70,
+      "draw": 19,
+      "away": 11
+    }
   },
   {
     "id": "760488",
@@ -110,7 +116,7 @@
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 45,
       "draw": 29,
-      "away": 26
+      "away": 25
     }
   }
 ]
