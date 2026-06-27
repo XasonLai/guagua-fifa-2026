@@ -75,7 +75,7 @@
     "kickoffTaiwan": "2026-06-27T08:00:00+08:00",
     "venue": "NRG Stadium",
     "city": "Houston, Texas",
-    "status": "First Half",
+    "status": "Second Half",
     "completed": false,
     "home": {
       "id": "2597",
@@ -115,7 +115,7 @@
     "kickoffTaiwan": "2026-06-27T08:00:00+08:00",
     "venue": "Estadio Akron",
     "city": "Guadalajara",
-    "status": "First Half",
+    "status": "Second Half",
     "completed": false,
     "home": {
       "id": "212",
@@ -136,7 +136,7 @@
       "abbr": "ESP",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "homeAway": "away",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "probabilities": {
