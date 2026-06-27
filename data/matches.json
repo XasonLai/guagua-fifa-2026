@@ -2261,7 +2261,7 @@
       "abbr": "CRO",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
       "homeAway": "home",
-      "score": "1",
+      "score": "2",
       "winner": false
     },
     "away": {
@@ -2272,7 +2272,7 @@
       "abbr": "GHA",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
       "homeAway": "away",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "probabilities": {
@@ -2291,8 +2291,8 @@
     "kickoffTaiwan": "2026-06-28T05:00:00+08:00",
     "venue": "MetLife Stadium",
     "city": "East Rutherford, New Jersey",
-    "status": "Second Half",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "2659",
       "name": "Panama",
@@ -2313,15 +2313,9 @@
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
       "homeAway": "away",
       "score": "2",
-      "winner": false
+      "winner": true
     },
-    "probabilities": {
-      "source": "ESPN odds",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 6,
-      "draw": 11,
-      "away": 83
-    }
+    "probabilities": null
   },
   {
     "id": "760481",
@@ -2358,7 +2352,7 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 24,
+      "home": 23,
       "draw": 24,
       "away": 52
     }
@@ -2399,7 +2393,7 @@
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 57,
-      "draw": 25,
+      "draw": 24,
       "away": 18
     }
   },
@@ -2520,7 +2514,7 @@
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 17,
       "draw": 26,
-      "away": 57
+      "away": 56
     }
   },
   {
