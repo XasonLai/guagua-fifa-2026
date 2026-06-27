@@ -7,7 +7,7 @@
     "kickoffTaiwan": "2026-06-28T05:00:00+08:00",
     "venue": "Lincoln Financial Field",
     "city": "Philadelphia, Pennsylvania",
-    "status": "First Half",
+    "status": "Halftime",
     "completed": false,
     "home": {
       "id": "477",
@@ -17,7 +17,7 @@
       "abbr": "CRO",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
       "homeAway": "home",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {
@@ -47,7 +47,7 @@
     "kickoffTaiwan": "2026-06-28T05:00:00+08:00",
     "venue": "MetLife Stadium",
     "city": "East Rutherford, New Jersey",
-    "status": "First Half",
+    "status": "Halftime",
     "completed": false,
     "home": {
       "id": "2659",
