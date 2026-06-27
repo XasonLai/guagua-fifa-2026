@@ -143,7 +143,7 @@
     "kickoffTaiwan": "2026-06-27T11:00:00+08:00",
     "venue": "Lumen Field",
     "city": "Seattle, Washington",
-    "status": "Scheduled",
+    "status": "Halftime",
     "completed": false,
     "home": {
       "id": "2620",
@@ -153,7 +153,7 @@
       "abbr": "EGY",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
       "homeAway": "home",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {
@@ -164,7 +164,7 @@
       "abbr": "IRN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
       "homeAway": "away",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "probabilities": {
@@ -183,7 +183,7 @@
     "kickoffTaiwan": "2026-06-27T11:00:00+08:00",
     "venue": "BC Place",
     "city": "Vancouver",
-    "status": "Scheduled",
+    "status": "Halftime",
     "completed": false,
     "home": {
       "id": "2666",
@@ -204,7 +204,7 @@
       "abbr": "BEL",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
       "homeAway": "away",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "probabilities": {
