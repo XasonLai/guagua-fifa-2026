@@ -101,12 +101,12 @@
       "winner": false
     },
     "away": {
-      "id": "131545",
-      "name": "Third Place Group C/E/F/H/I",
-      "zhName": "Third Place Group C/E/F/H/I",
-      "shortName": "3RD C/E/F/H/I",
-      "abbr": "3RD",
-      "logo": "",
+      "id": "209",
+      "name": "Ecuador",
+      "zhName": "厄瓜多",
+      "shortName": "Ecuador",
+      "abbr": "ECU",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
       "homeAway": "away",
       "score": "0",
       "winner": false

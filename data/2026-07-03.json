@@ -101,12 +101,12 @@
       "winner": false
     },
     "away": {
-      "id": "131546",
-      "name": "Third Place Group D/E/I/J/L",
-      "zhName": "Third Place Group D/E/I/J/L",
-      "shortName": "3RD D/E/I/J/L",
-      "abbr": "3RD",
-      "logo": "",
+      "id": "4469",
+      "name": "Ghana",
+      "zhName": "迦納",
+      "shortName": "Ghana",
+      "abbr": "GHA",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
       "homeAway": "away",
       "score": "0",
       "winner": false

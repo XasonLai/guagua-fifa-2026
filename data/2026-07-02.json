@@ -55,12 +55,12 @@
       "winner": false
     },
     "away": {
-      "id": "131504",
-      "name": "Group L 2nd Place",
-      "zhName": "Group L 2nd Place",
-      "shortName": "2L",
-      "abbr": "2L",
-      "logo": "",
+      "id": "477",
+      "name": "Croatia",
+      "zhName": "克羅埃西亞",
+      "shortName": "Croatia",
+      "abbr": "CRO",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
       "homeAway": "away",
       "score": "0",
       "winner": false
