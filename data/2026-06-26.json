@@ -143,8 +143,8 @@
     "kickoffTaiwan": "2026-06-27T11:00:00+08:00",
     "venue": "Lumen Field",
     "city": "Seattle, Washington",
-    "status": "Halftime",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "2620",
       "name": "Egypt",
@@ -167,13 +167,7 @@
       "score": "1",
       "winner": false
     },
-    "probabilities": {
-      "source": "DraftKings",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 36,
-      "draw": 36,
-      "away": 28
-    }
+    "probabilities": null
   },
   {
     "id": "760477",
@@ -183,8 +177,8 @@
     "kickoffTaiwan": "2026-06-27T11:00:00+08:00",
     "venue": "BC Place",
     "city": "Vancouver",
-    "status": "Halftime",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "2666",
       "name": "New Zealand",
@@ -193,7 +187,7 @@
       "abbr": "NZL",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
       "homeAway": "home",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {
@@ -204,15 +198,9 @@
       "abbr": "BEL",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
       "homeAway": "away",
-      "score": "1",
-      "winner": false
+      "score": "5",
+      "winner": true
     },
-    "probabilities": {
-      "source": "ESPN odds",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 7,
-      "draw": 12,
-      "away": 81
-    }
+    "probabilities": null
   }
 ]

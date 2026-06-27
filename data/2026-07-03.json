@@ -21,12 +21,12 @@
       "winner": false
     },
     "away": {
-      "id": "5936",
-      "name": "Group G 2nd Place",
-      "zhName": "Group G 2nd Place",
-      "shortName": "2G",
-      "abbr": "2G",
-      "logo": "",
+      "id": "2620",
+      "name": "Egypt",
+      "zhName": "埃及",
+      "shortName": "Egypt",
+      "abbr": "EGY",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
       "homeAway": "away",
       "score": "0",
       "winner": false
@@ -65,7 +65,13 @@
       "score": "0",
       "winner": false
     },
-    "probabilities": null
+    "probabilities": {
+      "source": "DraftKings",
+      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+      "home": 83,
+      "draw": 12,
+      "away": 6
+    }
   },
   {
     "id": "760501",

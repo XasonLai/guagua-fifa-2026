@@ -2183,8 +2183,8 @@
     "kickoffTaiwan": "2026-06-27T11:00:00+08:00",
     "venue": "Lumen Field",
     "city": "Seattle, Washington",
-    "status": "Halftime",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "2620",
       "name": "Egypt",
@@ -2207,13 +2207,7 @@
       "score": "1",
       "winner": false
     },
-    "probabilities": {
-      "source": "DraftKings",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 36,
-      "draw": 36,
-      "away": 28
-    }
+    "probabilities": null
   },
   {
     "id": "760477",
@@ -2223,8 +2217,8 @@
     "kickoffTaiwan": "2026-06-27T11:00:00+08:00",
     "venue": "BC Place",
     "city": "Vancouver",
-    "status": "Halftime",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "2666",
       "name": "New Zealand",
@@ -2233,7 +2227,7 @@
       "abbr": "NZL",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
       "homeAway": "home",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {
@@ -2244,16 +2238,10 @@
       "abbr": "BEL",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
       "homeAway": "away",
-      "score": "1",
-      "winner": false
+      "score": "5",
+      "winner": true
     },
-    "probabilities": {
-      "source": "ESPN odds",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 7,
-      "draw": 12,
-      "away": 81
-    }
+    "probabilities": null
   },
   {
     "id": "760480",
@@ -2292,7 +2280,7 @@
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 52,
       "draw": 30,
-      "away": 17
+      "away": 18
     }
   },
   {
@@ -2331,8 +2319,8 @@
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 6,
-      "draw": 13,
-      "away": 81
+      "draw": 12,
+      "away": 82
     }
   },
   {
@@ -2370,9 +2358,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 24,
+      "home": 27,
       "draw": 25,
-      "away": 51
+      "away": 48
     }
   },
   {
@@ -2410,9 +2398,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 56,
-      "draw": 23,
-      "away": 21
+      "home": 57,
+      "draw": 24,
+      "away": 19
     }
   },
   {
@@ -2450,9 +2438,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 24,
+      "home": 23,
       "draw": 44,
-      "away": 33
+      "away": 32
     }
   },
   {
@@ -2490,7 +2478,7 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 6,
+      "home": 5,
       "draw": 11,
       "away": 83
     }
@@ -2802,12 +2790,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "5935",
-      "name": "Group G Winner",
-      "zhName": "Group G Winner",
-      "shortName": "1G",
-      "abbr": "1G",
-      "logo": "",
+      "id": "459",
+      "name": "Belgium",
+      "zhName": "比利時",
+      "shortName": "Belgium",
+      "abbr": "BEL",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
       "homeAway": "home",
       "score": "0",
       "winner": false
@@ -2989,12 +2977,12 @@
       "winner": false
     },
     "away": {
-      "id": "5936",
-      "name": "Group G 2nd Place",
-      "zhName": "Group G 2nd Place",
-      "shortName": "2G",
-      "abbr": "2G",
-      "logo": "",
+      "id": "2620",
+      "name": "Egypt",
+      "zhName": "埃及",
+      "shortName": "Egypt",
+      "abbr": "EGY",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
       "homeAway": "away",
       "score": "0",
       "winner": false
@@ -3033,7 +3021,13 @@
       "score": "0",
       "winner": false
     },
-    "probabilities": null
+    "probabilities": {
+      "source": "DraftKings",
+      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+      "home": 83,
+      "draw": 12,
+      "away": 6
+    }
   },
   {
     "id": "760501",

@@ -152,6 +152,28 @@
     ]
   },
   {
+    "id": "266555",
+    "name": "Elijah Just",
+    "teamId": "2666",
+    "team": "New Zealand",
+    "teamZh": "紐西蘭",
+    "goals": 3,
+    "matches": [
+      {
+        "matchId": "760427",
+        "minute": "7'"
+      },
+      {
+        "matchId": "760427",
+        "minute": "54'"
+      },
+      {
+        "matchId": "760477",
+        "minute": "84'"
+      }
+    ]
+  },
+  {
     "id": "304572",
     "name": "Ismael Saibari",
     "teamId": "2869",
@@ -214,28 +236,6 @@
       {
         "matchId": "760463",
         "minute": "57'"
-      }
-    ]
-  },
-  {
-    "id": "273499",
-    "name": "Jonathan David",
-    "teamId": "206",
-    "team": "Canada",
-    "teamZh": "Canada",
-    "goals": 3,
-    "matches": [
-      {
-        "matchId": "760440",
-        "minute": "29'"
-      },
-      {
-        "matchId": "760440",
-        "minute": "45'+3'"
-      },
-      {
-        "matchId": "760440",
-        "minute": "90'+2'"
       }
     ]
   }
