@@ -31,7 +31,13 @@
       "score": "0",
       "winner": false
     },
-    "probabilities": null
+    "probabilities": {
+      "source": "DraftKings",
+      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+      "home": 74,
+      "draw": 17,
+      "away": 9
+    }
   },
   {
     "id": "760493",
@@ -65,7 +71,13 @@
       "score": "0",
       "winner": false
     },
-    "probabilities": null
+    "probabilities": {
+      "source": "ESPN odds",
+      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+      "home": 46,
+      "draw": 29,
+      "away": 25
+    }
   },
   {
     "id": "760494",
@@ -100,7 +112,7 @@
       "winner": false
     },
     "probabilities": {
-      "source": "DraftKings",
+      "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 69,
       "draw": 20,
