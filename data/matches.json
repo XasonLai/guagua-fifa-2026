@@ -2455,7 +2455,7 @@
     "kickoffTaiwan": "2026-06-29T03:00:00+08:00",
     "venue": "SoFi Stadium",
     "city": "Inglewood, California",
-    "status": "Scheduled",
+    "status": "In Progress",
     "completed": false,
     "home": {
       "id": "467",
@@ -2602,9 +2602,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 44,
-      "draw": 30,
-      "away": 26
+      "home": 42,
+      "draw": 31,
+      "away": 28
     }
   },
   {
@@ -2962,9 +2962,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 50,
-      "draw": 27,
-      "away": 22
+      "home": 48,
+      "draw": 28,
+      "away": 23
     }
   },
   {
