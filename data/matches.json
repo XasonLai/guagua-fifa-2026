@@ -2455,7 +2455,7 @@
     "kickoffTaiwan": "2026-06-29T03:00:00+08:00",
     "venue": "SoFi Stadium",
     "city": "Inglewood, California",
-    "status": "In Progress",
+    "status": "Second Half",
     "completed": false,
     "home": {
       "id": "467",
@@ -2523,7 +2523,7 @@
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 56,
-      "draw": 24,
+      "draw": 25,
       "away": 19
     }
   },
