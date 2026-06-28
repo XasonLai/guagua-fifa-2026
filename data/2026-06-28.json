@@ -7,8 +7,8 @@
     "kickoffTaiwan": "2026-06-29T03:00:00+08:00",
     "venue": "SoFi Stadium",
     "city": "Inglewood, California",
-    "status": "Second Half",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "467",
       "name": "South Africa",
@@ -28,15 +28,9 @@
       "abbr": "CAN",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
       "homeAway": "away",
-      "score": "0",
-      "winner": false
+      "score": "1",
+      "winner": true
     },
-    "probabilities": {
-      "source": "DraftKings",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 20,
-      "draw": 28,
-      "away": 52
-    }
+    "probabilities": null
   }
 ]

@@ -80,6 +80,16 @@
     "appearances": 3
   },
   {
+    "id": "196230",
+    "name": "Ronwen Williams",
+    "teamId": "467",
+    "team": "South Africa",
+    "teamZh": "南非",
+    "saves": 11,
+    "goalsConceded": 4,
+    "appearances": 4
+  },
+  {
     "id": "89090",
     "name": "Johny Placide",
     "teamId": "2654",
@@ -87,16 +97,6 @@
     "teamZh": "海地",
     "saves": 11,
     "goalsConceded": 8,
-    "appearances": 3
-  },
-  {
-    "id": "168747",
-    "name": "Max Crocombe",
-    "teamId": "2666",
-    "team": "New Zealand",
-    "teamZh": "紐西蘭",
-    "saves": 11,
-    "goalsConceded": 10,
     "appearances": 3
   }
 ]

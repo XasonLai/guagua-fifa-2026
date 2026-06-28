@@ -10,12 +10,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "131525",
-      "name": "Round of 32 1 Winner",
-      "zhName": "Round of 32 1 Winner",
-      "shortName": "RD32 W1",
-      "abbr": "RD32",
-      "logo": "",
+      "id": "206",
+      "name": "Canada",
+      "zhName": "加拿大",
+      "shortName": "Canada",
+      "abbr": "CAN",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
       "homeAway": "home",
       "score": "0",
       "winner": false
