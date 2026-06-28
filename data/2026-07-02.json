@@ -44,12 +44,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "131503",
-      "name": "Group K 2nd Place",
-      "zhName": "Group K 2nd Place",
-      "shortName": "2K",
-      "abbr": "2K",
-      "logo": "",
+      "id": "482",
+      "name": "Portugal",
+      "zhName": "葡萄牙",
+      "shortName": "Portugal",
+      "abbr": "POR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
       "homeAway": "home",
       "score": "0",
       "winner": false

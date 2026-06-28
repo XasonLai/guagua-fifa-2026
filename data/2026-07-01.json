@@ -21,12 +21,12 @@
       "winner": false
     },
     "away": {
-      "id": "131548",
-      "name": "Third Place Group E/H/I/J/K",
-      "zhName": "Third Place Group E/H/I/J/K",
-      "shortName": "3RD E/H/I/J/K",
-      "abbr": "3RD",
-      "logo": "",
+      "id": "2850",
+      "name": "Congo DR",
+      "zhName": "剛果民主共和國",
+      "shortName": "Congo DR",
+      "abbr": "COD",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
       "homeAway": "away",
       "score": "0",
       "winner": false
@@ -55,12 +55,12 @@
       "winner": false
     },
     "away": {
-      "id": "131542",
-      "name": "Third Place Group A/E/H/I/J",
-      "zhName": "Third Place Group A/E/H/I/J",
-      "shortName": "3RD A/E/H/I/J",
-      "abbr": "3RD",
-      "logo": "",
+      "id": "654",
+      "name": "Senegal",
+      "zhName": "塞內加爾",
+      "shortName": "Senegal",
+      "abbr": "SEN",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
       "homeAway": "away",
       "score": "0",
       "winner": false

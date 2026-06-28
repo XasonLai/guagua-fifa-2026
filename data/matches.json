@@ -2319,8 +2319,8 @@
     "kickoffTaiwan": "2026-06-28T07:30:00+08:00",
     "venue": "Hard Rock Stadium",
     "city": "Miami Gardens, Florida",
-    "status": "Second Half",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "208",
       "name": "Colombia",
@@ -2343,13 +2343,7 @@
       "score": "0",
       "winner": false
     },
-    "probabilities": {
-      "source": "DraftKings",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 23,
-      "draw": 24,
-      "away": 53
-    }
+    "probabilities": null
   },
   {
     "id": "760482",
@@ -2359,8 +2353,8 @@
     "kickoffTaiwan": "2026-06-28T07:30:00+08:00",
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta, Georgia",
-    "status": "Second Half",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "2850",
       "name": "Congo DR",
@@ -2369,8 +2363,8 @@
       "abbr": "COD",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
       "homeAway": "home",
-      "score": "2",
-      "winner": false
+      "score": "3",
+      "winner": true
     },
     "away": {
       "id": "2570",
@@ -2383,13 +2377,7 @@
       "score": "1",
       "winner": false
     },
-    "probabilities": {
-      "source": "ESPN odds",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 57,
-      "draw": 25,
-      "away": 18
-    }
+    "probabilities": null
   },
   {
     "id": "760484",
@@ -2399,7 +2387,7 @@
     "kickoffTaiwan": "2026-06-28T10:00:00+08:00",
     "venue": "GEHA Field at Arrowhead Stadium",
     "city": "Kansas City, Missouri",
-    "status": "Scheduled",
+    "status": "First Half",
     "completed": false,
     "home": {
       "id": "624",
@@ -2420,11 +2408,11 @@
       "abbr": "AUT",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
       "homeAway": "away",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "probabilities": {
-      "source": "ESPN odds",
+      "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 27,
       "draw": 47,
@@ -2439,7 +2427,7 @@
     "kickoffTaiwan": "2026-06-28T10:00:00+08:00",
     "venue": "AT&T Stadium",
     "city": "Arlington, Texas",
-    "status": "Scheduled",
+    "status": "First Half",
     "completed": false,
     "home": {
       "id": "2917",
@@ -2460,7 +2448,7 @@
       "abbr": "ARG",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "homeAway": "away",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "probabilities": {
@@ -2468,7 +2456,7 @@
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 5,
       "draw": 11,
-      "away": 83
+      "away": 84
     }
   },
   {
@@ -2707,7 +2695,7 @@
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 74,
-      "draw": 17,
+      "draw": 16,
       "away": 10
     }
   },
@@ -2767,12 +2755,12 @@
       "winner": false
     },
     "away": {
-      "id": "131548",
-      "name": "Third Place Group E/H/I/J/K",
-      "zhName": "Third Place Group E/H/I/J/K",
-      "shortName": "3RD E/H/I/J/K",
-      "abbr": "3RD",
-      "logo": "",
+      "id": "2850",
+      "name": "Congo DR",
+      "zhName": "剛果民主共和國",
+      "shortName": "Congo DR",
+      "abbr": "COD",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
       "homeAway": "away",
       "score": "0",
       "winner": false
@@ -2801,12 +2789,12 @@
       "winner": false
     },
     "away": {
-      "id": "131542",
-      "name": "Third Place Group A/E/H/I/J",
-      "zhName": "Third Place Group A/E/H/I/J",
-      "shortName": "3RD A/E/H/I/J",
-      "abbr": "3RD",
-      "logo": "",
+      "id": "654",
+      "name": "Senegal",
+      "zhName": "塞內加爾",
+      "shortName": "Senegal",
+      "abbr": "SEN",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
       "homeAway": "away",
       "score": "0",
       "winner": false
@@ -2898,12 +2886,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "131503",
-      "name": "Group K 2nd Place",
-      "zhName": "Group K 2nd Place",
-      "shortName": "2K",
-      "abbr": "2K",
-      "logo": "",
+      "id": "482",
+      "name": "Portugal",
+      "zhName": "葡萄牙",
+      "shortName": "Portugal",
+      "abbr": "POR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
       "homeAway": "home",
       "score": "0",
       "winner": false
@@ -3030,8 +3018,8 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 83,
-      "draw": 12,
+      "home": 84,
+      "draw": 11,
       "away": 5
     }
   },
@@ -3046,12 +3034,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "131507",
-      "name": "Group K Winner",
-      "zhName": "Group K Winner",
-      "shortName": "1K",
-      "abbr": "1K",
-      "logo": "",
+      "id": "208",
+      "name": "Colombia",
+      "zhName": "哥倫比亞",
+      "shortName": "Colombia",
+      "abbr": "COL",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
       "homeAway": "home",
       "score": "0",
       "winner": false
