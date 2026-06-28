@@ -21,17 +21,23 @@
       "winner": false
     },
     "away": {
-      "id": "131502",
-      "name": "Group J 2nd Place",
-      "zhName": "Group J 2nd Place",
-      "shortName": "2J",
-      "abbr": "2J",
-      "logo": "",
+      "id": "474",
+      "name": "Austria",
+      "zhName": "奧地利",
+      "shortName": "Austria",
+      "abbr": "AUT",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
       "homeAway": "away",
       "score": "0",
       "winner": false
     },
-    "probabilities": null
+    "probabilities": {
+      "source": "DraftKings",
+      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+      "home": 75,
+      "draw": 17,
+      "away": 8
+    }
   },
   {
     "id": "760496",
@@ -66,11 +72,11 @@
       "winner": false
     },
     "probabilities": {
-      "source": "DraftKings",
+      "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 50,
+      "home": 52,
       "draw": 27,
-      "away": 23
+      "away": 20
     }
   },
   {
@@ -95,16 +101,22 @@
       "winner": false
     },
     "away": {
-      "id": "131547",
-      "name": "Third Place Group E/F/G/I/J",
-      "zhName": "Third Place Group E/F/G/I/J",
-      "shortName": "3RD E/F/G/I/J",
-      "abbr": "3RD",
-      "logo": "",
+      "id": "624",
+      "name": "Algeria",
+      "zhName": "阿爾及利亞",
+      "shortName": "Algeria",
+      "abbr": "ALG",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
       "homeAway": "away",
       "score": "0",
       "winner": false
     },
-    "probabilities": null
+    "probabilities": {
+      "source": "ESPN odds",
+      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+      "home": 52,
+      "draw": 26,
+      "away": 22
+    }
   }
 ]

@@ -640,14 +640,14 @@
         "abbr": "ARG",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
         "rank": 1,
-        "played": 2,
-        "wins": 2,
+        "played": 3,
+        "wins": 3,
         "draws": 0,
         "losses": 0,
-        "goalsFor": 5,
-        "goalsAgainst": 0,
-        "goalDifference": "+5",
-        "points": 6
+        "goalsFor": 8,
+        "goalsAgainst": 1,
+        "goalDifference": "+7",
+        "points": 9
       },
       {
         "id": "474",
@@ -656,14 +656,14 @@
         "abbr": "AUT",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
         "rank": 2,
-        "played": 2,
+        "played": 3,
         "wins": 1,
-        "draws": 0,
+        "draws": 1,
         "losses": 1,
-        "goalsFor": 3,
-        "goalsAgainst": 3,
+        "goalsFor": 6,
+        "goalsAgainst": 6,
         "goalDifference": "0",
-        "points": 3
+        "points": 4
       },
       {
         "id": "624",
@@ -672,14 +672,14 @@
         "abbr": "ALG",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
         "rank": 3,
-        "played": 2,
+        "played": 3,
         "wins": 1,
-        "draws": 0,
+        "draws": 1,
         "losses": 1,
-        "goalsFor": 2,
-        "goalsAgainst": 4,
+        "goalsFor": 5,
+        "goalsAgainst": 7,
         "goalDifference": "-2",
-        "points": 3
+        "points": 4
       },
       {
         "id": "2917",
@@ -688,13 +688,13 @@
         "abbr": "JOR",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
         "rank": 4,
-        "played": 2,
+        "played": 3,
         "wins": 0,
         "draws": 0,
-        "losses": 2,
-        "goalsFor": 2,
-        "goalsAgainst": 5,
-        "goalDifference": "-3",
+        "losses": 3,
+        "goalsFor": 3,
+        "goalsAgainst": 8,
+        "goalDifference": "-5",
         "points": 0
       }
     ]
