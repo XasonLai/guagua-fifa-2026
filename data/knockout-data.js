@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-06-29T22:33:22.076462+00:00",
+    "updatedAt": "2026-06-29T22:59:30.381412+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -83,7 +83,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-06-30T04:30:00+08:00",
       "venue": "Gillette Stadium",
       "city": "Foxborough, Massachusetts",
-      "status": "End of Regulation",
+      "status": "Overtime",
       "completed": false,
       "home": {
         "id": "481",
