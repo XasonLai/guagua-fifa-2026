@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-06-29T21:41:11.399929+00:00",
+    "updatedAt": "2026-06-29T22:33:22.076462+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -83,7 +83,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-06-30T04:30:00+08:00",
       "venue": "Gillette Stadium",
       "city": "Foxborough, Massachusetts",
-      "status": "In Progress",
+      "status": "End of Regulation",
       "completed": false,
       "home": {
         "id": "481",
@@ -93,7 +93,7 @@ window.KNOCKOUT_DATA = {
         "abbr": "GER",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
         "homeAway": "home",
-        "score": "0",
+        "score": "1",
         "winner": false
       },
       "away": {
@@ -190,9 +190,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 27,
+        "home": 26,
         "draw": 28,
-        "away": 45
+        "away": 46
       }
     },
     {

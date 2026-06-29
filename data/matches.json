@@ -2523,7 +2523,7 @@
     "kickoffTaiwan": "2026-06-30T04:30:00+08:00",
     "venue": "Gillette Stadium",
     "city": "Foxborough, Massachusetts",
-    "status": "In Progress",
+    "status": "End of Regulation",
     "completed": false,
     "home": {
       "id": "481",
@@ -2533,7 +2533,7 @@
       "abbr": "GER",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
       "homeAway": "home",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {
@@ -2630,9 +2630,9 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 27,
+      "home": 26,
       "draw": 28,
-      "away": 45
+      "away": 46
     }
   },
   {
