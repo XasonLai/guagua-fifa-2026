@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-06-29T18:53:17.394598+00:00",
+    "updatedAt": "2026-06-29T19:44:41.812573+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -49,8 +49,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-06-30T01:00:00+08:00",
       "venue": "NRG Stadium",
       "city": "Houston, Texas",
-      "status": "Second Half",
-      "completed": false,
+      "status": "Full Time",
+      "completed": true,
       "home": {
         "id": "205",
         "name": "Brazil",
@@ -59,8 +59,8 @@ window.KNOCKOUT_DATA = {
         "abbr": "BRA",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
         "homeAway": "home",
-        "score": "1",
-        "winner": false
+        "score": "2",
+        "winner": true
       },
       "away": {
         "id": "627",
@@ -73,13 +73,7 @@ window.KNOCKOUT_DATA = {
         "score": "1",
         "winner": false
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 55,
-        "draw": 27,
-        "away": 18
-      }
+      "probabilities": null
     },
     {
       "id": "760489",
@@ -114,7 +108,7 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "probabilities": {
-        "source": "ESPN odds",
+        "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 71,
         "draw": 19,
@@ -720,12 +714,12 @@ window.KNOCKOUT_DATA = {
       "status": "Scheduled",
       "completed": false,
       "home": {
-        "id": "131528",
-        "name": "Round of 32 4 Winner",
-        "zhName": "Round of 32 4 Winner",
-        "shortName": "RD32 W4",
-        "abbr": "RD32",
-        "logo": "",
+        "id": "205",
+        "name": "Brazil",
+        "zhName": "巴西",
+        "shortName": "Brazil",
+        "abbr": "BRA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
         "homeAway": "home",
         "score": "0",
         "winner": false
