@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-06-29T16:44:52.050284+00:00",
+    "updatedAt": "2026-06-29T17:58:17.920157+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -49,7 +49,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-06-30T01:00:00+08:00",
       "venue": "NRG Stadium",
       "city": "Houston, Texas",
-      "status": "Scheduled",
+      "status": "Halftime",
       "completed": false,
       "home": {
         "id": "205",
@@ -70,15 +70,15 @@ window.KNOCKOUT_DATA = {
         "abbr": "JPN",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
         "homeAway": "away",
-        "score": "0",
+        "score": "1",
         "winner": false
       },
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 54,
+        "home": 55,
         "draw": 27,
-        "away": 19
+        "away": 18
       }
     },
     {
@@ -196,9 +196,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 26,
-        "draw": 27,
-        "away": 47
+        "home": 27,
+        "draw": 28,
+        "away": 45
       }
     },
     {
