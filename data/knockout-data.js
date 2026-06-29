@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-06-29T19:44:41.812573+00:00",
+    "updatedAt": "2026-06-29T20:45:45.844522+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -83,7 +83,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-06-30T04:30:00+08:00",
       "venue": "Gillette Stadium",
       "city": "Foxborough, Massachusetts",
-      "status": "Scheduled",
+      "status": "In Progress",
       "completed": false,
       "home": {
         "id": "481",
@@ -110,9 +110,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 71,
+        "home": 72,
         "draw": 19,
-        "away": 10
+        "away": 9
       }
     },
     {
@@ -150,9 +150,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 41,
+        "home": 40,
         "draw": 31,
-        "away": 28
+        "away": 29
       }
     },
     {
@@ -230,8 +230,8 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 75,
-        "draw": 16,
+        "home": 76,
+        "draw": 15,
         "away": 9
       }
     },
@@ -470,9 +470,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 53,
+        "home": 54,
         "draw": 26,
-        "away": 20
+        "away": 19
       }
     },
     {
