@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026 FIFA 世界盃淘汰賽程</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { margin: 0; background: #f6f7f2; color: #17211b; }
+    header { padding: 28px clamp(16px, 5vw, 56px) 18px; background: #143c35; color: white; }
+    h1 { margin: 0 0 10px; font-size: clamp(28px, 5vw, 48px); letter-spacing: 0; }
+    a { color: inherit; }
+    main { max-width: 1440px; margin: 0 auto; padding: 22px clamp(14px, 4vw, 28px) 48px; }
+    .meta { color: #5d6a62; margin-bottom: 18px; }
+    .tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+    .tabs a { background: white; border: 1px solid #c8d0c6; border-radius: 6px; color: #17211b; font-weight: 700; padding: 9px 12px; text-decoration: none; }
+    .bracket-wrap { overflow-x: auto; padding: 8px 0 18px; position: relative; }
+    .bracket-lines { position: absolute; inset: 8px 0 18px; pointer-events: none; z-index: 0; }
+    .bracket-line { fill: none; stroke: #b9c5bb; stroke-width: 2; }
+    .bracket { min-width: 1320px; display: grid; grid-template-columns: 280px 280px 280px 280px 280px; gap: 20px; align-items: start; position: relative; z-index: 1; }
+    .round-column { display: grid; grid-template-rows: auto 1fr; }
+    h2 { margin: 0 0 12px; font-size: 18px; text-align: center; }
+    .round-games { position: relative; }
+    .match { position: absolute; left: 0; right: 0; background: white; border: 1px solid #dbe1d8; border-radius: 8px; padding: 12px; display: grid; gap: 10px; min-height: 126px; box-sizing: border-box; box-shadow: 0 1px 3px rgb(20 60 53 / 8%); }
+    .top { display: flex; justify-content: space-between; gap: 10px; color: #5d6a62; font-size: 14px; }
+    .team { display: grid; grid-template-columns: 28px 1fr auto; gap: 8px; align-items: center; min-width: 0; }
+    img, .seed { width: 28px; height: 28px; }
+    img { object-fit: contain; }
+    .seed { display: grid; place-items: center; border-radius: 50%; background: #eef1eb; color: #5d6a62; font-size: 12px; font-weight: 800; }
+    .name { font-weight: 800; overflow-wrap: anywhere; }
+    .english, .venue { color: #5d6a62; font-size: 13px; }
+    .score { font-size: 18px; font-weight: 900; color: #d6293e; }
+    .winner .name { color: #d6293e; }
+    .venue { border-top: 1px solid #edf0eb; padding-top: 10px; }
+    .third-place { max-width: 360px; margin-top: 22px; }
+    .third-place h2 { text-align: left; }
+    @media (max-width: 720px) {
+      .bracket-wrap { overflow-x: visible; }
+      .bracket-lines { display: none; }
+      .bracket { min-width: 0; display: grid; grid-template-columns: 1fr; gap: 22px; }
+      .round-games { position: static !important; height: auto !important; display: grid; gap: 12px; }
+      .match { position: relative; top: auto !important; }
+      h2 { text-align: left; }
+      .top { display: grid; }
+      .team { grid-template-columns: 28px 1fr auto; }
+      .third-place { max-width: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>淘汰賽程</h1>
+    <p><a href="./">回賽程</a> · <a href="groups.html">小組積分</a> · <a href="scorers.html">射手榜</a> · <a href="goalkeepers.html">守門員榜</a></p>
+  </header>
+  <main>
+    <div class="meta" id="meta"></div>
+    <nav class="tabs" id="tabs" aria-label="淘汰賽輪次"></nav>
+    <section id="rounds"></section>
+  </main>
+  <script src="data/knockout-data.js"></script>
+  <script>
+    const fmt = new Intl.DateTimeFormat('zh-TW', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'Asia/Taipei' });
+    const rounds = [
+      ['round-of-32', '32 強賽'],
+      ['round-of-16', '16 強賽'],
+      ['quarterfinals', '半準決賽'],
+      ['semifinals', '準決賽'],
+      ['final', '決賽'],
+    ];
+    const extraRounds = [['3rd-place-match', '季軍賽']];
+    const statusText = {
+      Scheduled: '尚未開賽',
+      'In Progress': '進行中',
+      'Full Time': '已結束',
+    };
+
+    function seedText(team) {
+      const text = team.shortName || team.name;
+      return text.replace('RD32 W', '32W').replace('RD16 W', '16W').replace('QF W', 'QW').replace('SF W', 'SW').replace('SF L', 'SL');
+    }
+
+    function teamLabel(team) {
+      if (team.logo) return team.zhName || team.name;
+      let match = team.name.match(/^Group ([A-L]) Winner$/);
+      if (match) return `${match[1]} 組第 1`;
+      match = team.name.match(/^Group ([A-L]) 2nd Place$/);
+      if (match) return `${match[1]} 組第 2`;
+      match = team.name.match(/^Third Place Group (.+)$/);
+      if (match) return `小組第 3：${match[1]}`;
+      match = team.name.match(/^Round of 32 (\d+) Winner$/);
+      if (match) return `32 強第 ${match[1]} 場勝方`;
+      match = team.name.match(/^Round of 16 (\d+) Winner$/);
+      if (match) return `16 強第 ${match[1]} 場勝方`;
+      match = team.name.match(/^Quarterfinal (\d+) Winner$/);
+      if (match) return `半準決賽第 ${match[1]} 場勝方`;
+      match = team.name.match(/^Semifinal (\d+) (Winner|Loser)$/);
+      if (match) return `準決賽第 ${match[1]} 場${match[2] === 'Winner' ? '勝方' : '敗方'}`;
+      return team.name;
+    }
+
+    function badge(team) {
+      return team.logo ? `<img src="${team.logo}" alt="">` : `<span class="seed">${seedText(team)}</span>`;
+    }
+
+    function teamRow(team, match) {
+      const won = team.winner ? ' winner' : '';
+      const score = match.status === 'Scheduled' ? '' : team.score;
+      return `
+        <div class="team${won}">
+          ${badge(team)}
+          <div><div class="name">${teamLabel(team)}</div><div class="english">${team.name}</div></div>
+          <div class="score">${score}</div>
+        </div>
+      `;
+    }
+
+    async function loadData() {
+      if (location.protocol === 'file:' && window.KNOCKOUT_DATA) return [window.KNOCKOUT_DATA.meta, window.KNOCKOUT_DATA.matches];
+      try {
+        return await Promise.all([
+          fetch('data/meta.json').then(r => r.json()),
+          fetch('data/matches.json').then(r => r.json()),
+        ]);
+      } catch (err) {
+        if (window.KNOCKOUT_DATA) return [window.KNOCKOUT_DATA.meta, window.KNOCKOUT_DATA.matches];
+        throw err;
+      }
+    }
+
+    loadData().then(([meta, matches]) => {
+      const knockout = matches.filter(m => m.stage !== 'group-stage');
+      document.getElementById('meta').textContent = `ESPN scoreboard 已提供 ${knockout.length} 場淘汰賽程 · 更新：${fmt.format(new Date(meta.updatedAt))}`;
+      document.getElementById('tabs').innerHTML = rounds.concat(extraRounds).map(([stage, label]) => {
+        const count = knockout.filter(m => m.stage === stage).length;
+        return `<a href="#${stage}">${label} ${count}</a>`;
+      }).join('');
+      document.getElementById('rounds').innerHTML = `
+        <div class="bracket-wrap">
+          <svg class="bracket-lines" aria-hidden="true"></svg>
+          <section class="bracket" aria-label="淘汰賽樹狀圖">
+            ${rounds.map(([stage, label]) => {
+              const games = knockout.filter(m => m.stage === stage);
+              return `
+                <section class="round-column ${stage}" id="${stage}">
+                  <h2>${label}</h2>
+                  <div class="round-games">${games.map((m, i) => matchCard(m, stage, i + 1)).join('')}</div>
+                </section>
+              `;
+            }).join('')}
+          </section>
+        </div>
+        ${extraRounds.map(([stage, label]) => {
+          const games = knockout.filter(m => m.stage === stage);
+          return `
+            <section class="third-place" id="${stage}">
+              <h2>${label}</h2>
+              ${games.map((m, i) => matchCard(m, stage, i + 1)).join('')}
+            </section>
+          `;
+        }).join('')}
+      `;
+      requestAnimationFrame(() => layoutBracket(knockout));
+      addEventListener('resize', () => layoutBracket(knockout));
+    }).catch(err => { document.getElementById('rounds').textContent = err.message; });
+
+    function matchCard(m, stage, index) {
+      return `
+        <article class="match" data-stage="${stage}" data-index="${index}">
+          <div class="top"><span>${fmt.format(new Date(m.kickoffTaiwan))}</span><span>${statusText[m.status] || m.status}</span></div>
+          ${teamRow(m.home, m)}
+          ${teamRow(m.away, m)}
+          <div class="venue">${m.venue}${m.city ? ` · ${m.city}` : ''}</div>
+        </article>
+      `;
+    }
+
+    function winnerSeed(team) {
+      const patterns = [
+        [/^Round of 32 (\d+) Winner$/, 'round-of-32'],
+        [/^Round of 16 (\d+) Winner$/, 'round-of-16'],
+        [/^Quarterfinal (\d+) Winner$/, 'quarterfinals'],
+        [/^Semifinal (\d+) Winner$/, 'semifinals'],
+      ];
+      for (const [pattern, stage] of patterns) {
+        const match = team.name.match(pattern);
+        if (match) return { stage, index: Number(match[1]) };
+      }
+      return null;
+    }
+
+    function winningSource(team, stageMatches, stage) {
+      const seeded = winnerSeed(team);
+      if (seeded) return seeded;
+      const index = stageMatches.findIndex(m => m.completed && [m.home, m.away].some(t => t.id === team.id && t.winner));
+      return index >= 0 ? { stage, index: index + 1 } : null;
+    }
+
+    function layoutBracket(knockout) {
+      if (matchMedia('(max-width: 720px)').matches) return;
+
+      const stageOrder = rounds.map(([stage]) => stage);
+      const byStage = Object.fromEntries(stageOrder.map(stage => [stage, knockout.filter(m => m.stage === stage)]));
+      const cards = [...document.querySelectorAll('.bracket .match')];
+      cards.forEach(el => { el.style.height = 'auto'; });
+      const cardHeight = Math.max(126, ...cards.map(el => el.offsetHeight));
+      cards.forEach(el => { el.style.height = `${cardHeight}px`; });
+      const gap = 14;
+      const positions = {};
+
+      stageOrder.forEach((stage, stageIndex) => {
+        const games = byStage[stage];
+        positions[stage] = {};
+        games.forEach((match, index) => {
+          let top = index * (cardHeight + gap);
+          if (stageIndex > 0) {
+            const prevStage = stageOrder[stageIndex - 1];
+            const centers = [match.home, match.away].map(team => winningSource(team, byStage[prevStage], prevStage))
+              .filter(Boolean)
+              .map(source => positions[source.stage]?.[source.index] + cardHeight / 2)
+              .filter(Number.isFinite);
+            if (centers.length) top = centers.reduce((sum, y) => sum + y, 0) / centers.length - cardHeight / 2;
+          }
+          positions[stage][index + 1] = top;
+          const el = document.querySelector(`[data-stage="${stage}"][data-index="${index + 1}"]`);
+          if (el) el.style.top = `${top}px`;
+        });
+      });
+
+      const height = Math.max(...Object.values(positions['round-of-32'])) + cardHeight;
+      document.querySelectorAll('.round-games').forEach(el => { el.style.height = `${height}px`; });
+      drawConnectors(knockout);
+    }
+
+    function drawConnectors(knockout) {
+      const wrap = document.querySelector('.bracket-wrap');
+      const svg = document.querySelector('.bracket-lines');
+      if (!wrap || !svg || matchMedia('(max-width: 720px)').matches) return;
+
+      const stageOrder = rounds.map(([stage]) => stage);
+      const byStage = Object.fromEntries(stageOrder.map(stage => [stage, knockout.filter(m => m.stage === stage)]));
+      const wrapBox = wrap.getBoundingClientRect();
+      const height = wrap.scrollHeight - 26;
+      svg.setAttribute('width', wrap.scrollWidth);
+      svg.setAttribute('height', height);
+      svg.setAttribute('viewBox', `0 0 ${wrap.scrollWidth} ${height}`);
+      svg.innerHTML = '';
+
+      function point(selector, side) {
+        const el = document.querySelector(selector);
+        if (!el) return null;
+        const box = el.getBoundingClientRect();
+        const x = (side === 'right' ? box.right : box.left) - wrapBox.left + wrap.scrollLeft;
+        const y = box.top + box.height / 2 - wrapBox.top + wrap.scrollTop;
+        return { x, y };
+      }
+
+      for (let i = 1; i < stageOrder.length; i += 1) {
+        const stage = stageOrder[i];
+        const prevStage = stageOrder[i - 1];
+        byStage[stage].forEach((match, targetIndex) => {
+          const target = point(`[data-stage="${stage}"][data-index="${targetIndex + 1}"]`, 'left');
+          if (!target) return;
+          [match.home, match.away].forEach(team => {
+            const source = winningSource(team, byStage[prevStage], prevStage);
+            if (!source) return;
+            const start = point(`[data-stage="${source.stage}"][data-index="${source.index}"]`, 'right');
+            if (!start) return;
+            const mid = start.x + Math.max(18, (target.x - start.x) / 2);
+            const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+            path.setAttribute('class', 'bracket-line');
+            path.setAttribute('d', `M ${start.x} ${start.y} H ${mid} V ${target.y} H ${target.x}`);
+            svg.appendChild(path);
+          });
+        });
+      }
+    }
+  </script>
+</body>
+</html>

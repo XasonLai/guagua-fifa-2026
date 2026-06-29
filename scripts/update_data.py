@@ -104,6 +104,10 @@ def write_json(path: Path, value) -> None:
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def write_js_data(path: Path, value) -> None:
+    path.write_text("window.KNOCKOUT_DATA = " + json.dumps(value, ensure_ascii=False, indent=2) + ";\n", encoding="utf-8")
+
+
 def zh_name(name: str, abbr: str = "") -> str:
     return TEAM_ZH.get(abbr) or TEAM_ZH_BY_NAME.get(name) or name
 
@@ -286,17 +290,23 @@ def update(start: date, end: date) -> None:
             goals.extend(goal_scorers(summary, match))
             keepers.extend(goalkeepers(summary))
 
-    write_json(DATA / "matches.json", matches)
-    write_json(DATA / "teams.json", sorted(teams.values(), key=lambda t: t["name"]))
-    write_json(DATA / "scorers.json", scorer_table(goals))
-    write_json(DATA / "goalkeepers.json", goalkeeper_table(keepers))
-    write_json(DATA / "standings.json", group_standings(fetch_standings()))
-    write_json(DATA / "meta.json", {
+    meta = {
         "source": SOURCE,
         "updatedAt": datetime.now(UTC).isoformat(),
         "timezone": "Asia/Taipei",
         "start": start.isoformat(),
         "end": end.isoformat(),
+    }
+
+    write_json(DATA / "matches.json", matches)
+    write_json(DATA / "teams.json", sorted(teams.values(), key=lambda t: t["name"]))
+    write_json(DATA / "scorers.json", scorer_table(goals))
+    write_json(DATA / "goalkeepers.json", goalkeeper_table(keepers))
+    write_json(DATA / "standings.json", group_standings(fetch_standings()))
+    write_json(DATA / "meta.json", meta)
+    write_js_data(DATA / "knockout-data.js", {
+        "meta": meta,
+        "matches": [m for m in matches if m["stage"] != "group-stage"],
     })
 
 
