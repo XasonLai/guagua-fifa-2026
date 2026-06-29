@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-06-29T22:59:30.381412+00:00",
+    "updatedAt": "2026-06-29T23:31:07.966181+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -83,8 +83,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-06-30T04:30:00+08:00",
       "venue": "Gillette Stadium",
       "city": "Foxborough, Massachusetts",
-      "status": "Overtime",
-      "completed": false,
+      "status": "Final Score - After Penalties",
+      "completed": true,
       "home": {
         "id": "481",
         "name": "Germany",
@@ -105,15 +105,9 @@ window.KNOCKOUT_DATA = {
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
         "homeAway": "away",
         "score": "1",
-        "winner": false
+        "winner": true
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 72,
-        "draw": 19,
-        "away": 9
-      }
+      "probabilities": null
     },
     {
       "id": "760488",
@@ -148,7 +142,7 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "probabilities": {
-        "source": "ESPN odds",
+        "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 40,
         "draw": 31,
@@ -680,12 +674,12 @@ window.KNOCKOUT_DATA = {
       "status": "Scheduled",
       "completed": false,
       "home": {
-        "id": "131526",
-        "name": "Round of 32 2 Winner",
-        "zhName": "Round of 32 2 Winner",
-        "shortName": "RD32 W2",
-        "abbr": "RD32",
-        "logo": "",
+        "id": "210",
+        "name": "Paraguay",
+        "zhName": "巴拉圭",
+        "shortName": "Paraguay",
+        "abbr": "PAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
         "homeAway": "home",
         "score": "0",
         "winner": false

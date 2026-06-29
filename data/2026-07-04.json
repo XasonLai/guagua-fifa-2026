@@ -44,12 +44,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "131526",
-      "name": "Round of 32 2 Winner",
-      "zhName": "Round of 32 2 Winner",
-      "shortName": "RD32 W2",
-      "abbr": "RD32",
-      "logo": "",
+      "id": "210",
+      "name": "Paraguay",
+      "zhName": "巴拉圭",
+      "shortName": "Paraguay",
+      "abbr": "PAR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
       "homeAway": "home",
       "score": "0",
       "winner": false

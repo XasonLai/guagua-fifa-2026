@@ -10,6 +10,16 @@
     "appearances": 3
   },
   {
+    "id": "301648",
+    "name": "Orlando Gil",
+    "teamId": "210",
+    "team": "Paraguay",
+    "teamZh": "巴拉圭",
+    "saves": 19,
+    "goalsConceded": 5,
+    "appearances": 4
+  },
+  {
     "id": "247018",
     "name": "Mohammed Al-Owais",
     "teamId": "655",
@@ -27,16 +37,6 @@
     "teamZh": "伊朗",
     "saves": 15,
     "goalsConceded": 3,
-    "appearances": 3
-  },
-  {
-    "id": "301648",
-    "name": "Orlando Gil",
-    "teamId": "210",
-    "team": "Paraguay",
-    "teamZh": "巴拉圭",
-    "saves": 13,
-    "goalsConceded": 4,
     "appearances": 3
   },
   {
