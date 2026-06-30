@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-06-30T22:37:17.943722+00:00",
+    "updatedAt": "2026-06-30T23:37:03.629652+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -185,8 +185,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-01T05:00:00+08:00",
       "venue": "MetLife Stadium",
       "city": "East Rutherford, New Jersey",
-      "status": "Second Half",
-      "completed": false,
+      "status": "Full Time",
+      "completed": true,
       "home": {
         "id": "478",
         "name": "France",
@@ -196,7 +196,7 @@ window.KNOCKOUT_DATA = {
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
         "homeAway": "home",
         "score": "3",
-        "winner": false
+        "winner": true
       },
       "away": {
         "id": "466",
@@ -209,13 +209,7 @@ window.KNOCKOUT_DATA = {
         "score": "0",
         "winner": false
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 74,
-        "draw": 16,
-        "away": 10
-      }
+      "probabilities": null
     },
     {
       "id": "760491",
@@ -250,11 +244,11 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "probabilities": {
-        "source": "ESPN odds",
+        "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 44,
-        "draw": 33,
-        "away": 23
+        "home": 43,
+        "draw": 34,
+        "away": 24
       }
     },
     {
@@ -679,17 +673,23 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "away": {
-        "id": "131529",
-        "name": "Round of 32 5 Winner",
-        "zhName": "Round of 32 5 Winner",
-        "shortName": "RD32 W5",
-        "abbr": "RD32",
-        "logo": "",
+        "id": "478",
+        "name": "France",
+        "zhName": "法國",
+        "shortName": "France",
+        "abbr": "FRA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
         "homeAway": "away",
         "score": "0",
         "winner": false
       },
-      "probabilities": null
+      "probabilities": {
+        "source": "ESPN odds",
+        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+        "home": 6,
+        "draw": 14,
+        "away": 80
+      }
     },
     {
       "id": "760504",
