@@ -2591,7 +2591,7 @@
     "kickoffTaiwan": "2026-07-01T01:00:00+08:00",
     "venue": "AT&T Stadium",
     "city": "Arlington, Texas",
-    "status": "Scheduled",
+    "status": "First Half",
     "completed": false,
     "home": {
       "id": "4789",
@@ -2612,7 +2612,7 @@
       "abbr": "NOR",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
       "homeAway": "away",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "probabilities": {
