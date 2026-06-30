@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-06-30T18:50:06.174521+00:00",
+    "updatedAt": "2026-06-30T19:45:13.050285+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -151,8 +151,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-01T01:00:00+08:00",
       "venue": "AT&T Stadium",
       "city": "Arlington, Texas",
-      "status": "Second Half",
-      "completed": false,
+      "status": "Full Time",
+      "completed": true,
       "home": {
         "id": "4789",
         "name": "Ivory Coast",
@@ -173,15 +173,9 @@ window.KNOCKOUT_DATA = {
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
         "homeAway": "away",
         "score": "2",
-        "winner": false
+        "winner": true
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 27,
-        "draw": 29,
-        "away": 44
-      }
+      "probabilities": null
     },
     {
       "id": "760492",
@@ -216,7 +210,7 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "probabilities": {
-        "source": "ESPN odds",
+        "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 75,
         "draw": 16,
@@ -258,8 +252,8 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 42,
-        "draw": 34,
+        "home": 43,
+        "draw": 33,
         "away": 24
       }
     },
@@ -378,7 +372,7 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 70,
+        "home": 69,
         "draw": 20,
         "away": 11
       }
@@ -719,17 +713,23 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "away": {
-        "id": "131530",
-        "name": "Round of 32 6 Winner",
-        "zhName": "Round of 32 6 Winner",
-        "shortName": "RD32 W6",
-        "abbr": "RD32",
-        "logo": "",
+        "id": "464",
+        "name": "Norway",
+        "zhName": "挪威",
+        "shortName": "Norway",
+        "abbr": "NOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
         "homeAway": "away",
         "score": "0",
         "winner": false
       },
-      "probabilities": null
+      "probabilities": {
+        "source": "DraftKings",
+        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+        "home": 50,
+        "draw": 27,
+        "away": 23
+      }
     },
     {
       "id": "760505",
