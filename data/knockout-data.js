@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-06-30T17:45:47.222957+00:00",
+    "updatedAt": "2026-06-30T18:50:06.174521+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -151,7 +151,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-01T01:00:00+08:00",
       "venue": "AT&T Stadium",
       "city": "Arlington, Texas",
-      "status": "First Half",
+      "status": "Second Half",
       "completed": false,
       "home": {
         "id": "4789",
@@ -161,7 +161,7 @@ window.KNOCKOUT_DATA = {
         "abbr": "CIV",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
         "homeAway": "home",
-        "score": "0",
+        "score": "1",
         "winner": false
       },
       "away": {
@@ -172,7 +172,7 @@ window.KNOCKOUT_DATA = {
         "abbr": "NOR",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
         "homeAway": "away",
-        "score": "1",
+        "score": "2",
         "winner": false
       },
       "probabilities": {
