@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-06-30T20:48:08.537100+00:00",
+    "updatedAt": "2026-06-30T21:42:00.646038+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -185,7 +185,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-01T05:00:00+08:00",
       "venue": "MetLife Stadium",
       "city": "East Rutherford, New Jersey",
-      "status": "Scheduled",
+      "status": "First Half",
       "completed": false,
       "home": {
         "id": "478",
@@ -213,8 +213,8 @@ window.KNOCKOUT_DATA = {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 74,
-        "draw": 17,
-        "away": 9
+        "draw": 16,
+        "away": 10
       }
     },
     {
@@ -332,9 +332,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 43,
-        "draw": 30,
-        "away": 28
+        "home": 44,
+        "draw": 29,
+        "away": 27
       }
     },
     {
