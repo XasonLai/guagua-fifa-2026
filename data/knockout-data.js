@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-06-30T01:14:44.292426+00:00",
+    "updatedAt": "2026-06-30T02:30:12.440372+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -117,7 +117,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-06-30T09:00:00+08:00",
       "venue": "Estadio BBVA",
       "city": "Guadalupe",
-      "status": "First Half",
+      "status": "Second Half",
       "completed": false,
       "home": {
         "id": "449",
@@ -264,8 +264,8 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 44,
-        "draw": 32,
+        "home": 43,
+        "draw": 33,
         "away": 24
       }
     },
@@ -306,7 +306,7 @@ window.KNOCKOUT_DATA = {
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 75,
         "draw": 17,
-        "away": 8
+        "away": 7
       }
     },
     {
@@ -504,9 +504,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 47,
+        "home": 46,
         "draw": 29,
-        "away": 24
+        "away": 25
       }
     },
     {
