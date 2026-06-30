@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-06-30T21:42:00.646038+00:00",
+    "updatedAt": "2026-06-30T22:37:17.943722+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -185,7 +185,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-01T05:00:00+08:00",
       "venue": "MetLife Stadium",
       "city": "East Rutherford, New Jersey",
-      "status": "First Half",
+      "status": "Second Half",
       "completed": false,
       "home": {
         "id": "478",
@@ -195,7 +195,7 @@ window.KNOCKOUT_DATA = {
         "abbr": "FRA",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
         "homeAway": "home",
-        "score": "0",
+        "score": "3",
         "winner": false
       },
       "away": {
@@ -493,7 +493,7 @@ window.KNOCKOUT_DATA = {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 46,
-        "draw": 29,
+        "draw": 30,
         "away": 25
       }
     },
