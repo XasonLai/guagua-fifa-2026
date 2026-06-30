@@ -20,6 +20,16 @@
     "appearances": 4
   },
   {
+    "id": "291609",
+    "name": "Bart Verbruggen",
+    "teamId": "449",
+    "team": "Netherlands",
+    "teamZh": "荷蘭",
+    "saves": 16,
+    "goalsConceded": 5,
+    "appearances": 4
+  },
+  {
     "id": "247018",
     "name": "Mohammed Al-Owais",
     "teamId": "655",
@@ -87,16 +97,6 @@
     "teamZh": "瑞士",
     "saves": 11,
     "goalsConceded": 3,
-    "appearances": 3
-  },
-  {
-    "id": "291609",
-    "name": "Bart Verbruggen",
-    "teamId": "449",
-    "team": "Netherlands",
-    "teamZh": "荷蘭",
-    "saves": 11,
-    "goalsConceded": 4,
     "appearances": 3
   }
 ]

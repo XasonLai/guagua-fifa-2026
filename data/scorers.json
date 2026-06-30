@@ -130,6 +130,28 @@
     ]
   },
   {
+    "id": "249524",
+    "name": "Cody Gakpo",
+    "teamId": "449",
+    "team": "Netherlands",
+    "teamZh": "Netherlands",
+    "goals": 3,
+    "matches": [
+      {
+        "matchId": "760447",
+        "minute": "47'"
+      },
+      {
+        "matchId": "760447",
+        "minute": "54'"
+      },
+      {
+        "matchId": "760488",
+        "minute": "72'"
+      }
+    ]
+  },
+  {
     "id": "273300",
     "name": "Deniz Undav",
     "teamId": "481",
@@ -214,28 +236,6 @@
       {
         "matchId": "760474",
         "minute": "56'"
-      }
-    ]
-  },
-  {
-    "id": "386992",
-    "name": "Johan Manzambi",
-    "teamId": "475",
-    "team": "Switzerland",
-    "teamZh": "Switzerland",
-    "goals": 3,
-    "matches": [
-      {
-        "matchId": "760439",
-        "minute": "74'"
-      },
-      {
-        "matchId": "760439",
-        "minute": "90'"
-      },
-      {
-        "matchId": "760463",
-        "minute": "57'"
       }
     ]
   }

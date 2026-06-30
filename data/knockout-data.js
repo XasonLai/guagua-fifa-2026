@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-06-30T02:30:12.440372+00:00",
+    "updatedAt": "2026-06-30T03:57:53.934872+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -117,8 +117,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-06-30T09:00:00+08:00",
       "venue": "Estadio BBVA",
       "city": "Guadalupe",
-      "status": "Second Half",
-      "completed": false,
+      "status": "Final Score - After Penalties",
+      "completed": true,
       "home": {
         "id": "449",
         "name": "Netherlands",
@@ -127,7 +127,7 @@ window.KNOCKOUT_DATA = {
         "abbr": "NED",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
         "homeAway": "home",
-        "score": "0",
+        "score": "1",
         "winner": false
       },
       "away": {
@@ -138,16 +138,10 @@ window.KNOCKOUT_DATA = {
         "abbr": "MAR",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
         "homeAway": "away",
-        "score": "0",
-        "winner": false
+        "score": "1",
+        "winner": true
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 39,
-        "draw": 31,
-        "away": 29
-      }
+      "probabilities": null
     },
     {
       "id": "760490",
@@ -424,9 +418,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 73,
+        "home": 72,
         "draw": 18,
-        "away": 9
+        "away": 10
       }
     },
     {
@@ -586,7 +580,7 @@ window.KNOCKOUT_DATA = {
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 82,
         "draw": 13,
-        "away": 6
+        "away": 5
       }
     },
     {
@@ -651,12 +645,12 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "away": {
-        "id": "131527",
-        "name": "Round of 32 3 Winner",
-        "zhName": "Round of 32 3 Winner",
-        "shortName": "RD32 W3",
-        "abbr": "RD32",
-        "logo": "",
+        "id": "2869",
+        "name": "Morocco",
+        "zhName": "摩洛哥",
+        "shortName": "Morocco",
+        "abbr": "MAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
         "homeAway": "away",
         "score": "0",
         "winner": false

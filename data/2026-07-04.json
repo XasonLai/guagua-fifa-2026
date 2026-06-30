@@ -21,12 +21,12 @@
       "winner": false
     },
     "away": {
-      "id": "131527",
-      "name": "Round of 32 3 Winner",
-      "zhName": "Round of 32 3 Winner",
-      "shortName": "RD32 W3",
-      "abbr": "RD32",
-      "logo": "",
+      "id": "2869",
+      "name": "Morocco",
+      "zhName": "摩洛哥",
+      "shortName": "Morocco",
+      "abbr": "MAR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
       "homeAway": "away",
       "score": "0",
       "winner": false
