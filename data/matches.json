@@ -2754,9 +2754,9 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 45,
+      "home": 48,
       "draw": 28,
-      "away": 26
+      "away": 24
     }
   },
   {
@@ -3191,7 +3191,13 @@
       "score": "0",
       "winner": false
     },
-    "probabilities": null
+    "probabilities": {
+      "source": "ESPN odds",
+      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+      "home": 28,
+      "draw": 30,
+      "away": 42
+    }
   },
   {
     "id": "760506",
