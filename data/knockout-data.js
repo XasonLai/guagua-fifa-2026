@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-01T16:27:50.295766+00:00",
+    "updatedAt": "2026-07-01T17:22:33.279490+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -253,7 +253,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-02T00:00:00+08:00",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta, Georgia",
-      "status": "First Half",
+      "status": "In Progress",
       "completed": false,
       "home": {
         "id": "448",
