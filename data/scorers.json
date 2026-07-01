@@ -94,6 +94,32 @@
     ]
   },
   {
+    "id": "241012",
+    "name": "Ismaïla Sarr",
+    "teamId": "654",
+    "team": "Senegal",
+    "teamZh": "Senegal",
+    "goals": 4,
+    "matches": [
+      {
+        "matchId": "760454",
+        "minute": "53'"
+      },
+      {
+        "matchId": "760454",
+        "minute": "90'+3'"
+      },
+      {
+        "matchId": "760474",
+        "minute": "56'"
+      },
+      {
+        "matchId": "760493",
+        "minute": "51'"
+      }
+    ]
+  },
+  {
     "id": "229744",
     "name": "Ousmane Dembélé",
     "teamId": "478",
@@ -226,28 +252,6 @@
       {
         "matchId": "760464",
         "minute": "45'+1'"
-      }
-    ]
-  },
-  {
-    "id": "241012",
-    "name": "Ismaïla Sarr",
-    "teamId": "654",
-    "team": "Senegal",
-    "teamZh": "Senegal",
-    "goals": 3,
-    "matches": [
-      {
-        "matchId": "760454",
-        "minute": "53'"
-      },
-      {
-        "matchId": "760454",
-        "minute": "90'+3'"
-      },
-      {
-        "matchId": "760474",
-        "minute": "56'"
       }
     ]
   }

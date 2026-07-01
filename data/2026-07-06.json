@@ -55,12 +55,12 @@
       "winner": false
     },
     "away": {
-      "id": "131534",
-      "name": "Round of 32 10 Winner",
-      "zhName": "Round of 32 10 Winner",
-      "shortName": "RD32 W10",
-      "abbr": "RD32",
-      "logo": "",
+      "id": "459",
+      "name": "Belgium",
+      "zhName": "比利時",
+      "shortName": "Belgium",
+      "abbr": "BEL",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
       "homeAway": "away",
       "score": "0",
       "winner": false

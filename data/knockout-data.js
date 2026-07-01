@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-01T22:41:33.718989+00:00",
+    "updatedAt": "2026-07-01T23:38:41.075807+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -287,8 +287,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-02T04:00:00+08:00",
       "venue": "Lumen Field",
       "city": "Seattle, Washington",
-      "status": "Overtime",
-      "completed": false,
+      "status": "Final Score - After Extra Time",
+      "completed": true,
       "home": {
         "id": "459",
         "name": "Belgium",
@@ -297,8 +297,8 @@ window.KNOCKOUT_DATA = {
         "abbr": "BEL",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
         "homeAway": "home",
-        "score": "2",
-        "winner": false
+        "score": "3",
+        "winner": true
       },
       "away": {
         "id": "654",
@@ -311,13 +311,7 @@ window.KNOCKOUT_DATA = {
         "score": "2",
         "winner": false
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 49,
-        "draw": 28,
-        "away": 23
-      }
+      "probabilities": null
     },
     {
       "id": "760494",
@@ -352,7 +346,7 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "probabilities": {
-        "source": "ESPN odds",
+        "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 71,
         "draw": 18,
@@ -815,12 +809,12 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "away": {
-        "id": "131534",
-        "name": "Round of 32 10 Winner",
-        "zhName": "Round of 32 10 Winner",
-        "shortName": "RD32 W10",
-        "abbr": "RD32",
-        "logo": "",
+        "id": "459",
+        "name": "Belgium",
+        "zhName": "比利時",
+        "shortName": "Belgium",
+        "abbr": "BEL",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
         "homeAway": "away",
         "score": "0",
         "winner": false
