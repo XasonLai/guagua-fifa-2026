@@ -75,7 +75,7 @@
     "kickoffTaiwan": "2026-07-01T10:00:00+08:00",
     "venue": "Estadio Banorte",
     "city": "Mexico City",
-    "status": "Scheduled",
+    "status": "In Progress",
     "completed": false,
     "home": {
       "id": "203",
@@ -85,7 +85,7 @@
       "abbr": "MEX",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
       "homeAway": "home",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {

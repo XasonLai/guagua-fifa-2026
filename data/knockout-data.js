@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-01T01:21:48.281808+00:00",
+    "updatedAt": "2026-07-01T02:30:29.010926+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -219,7 +219,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-01T10:00:00+08:00",
       "venue": "Estadio Banorte",
       "city": "Mexico City",
-      "status": "Scheduled",
+      "status": "In Progress",
       "completed": false,
       "home": {
         "id": "203",
@@ -229,7 +229,7 @@ window.KNOCKOUT_DATA = {
         "abbr": "MEX",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
         "homeAway": "home",
-        "score": "0",
+        "score": "1",
         "winner": false
       },
       "away": {
