@@ -50,6 +50,16 @@
     "appearances": 3
   },
   {
+    "id": "211669",
+    "name": "Lionel Mpasi",
+    "teamId": "2850",
+    "team": "Congo DR",
+    "teamZh": "剛果民主共和國",
+    "saves": 14,
+    "goalsConceded": 5,
+    "appearances": 4
+  },
+  {
     "id": "265958",
     "name": "Zion Suzuki",
     "teamId": "627",
@@ -87,16 +97,6 @@
     "teamZh": "澳洲",
     "saves": 11,
     "goalsConceded": 2,
-    "appearances": 3
-  },
-  {
-    "id": "238544",
-    "name": "Gregor Kobel",
-    "teamId": "475",
-    "team": "Switzerland",
-    "teamZh": "瑞士",
-    "saves": 11,
-    "goalsConceded": 3,
     "appearances": 3
   }
 ]
