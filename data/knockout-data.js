@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-01T03:57:52.541455+00:00",
+    "updatedAt": "2026-07-01T05:44:48.097228+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -219,8 +219,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-01T10:00:00+08:00",
       "venue": "Estadio Banorte",
       "city": "Mexico City",
-      "status": "Second Half",
-      "completed": false,
+      "status": "Full Time",
+      "completed": true,
       "home": {
         "id": "203",
         "name": "Mexico",
@@ -230,7 +230,7 @@ window.KNOCKOUT_DATA = {
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
         "homeAway": "home",
         "score": "2",
-        "winner": false
+        "winner": true
       },
       "away": {
         "id": "209",
@@ -243,13 +243,7 @@ window.KNOCKOUT_DATA = {
         "score": "0",
         "winner": false
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 41,
-        "draw": 35,
-        "away": 24
-      }
+      "probabilities": null
     },
     {
       "id": "760495",
@@ -366,8 +360,8 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 70,
-        "draw": 19,
+        "home": 69,
+        "draw": 20,
         "away": 11
       }
     },
@@ -742,12 +736,12 @@ window.KNOCKOUT_DATA = {
       "status": "Scheduled",
       "completed": false,
       "home": {
-        "id": "131531",
-        "name": "Round of 32 7 Winner",
-        "zhName": "Round of 32 7 Winner",
-        "shortName": "RD32 W7",
-        "abbr": "RD32",
-        "logo": "",
+        "id": "203",
+        "name": "Mexico",
+        "zhName": "墨西哥",
+        "shortName": "Mexico",
+        "abbr": "MEX",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
         "homeAway": "home",
         "score": "0",
         "winner": false

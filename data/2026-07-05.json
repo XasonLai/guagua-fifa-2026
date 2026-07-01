@@ -50,12 +50,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "131531",
-      "name": "Round of 32 7 Winner",
-      "zhName": "Round of 32 7 Winner",
-      "shortName": "RD32 W7",
-      "abbr": "RD32",
-      "logo": "",
+      "id": "203",
+      "name": "Mexico",
+      "zhName": "墨西哥",
+      "shortName": "Mexico",
+      "abbr": "MEX",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
       "homeAway": "home",
       "score": "0",
       "winner": false
