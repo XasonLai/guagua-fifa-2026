@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-02T01:16:00.423280+00:00",
+    "updatedAt": "2026-07-02T05:39:57.402825+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -321,8 +321,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-02T08:00:00+08:00",
       "venue": "Levi's Stadium",
       "city": "Santa Clara, California",
-      "status": "Second Half",
-      "completed": false,
+      "status": "Full Time",
+      "completed": true,
       "home": {
         "id": "660",
         "name": "United States",
@@ -331,8 +331,8 @@ window.KNOCKOUT_DATA = {
         "abbr": "USA",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
         "homeAway": "home",
-        "score": "1",
-        "winner": false
+        "score": "2",
+        "winner": true
       },
       "away": {
         "id": "452",
@@ -345,13 +345,7 @@ window.KNOCKOUT_DATA = {
         "score": "0",
         "winner": false
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 70,
-        "draw": 19,
-        "away": 11
-      }
+      "probabilities": null
     },
     {
       "id": "760497",
@@ -430,7 +424,7 @@ window.KNOCKOUT_DATA = {
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 55,
         "draw": 26,
-        "away": 19
+        "away": 20
       }
     },
     {
@@ -469,8 +463,8 @@ window.KNOCKOUT_DATA = {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 47,
-        "draw": 29,
-        "away": 24
+        "draw": 30,
+        "away": 23
       }
     },
     {
@@ -748,9 +742,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 29,
+        "home": 32,
         "draw": 30,
-        "away": 41
+        "away": 38
       }
     },
     {
@@ -798,12 +792,12 @@ window.KNOCKOUT_DATA = {
       "status": "Scheduled",
       "completed": false,
       "home": {
-        "id": "131533",
-        "name": "Round of 32 9 Winner",
-        "zhName": "Round of 32 9 Winner",
-        "shortName": "RD32 W9",
-        "abbr": "RD32",
-        "logo": "",
+        "id": "660",
+        "name": "United States",
+        "zhName": "美國",
+        "shortName": "USA",
+        "abbr": "USA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
         "homeAway": "home",
         "score": "0",
         "winner": false
@@ -819,7 +813,13 @@ window.KNOCKOUT_DATA = {
         "score": "0",
         "winner": false
       },
-      "probabilities": null
+      "probabilities": {
+        "source": "DraftKings",
+        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+        "home": 38,
+        "draw": 28,
+        "away": 34
+      }
     },
     {
       "id": "760509",
