@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-01T23:38:41.075807+00:00",
+    "updatedAt": "2026-07-02T01:16:00.423280+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -321,7 +321,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-02T08:00:00+08:00",
       "venue": "Levi's Stadium",
       "city": "Santa Clara, California",
-      "status": "Scheduled",
+      "status": "Second Half",
       "completed": false,
       "home": {
         "id": "660",
@@ -331,7 +331,7 @@ window.KNOCKOUT_DATA = {
         "abbr": "USA",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
         "homeAway": "home",
-        "score": "0",
+        "score": "1",
         "winner": false
       },
       "away": {
@@ -348,8 +348,8 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 71,
-        "draw": 18,
+        "home": 70,
+        "draw": 19,
         "away": 11
       }
     },
