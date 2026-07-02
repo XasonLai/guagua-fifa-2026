@@ -21,12 +21,12 @@
       "winner": false
     },
     "away": {
-      "id": "131536",
-      "name": "Round of 32 12 Winner",
-      "zhName": "Round of 32 12 Winner",
-      "shortName": "RD32 W12",
-      "abbr": "RD32",
-      "logo": "",
+      "id": "164",
+      "name": "Spain",
+      "zhName": "西班牙",
+      "shortName": "Spain",
+      "abbr": "ESP",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "homeAway": "away",
       "score": "0",
       "winner": false

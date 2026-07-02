@@ -120,6 +120,32 @@
     ]
   },
   {
+    "id": "229018",
+    "name": "Mikel Oyarzabal",
+    "teamId": "164",
+    "team": "Spain",
+    "teamZh": "Spain",
+    "goals": 4,
+    "matches": [
+      {
+        "matchId": "760453",
+        "minute": "21'"
+      },
+      {
+        "matchId": "760453",
+        "minute": "24'"
+      },
+      {
+        "matchId": "760497",
+        "minute": "36'"
+      },
+      {
+        "matchId": "760497",
+        "minute": "89'"
+      }
+    ]
+  },
+  {
     "id": "229744",
     "name": "Ousmane Dembélé",
     "teamId": "478",
@@ -230,28 +256,6 @@
       {
         "matchId": "760477",
         "minute": "84'"
-      }
-    ]
-  },
-  {
-    "id": "282643",
-    "name": "Folarin Balogun",
-    "teamId": "660",
-    "team": "United States",
-    "teamZh": "美國",
-    "goals": 3,
-    "matches": [
-      {
-        "matchId": "760417",
-        "minute": "31'"
-      },
-      {
-        "matchId": "760417",
-        "minute": "45'+5'"
-      },
-      {
-        "matchId": "760494",
-        "minute": "45'"
       }
     ]
   }
