@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-03T00:16:52.008063+00:00",
+    "updatedAt": "2026-07-03T04:28:57.688835+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -389,8 +389,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-03T07:00:00+08:00",
       "venue": "BMO Field",
       "city": "Toronto",
-      "status": "Second Half",
-      "completed": false,
+      "status": "Full Time",
+      "completed": true,
       "home": {
         "id": "482",
         "name": "Portugal",
@@ -399,8 +399,8 @@ window.KNOCKOUT_DATA = {
         "abbr": "POR",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
         "homeAway": "home",
-        "score": "0",
-        "winner": false
+        "score": "2",
+        "winner": true
       },
       "away": {
         "id": "477",
@@ -413,13 +413,7 @@ window.KNOCKOUT_DATA = {
         "score": "1",
         "winner": false
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 57,
-        "draw": 26,
-        "away": 17
-      }
+      "probabilities": null
     },
     {
       "id": "760498",
@@ -429,7 +423,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-03T11:00:00+08:00",
       "venue": "BC Place",
       "city": "Vancouver",
-      "status": "Scheduled",
+      "status": "Second Half",
       "completed": false,
       "home": {
         "id": "475",
@@ -439,7 +433,7 @@ window.KNOCKOUT_DATA = {
         "abbr": "SUI",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
         "homeAway": "home",
-        "score": "0",
+        "score": "2",
         "winner": false
       },
       "away": {
@@ -454,7 +448,7 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "probabilities": {
-        "source": "ESPN odds",
+        "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 48,
         "draw": 30,
@@ -496,9 +490,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 29,
-        "draw": 33,
-        "away": 38
+        "home": 27,
+        "draw": 34,
+        "away": 39
       }
     },
     {
@@ -536,7 +530,7 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 83,
+        "home": 84,
         "draw": 12,
         "away": 5
       }
@@ -752,12 +746,12 @@ window.KNOCKOUT_DATA = {
       "status": "Scheduled",
       "completed": false,
       "home": {
-        "id": "131535",
-        "name": "Round of 32 11 Winner",
-        "zhName": "Round of 32 11 Winner",
-        "shortName": "RD32 W11",
-        "abbr": "RD32",
-        "logo": "",
+        "id": "482",
+        "name": "Portugal",
+        "zhName": "葡萄牙",
+        "shortName": "Portugal",
+        "abbr": "POR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
         "homeAway": "home",
         "score": "0",
         "winner": false
@@ -773,7 +767,13 @@ window.KNOCKOUT_DATA = {
         "score": "0",
         "winner": false
       },
-      "probabilities": null
+      "probabilities": {
+        "source": "DraftKings",
+        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+        "home": 24,
+        "draw": 27,
+        "away": 49
+      }
     },
     {
       "id": "760507",
@@ -808,11 +808,11 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "probabilities": {
-        "source": "DraftKings",
+        "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 37,
+        "home": 38,
         "draw": 28,
-        "away": 35
+        "away": 34
       }
     },
     {
