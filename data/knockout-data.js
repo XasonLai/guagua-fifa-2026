@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-03T17:42:29.918242+00:00",
+    "updatedAt": "2026-07-03T19:43:56.609247+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -457,7 +457,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-04T02:00:00+08:00",
       "venue": "AT&T Stadium",
       "city": "Arlington, Texas",
-      "status": "Scheduled",
+      "status": "Second Half",
       "completed": false,
       "home": {
         "id": "628",
@@ -467,7 +467,7 @@ window.KNOCKOUT_DATA = {
         "abbr": "AUS",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
         "homeAway": "home",
-        "score": "0",
+        "score": "1",
         "winner": false
       },
       "away": {
@@ -478,15 +478,15 @@ window.KNOCKOUT_DATA = {
         "abbr": "EGY",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
         "homeAway": "away",
-        "score": "0",
+        "score": "1",
         "winner": false
       },
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 27,
-        "draw": 34,
-        "away": 40
+        "draw": 35,
+        "away": 38
       }
     },
     {
@@ -604,9 +604,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 19,
+        "home": 21,
         "draw": 27,
-        "away": 53
+        "away": 52
       }
     },
     {
@@ -765,8 +765,8 @@ window.KNOCKOUT_DATA = {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 24,
-        "draw": 27,
-        "away": 49
+        "draw": 26,
+        "away": 51
       }
     },
     {
@@ -804,9 +804,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 37,
+        "home": 36,
         "draw": 28,
-        "away": 35
+        "away": 36
       }
     },
     {
