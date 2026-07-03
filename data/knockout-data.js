@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-03T19:43:56.609247+00:00",
+    "updatedAt": "2026-07-03T21:19:54.585046+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -457,8 +457,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-04T02:00:00+08:00",
       "venue": "AT&T Stadium",
       "city": "Arlington, Texas",
-      "status": "Second Half",
-      "completed": false,
+      "status": "Final Score - After Penalties",
+      "completed": true,
       "home": {
         "id": "628",
         "name": "Australia",
@@ -479,15 +479,9 @@ window.KNOCKOUT_DATA = {
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
         "homeAway": "away",
         "score": "1",
-        "winner": false
+        "winner": true
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 27,
-        "draw": 35,
-        "away": 38
-      }
+      "probabilities": null
     },
     {
       "id": "760500",
@@ -522,7 +516,7 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "probabilities": {
-        "source": "ESPN odds",
+        "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 83,
         "draw": 12,
@@ -604,9 +598,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 21,
-        "draw": 27,
-        "away": 52
+        "home": 22,
+        "draw": 28,
+        "away": 50
       }
     },
     {
@@ -766,7 +760,7 @@ window.KNOCKOUT_DATA = {
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 24,
         "draw": 26,
-        "away": 51
+        "away": 50
       }
     },
     {
@@ -831,12 +825,12 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "away": {
-        "id": "131540",
-        "name": "Round of 32 16 Winner",
-        "zhName": "Round of 32 16 Winner",
-        "shortName": "RD32 W16",
-        "abbr": "RD32",
-        "logo": "",
+        "id": "2620",
+        "name": "Egypt",
+        "zhName": "埃及",
+        "shortName": "Egypt",
+        "abbr": "EGY",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
         "homeAway": "away",
         "score": "0",
         "winner": false

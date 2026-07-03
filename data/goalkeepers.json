@@ -60,6 +60,16 @@
     "appearances": 4
   },
   {
+    "id": "335240",
+    "name": "Patrick Beach",
+    "teamId": "628",
+    "team": "Australia",
+    "teamZh": "澳洲",
+    "saves": 14,
+    "goalsConceded": 3,
+    "appearances": 4
+  },
+  {
     "id": "211669",
     "name": "Lionel Mpasi",
     "teamId": "2850",
@@ -87,16 +97,6 @@
     "teamZh": "奧地利",
     "saves": 13,
     "goalsConceded": 9,
-    "appearances": 4
-  },
-  {
-    "id": "265958",
-    "name": "Zion Suzuki",
-    "teamId": "627",
-    "team": "Japan",
-    "teamZh": "日本",
-    "saves": 12,
-    "goalsConceded": 5,
     "appearances": 4
   }
 ]

@@ -21,12 +21,12 @@
       "winner": false
     },
     "away": {
-      "id": "131540",
-      "name": "Round of 32 16 Winner",
-      "zhName": "Round of 32 16 Winner",
-      "shortName": "RD32 W16",
-      "abbr": "RD32",
-      "logo": "",
+      "id": "2620",
+      "name": "Egypt",
+      "zhName": "埃及",
+      "shortName": "Egypt",
+      "abbr": "EGY",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
       "homeAway": "away",
       "score": "0",
       "winner": false
