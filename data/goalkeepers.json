@@ -70,6 +70,16 @@
     "appearances": 4
   },
   {
+    "id": "238544",
+    "name": "Gregor Kobel",
+    "teamId": "475",
+    "team": "Switzerland",
+    "teamZh": "瑞士",
+    "saves": 13,
+    "goalsConceded": 3,
+    "appearances": 4
+  },
+  {
     "id": "195082",
     "name": "Alexander Schlager",
     "teamId": "474",
@@ -88,15 +98,5 @@
     "saves": 12,
     "goalsConceded": 5,
     "appearances": 4
-  },
-  {
-    "id": "310372",
-    "name": "Mahmoud Abunada",
-    "teamId": "4398",
-    "team": "Qatar",
-    "teamZh": "卡達",
-    "saves": 12,
-    "goalsConceded": 10,
-    "appearances": 3
   }
 ]
