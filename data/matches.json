@@ -2931,7 +2931,7 @@
     "kickoffTaiwan": "2026-07-04T06:00:00+08:00",
     "venue": "Hard Rock Stadium",
     "city": "Miami Gardens, Florida",
-    "status": "Scheduled",
+    "status": "First Half",
     "completed": false,
     "home": {
       "id": "202",
@@ -2941,7 +2941,7 @@
       "abbr": "ARG",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "homeAway": "home",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "away": {
@@ -3040,7 +3040,7 @@
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 22,
       "draw": 28,
-      "away": 50
+      "away": 51
     }
   },
   {
@@ -3078,7 +3078,7 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 5,
+      "home": 6,
       "draw": 15,
       "away": 80
     }
@@ -3158,9 +3158,9 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 30,
+      "home": 31,
       "draw": 30,
-      "away": 40
+      "away": 39
     }
   },
   {
