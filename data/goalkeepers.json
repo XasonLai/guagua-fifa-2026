@@ -20,6 +20,16 @@
     "appearances": 4
   },
   {
+    "id": "181330",
+    "name": "Vozinha",
+    "teamId": "2597",
+    "team": "Cape Verde",
+    "teamZh": "維德角",
+    "saves": 18,
+    "goalsConceded": 5,
+    "appearances": 4
+  },
+  {
     "id": "291609",
     "name": "Bart Verbruggen",
     "teamId": "449",
@@ -87,16 +97,6 @@
     "teamZh": "瑞士",
     "saves": 13,
     "goalsConceded": 3,
-    "appearances": 4
-  },
-  {
-    "id": "195082",
-    "name": "Alexander Schlager",
-    "teamId": "474",
-    "team": "Austria",
-    "teamZh": "奧地利",
-    "saves": 13,
-    "goalsConceded": 9,
     "appearances": 4
   }
 ]

@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-04T00:15:22.211114+00:00",
+    "updatedAt": "2026-07-04T04:22:47.300770+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -491,8 +491,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-04T06:00:00+08:00",
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens, Florida",
-      "status": "Overtime",
-      "completed": false,
+      "status": "Final Score - After Extra Time",
+      "completed": true,
       "home": {
         "id": "202",
         "name": "Argentina",
@@ -501,8 +501,8 @@ window.KNOCKOUT_DATA = {
         "abbr": "ARG",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
         "homeAway": "home",
-        "score": "2",
-        "winner": false
+        "score": "3",
+        "winner": true
       },
       "away": {
         "id": "2597",
@@ -512,16 +512,10 @@ window.KNOCKOUT_DATA = {
         "abbr": "CPV",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
         "homeAway": "away",
-        "score": "1",
+        "score": "2",
         "winner": false
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 83,
-        "draw": 12,
-        "away": 5
-      }
+      "probabilities": null
     },
     {
       "id": "760501",
@@ -531,8 +525,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-04T09:30:00+08:00",
       "venue": "GEHA Field at Arrowhead Stadium",
       "city": "Kansas City, Missouri",
-      "status": "Scheduled",
-      "completed": false,
+      "status": "Full Time",
+      "completed": true,
       "home": {
         "id": "208",
         "name": "Colombia",
@@ -541,8 +535,8 @@ window.KNOCKOUT_DATA = {
         "abbr": "COL",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
         "homeAway": "home",
-        "score": "0",
-        "winner": false
+        "score": "1",
+        "winner": true
       },
       "away": {
         "id": "4469",
@@ -555,13 +549,7 @@ window.KNOCKOUT_DATA = {
         "score": "0",
         "winner": false
       },
-      "probabilities": {
-        "source": "ESPN odds",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 67,
-        "draw": 22,
-        "away": 11
-      }
+      "probabilities": null
     },
     {
       "id": "760502",
@@ -600,7 +588,7 @@ window.KNOCKOUT_DATA = {
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 21,
         "draw": 28,
-        "away": 51
+        "away": 52
       }
     },
     {
@@ -638,7 +626,7 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 6,
+        "home": 5,
         "draw": 15,
         "away": 80
       }
@@ -798,9 +786,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 35,
+        "home": 36,
         "draw": 28,
-        "away": 37
+        "away": 36
       }
     },
     {
@@ -814,12 +802,12 @@ window.KNOCKOUT_DATA = {
       "status": "Scheduled",
       "completed": false,
       "home": {
-        "id": "131538",
-        "name": "Round of 32 14 Winner",
-        "zhName": "Round of 32 14 Winner",
-        "shortName": "RD32 W14",
-        "abbr": "RD32",
-        "logo": "",
+        "id": "202",
+        "name": "Argentina",
+        "zhName": "阿根廷",
+        "shortName": "Argentina",
+        "abbr": "ARG",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
         "homeAway": "home",
         "score": "0",
         "winner": false
@@ -835,7 +823,13 @@ window.KNOCKOUT_DATA = {
         "score": "0",
         "winner": false
       },
-      "probabilities": null
+      "probabilities": {
+        "source": "DraftKings",
+        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+        "home": 71,
+        "draw": 19,
+        "away": 10
+      }
     },
     {
       "id": "760508",
@@ -859,12 +853,12 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "away": {
-        "id": "131539",
-        "name": "Round of 32 15 Winner",
-        "zhName": "Round of 32 15 Winner",
-        "shortName": "RD32 W15",
-        "abbr": "RD32",
-        "logo": "",
+        "id": "208",
+        "name": "Colombia",
+        "zhName": "哥倫比亞",
+        "shortName": "Colombia",
+        "abbr": "COL",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
         "homeAway": "away",
         "score": "0",
         "winner": false
