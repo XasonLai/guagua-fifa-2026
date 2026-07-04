@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-04T17:40:41.939630+00:00",
+    "updatedAt": "2026-07-04T19:33:49.267890+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -559,8 +559,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-05T01:00:00+08:00",
       "venue": "NRG Stadium",
       "city": "Houston, Texas",
-      "status": "First Half",
-      "completed": false,
+      "status": "Full Time",
+      "completed": true,
       "home": {
         "id": "206",
         "name": "Canada",
@@ -580,16 +580,10 @@ window.KNOCKOUT_DATA = {
         "abbr": "MAR",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
         "homeAway": "away",
-        "score": "0",
-        "winner": false
+        "score": "3",
+        "winner": true
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 19,
-        "draw": 29,
-        "away": 52
-      }
+      "probabilities": null
     },
     {
       "id": "760503",
@@ -624,7 +618,7 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "probabilities": {
-        "source": "ESPN odds",
+        "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 5,
         "draw": 15,
@@ -666,9 +660,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 53,
+        "home": 52,
         "draw": 25,
-        "away": 23
+        "away": 22
       }
     },
     {
@@ -893,12 +887,12 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "away": {
-        "id": "19283",
-        "name": "Round of 16 2 Winner",
-        "zhName": "Round of 16 2 Winner",
-        "shortName": "RD16 W2",
-        "abbr": "RD16 W2",
-        "logo": "",
+        "id": "2869",
+        "name": "Morocco",
+        "zhName": "摩洛哥",
+        "shortName": "Morocco",
+        "abbr": "MAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
         "homeAway": "away",
         "score": "0",
         "winner": false
