@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-03T22:38:43.912883+00:00",
+    "updatedAt": "2026-07-04T00:15:22.211114+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -491,7 +491,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-04T06:00:00+08:00",
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens, Florida",
-      "status": "First Half",
+      "status": "Overtime",
       "completed": false,
       "home": {
         "id": "202",
@@ -501,7 +501,7 @@ window.KNOCKOUT_DATA = {
         "abbr": "ARG",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
         "homeAway": "home",
-        "score": "1",
+        "score": "2",
         "winner": false
       },
       "away": {
@@ -512,7 +512,7 @@ window.KNOCKOUT_DATA = {
         "abbr": "CPV",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
         "homeAway": "away",
-        "score": "0",
+        "score": "1",
         "winner": false
       },
       "probabilities": {
@@ -598,7 +598,7 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 22,
+        "home": 21,
         "draw": 28,
         "away": 51
       }
@@ -798,9 +798,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 36,
+        "home": 35,
         "draw": 28,
-        "away": 36
+        "away": 37
       }
     },
     {
