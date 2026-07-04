@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-04T22:35:03.876108+00:00",
+    "updatedAt": "2026-07-04T23:39:52.864978+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -593,8 +593,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-05T05:00:00+08:00",
       "venue": "Lincoln Financial Field",
       "city": "Philadelphia, Pennsylvania",
-      "status": "Second Half",
-      "completed": false,
+      "status": "Full Time",
+      "completed": true,
       "home": {
         "id": "210",
         "name": "Paraguay",
@@ -615,15 +615,9 @@ window.KNOCKOUT_DATA = {
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
         "homeAway": "away",
         "score": "1",
-        "winner": false
+        "winner": true
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 6,
-        "draw": 16,
-        "away": 79
-      }
+      "probabilities": null
     },
     {
       "id": "760504",
@@ -660,9 +654,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 52,
+        "home": 53,
         "draw": 25,
-        "away": 23
+        "away": 22
       }
     },
     {
@@ -700,9 +694,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 31,
+        "home": 30,
         "draw": 30,
-        "away": 39
+        "away": 40
       }
     },
     {
@@ -876,12 +870,12 @@ window.KNOCKOUT_DATA = {
       "status": "Scheduled",
       "completed": false,
       "home": {
-        "id": "19282",
-        "name": "Round of 16 1 Winner",
-        "zhName": "Round of 16 1 Winner",
-        "shortName": "RD16 W1",
-        "abbr": "RD16 W1",
-        "logo": "",
+        "id": "478",
+        "name": "France",
+        "zhName": "法國",
+        "shortName": "France",
+        "abbr": "FRA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
         "homeAway": "home",
         "score": "0",
         "winner": false

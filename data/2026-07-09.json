@@ -10,12 +10,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "19282",
-      "name": "Round of 16 1 Winner",
-      "zhName": "Round of 16 1 Winner",
-      "shortName": "RD16 W1",
-      "abbr": "RD16 W1",
-      "logo": "",
+      "id": "478",
+      "name": "France",
+      "zhName": "法國",
+      "shortName": "France",
+      "abbr": "FRA",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "homeAway": "home",
       "score": "0",
       "winner": false
