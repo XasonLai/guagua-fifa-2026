@@ -3026,9 +3026,9 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 21,
-      "draw": 28,
-      "away": 52
+      "home": 19,
+      "draw": 27,
+      "away": 54
     }
   },
   {
@@ -3106,7 +3106,7 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 52,
+      "home": 53,
       "draw": 25,
       "away": 23
     }
@@ -3146,8 +3146,8 @@
     "probabilities": {
       "source": "ESPN odds",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 31,
-      "draw": 30,
+      "home": 32,
+      "draw": 29,
       "away": 39
     }
   },
@@ -3266,8 +3266,8 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 71,
-      "draw": 19,
+      "home": 70,
+      "draw": 20,
       "away": 10
     }
   },
@@ -3303,7 +3303,13 @@
       "score": "0",
       "winner": false
     },
-    "probabilities": null
+    "probabilities": {
+      "source": "ESPN odds",
+      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+      "home": 28,
+      "draw": 29,
+      "away": 42
+    }
   },
   {
     "id": "760510",
