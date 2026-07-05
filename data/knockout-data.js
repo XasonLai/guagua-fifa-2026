@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-05T07:45:14.517775+00:00",
+    "updatedAt": "2026-07-05T15:23:09.637617+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -654,9 +654,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 53,
+        "home": 54,
         "draw": 25,
-        "away": 22
+        "away": 21
       }
     },
     {
@@ -694,9 +694,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 30,
+        "home": 31,
         "draw": 30,
-        "away": 40
+        "away": 39
       }
     },
     {
@@ -734,9 +734,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 24,
+        "home": 25,
         "draw": 26,
-        "away": 50
+        "away": 49
       }
     },
     {
@@ -854,9 +854,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 27,
+        "home": 28,
         "draw": 31,
-        "away": 42
+        "away": 41
       }
     },
     {
