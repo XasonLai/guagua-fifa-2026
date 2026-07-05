@@ -80,6 +80,16 @@
     "appearances": 4
   },
   {
+    "id": "196876",
+    "name": "Alisson Becker",
+    "teamId": "205",
+    "team": "Brazil",
+    "teamZh": "巴西",
+    "saves": 14,
+    "goalsConceded": 4,
+    "appearances": 5
+  },
+  {
     "id": "211669",
     "name": "Lionel Mpasi",
     "teamId": "2850",
@@ -87,16 +97,6 @@
     "teamZh": "剛果民主共和國",
     "saves": 14,
     "goalsConceded": 5,
-    "appearances": 4
-  },
-  {
-    "id": "238544",
-    "name": "Gregor Kobel",
-    "teamId": "475",
-    "team": "Switzerland",
-    "teamZh": "瑞士",
-    "saves": 13,
-    "goalsConceded": 3,
     "appearances": 4
   }
 ]

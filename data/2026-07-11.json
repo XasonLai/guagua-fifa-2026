@@ -10,12 +10,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "19284",
-      "name": "Round of 16 3 Winner",
-      "zhName": "Round of 16 3 Winner",
-      "shortName": "RD16 W3",
-      "abbr": "RD16 W3",
-      "logo": "",
+      "id": "464",
+      "name": "Norway",
+      "zhName": "挪威",
+      "shortName": "Norway",
+      "abbr": "NOR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
       "homeAway": "home",
       "score": "0",
       "winner": false

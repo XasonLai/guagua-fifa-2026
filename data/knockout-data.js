@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-05T21:15:56.137732+00:00",
+    "updatedAt": "2026-07-05T22:35:52.586051+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -627,8 +627,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-06T04:00:00+08:00",
       "venue": "MetLife Stadium",
       "city": "East Rutherford, New Jersey",
-      "status": "Second Half",
-      "completed": false,
+      "status": "Full Time",
+      "completed": true,
       "home": {
         "id": "205",
         "name": "Brazil",
@@ -637,7 +637,7 @@ window.KNOCKOUT_DATA = {
         "abbr": "BRA",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
         "homeAway": "home",
-        "score": "0",
+        "score": "1",
         "winner": false
       },
       "away": {
@@ -648,16 +648,10 @@ window.KNOCKOUT_DATA = {
         "abbr": "NOR",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
         "homeAway": "away",
-        "score": "0",
-        "winner": false
+        "score": "2",
+        "winner": true
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 54,
-        "draw": 26,
-        "away": 20
-      }
+      "probabilities": null
     },
     {
       "id": "760505",
@@ -692,7 +686,7 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "probabilities": {
-        "source": "ESPN odds",
+        "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 32,
         "draw": 31,
@@ -814,7 +808,7 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 68,
+        "home": 69,
         "draw": 21,
         "away": 11
       }
@@ -944,12 +938,12 @@ window.KNOCKOUT_DATA = {
       "status": "Scheduled",
       "completed": false,
       "home": {
-        "id": "19284",
-        "name": "Round of 16 3 Winner",
-        "zhName": "Round of 16 3 Winner",
-        "shortName": "RD16 W3",
-        "abbr": "RD16 W3",
-        "logo": "",
+        "id": "464",
+        "name": "Norway",
+        "zhName": "挪威",
+        "shortName": "Norway",
+        "abbr": "NOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
         "homeAway": "home",
         "score": "0",
         "winner": false
