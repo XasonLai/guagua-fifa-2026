@@ -3097,8 +3097,8 @@
     "id": "760505",
     "stage": "round-of-16",
     "group": "Round of 16",
-    "kickoffUtc": "2026-07-06T00:00Z",
-    "kickoffTaiwan": "2026-07-06T08:00:00+08:00",
+    "kickoffUtc": "2026-07-06T01:00Z",
+    "kickoffTaiwan": "2026-07-06T09:00:00+08:00",
     "venue": "Estadio Banorte",
     "city": "Mexico City",
     "status": "Scheduled",
@@ -3128,8 +3128,8 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 32,
-      "draw": 31,
+      "home": 31,
+      "draw": 32,
       "away": 37
     }
   },
@@ -3210,7 +3210,7 @@
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 36,
       "draw": 28,
-      "away": 36
+      "away": 37
     }
   },
   {
@@ -3248,7 +3248,7 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 69,
+      "home": 68,
       "draw": 21,
       "away": 11
     }

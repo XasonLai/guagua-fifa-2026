@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-05T22:35:52.586051+00:00",
+    "updatedAt": "2026-07-05T23:41:48.984051+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -657,8 +657,8 @@ window.KNOCKOUT_DATA = {
       "id": "760505",
       "stage": "round-of-16",
       "group": "Round of 16",
-      "kickoffUtc": "2026-07-06T00:00Z",
-      "kickoffTaiwan": "2026-07-06T08:00:00+08:00",
+      "kickoffUtc": "2026-07-06T01:00Z",
+      "kickoffTaiwan": "2026-07-06T09:00:00+08:00",
       "venue": "Estadio Banorte",
       "city": "Mexico City",
       "status": "Scheduled",
@@ -688,8 +688,8 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 32,
-        "draw": 31,
+        "home": 31,
+        "draw": 32,
         "away": 37
       }
     },
@@ -770,7 +770,7 @@ window.KNOCKOUT_DATA = {
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 36,
         "draw": 28,
-        "away": 36
+        "away": 37
       }
     },
     {
@@ -808,7 +808,7 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 69,
+        "home": 68,
         "draw": 21,
         "away": 11
       }
