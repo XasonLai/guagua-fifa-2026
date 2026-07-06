@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-05T23:41:48.984051+00:00",
+    "updatedAt": "2026-07-06T04:24:02.882394+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -661,8 +661,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-06T09:00:00+08:00",
       "venue": "Estadio Banorte",
       "city": "Mexico City",
-      "status": "Scheduled",
-      "completed": false,
+      "status": "Full Time",
+      "completed": true,
       "home": {
         "id": "203",
         "name": "Mexico",
@@ -671,7 +671,7 @@ window.KNOCKOUT_DATA = {
         "abbr": "MEX",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
         "homeAway": "home",
-        "score": "0",
+        "score": "2",
         "winner": false
       },
       "away": {
@@ -682,16 +682,10 @@ window.KNOCKOUT_DATA = {
         "abbr": "ENG",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
         "homeAway": "away",
-        "score": "0",
-        "winner": false
+        "score": "3",
+        "winner": true
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 31,
-        "draw": 32,
-        "away": 37
-      }
+      "probabilities": null
     },
     {
       "id": "760506",
@@ -730,7 +724,7 @@ window.KNOCKOUT_DATA = {
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 25,
         "draw": 26,
-        "away": 49
+        "away": 50
       }
     },
     {
@@ -770,7 +764,7 @@ window.KNOCKOUT_DATA = {
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 36,
         "draw": 28,
-        "away": 37
+        "away": 36
       }
     },
     {
@@ -949,17 +943,23 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "away": {
-        "id": "19285",
-        "name": "Round of 16 4 Winner",
-        "zhName": "Round of 16 4 Winner",
-        "shortName": "RD16 W4",
-        "abbr": "RD16 W4",
-        "logo": "",
+        "id": "448",
+        "name": "England",
+        "zhName": "英格蘭",
+        "shortName": "England",
+        "abbr": "ENG",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
         "homeAway": "away",
         "score": "0",
         "winner": false
       },
-      "probabilities": null
+      "probabilities": {
+        "source": "DraftKings",
+        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+        "home": 25,
+        "draw": 27,
+        "away": 48
+      }
     },
     {
       "id": "760513",

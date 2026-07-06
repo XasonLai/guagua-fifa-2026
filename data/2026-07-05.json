@@ -41,8 +41,8 @@
     "kickoffTaiwan": "2026-07-06T09:00:00+08:00",
     "venue": "Estadio Banorte",
     "city": "Mexico City",
-    "status": "Scheduled",
-    "completed": false,
+    "status": "Full Time",
+    "completed": true,
     "home": {
       "id": "203",
       "name": "Mexico",
@@ -51,7 +51,7 @@
       "abbr": "MEX",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
       "homeAway": "home",
-      "score": "0",
+      "score": "2",
       "winner": false
     },
     "away": {
@@ -62,15 +62,9 @@
       "abbr": "ENG",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
       "homeAway": "away",
-      "score": "0",
-      "winner": false
+      "score": "3",
+      "winner": true
     },
-    "probabilities": {
-      "source": "DraftKings",
-      "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 31,
-      "draw": 32,
-      "away": 37
-    }
+    "probabilities": null
   }
 ]
