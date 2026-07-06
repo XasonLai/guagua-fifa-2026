@@ -20,6 +20,16 @@
     "appearances": 3
   },
   {
+    "id": "238903",
+    "name": "Diogo Costa",
+    "teamId": "482",
+    "team": "Portugal",
+    "teamZh": "葡萄牙",
+    "saves": 19,
+    "goalsConceded": 3,
+    "appearances": 5
+  },
+  {
     "id": "181330",
     "name": "Vozinha",
     "teamId": "2597",
@@ -58,16 +68,6 @@
     "saves": 15,
     "goalsConceded": 3,
     "appearances": 3
-  },
-  {
-    "id": "238903",
-    "name": "Diogo Costa",
-    "teamId": "482",
-    "team": "Portugal",
-    "teamZh": "葡萄牙",
-    "saves": 14,
-    "goalsConceded": 2,
-    "appearances": 4
   },
   {
     "id": "335240",

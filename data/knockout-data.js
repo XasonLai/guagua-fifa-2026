@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-06T19:21:09.616750+00:00",
+    "updatedAt": "2026-07-06T21:13:12.552290+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -695,8 +695,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-07T03:00:00+08:00",
       "venue": "AT&T Stadium",
       "city": "Arlington, Texas",
-      "status": "First Half",
-      "completed": false,
+      "status": "Full Time",
+      "completed": true,
       "home": {
         "id": "482",
         "name": "Portugal",
@@ -716,16 +716,10 @@ window.KNOCKOUT_DATA = {
         "abbr": "ESP",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
         "homeAway": "away",
-        "score": "0",
-        "winner": false
+        "score": "1",
+        "winner": true
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 24,
-        "draw": 27,
-        "away": 49
-      }
+      "probabilities": null
     },
     {
       "id": "760507",
@@ -760,7 +754,7 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "probabilities": {
-        "source": "ESPN odds",
+        "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 37,
         "draw": 28,
@@ -898,12 +892,12 @@ window.KNOCKOUT_DATA = {
       "status": "Scheduled",
       "completed": false,
       "home": {
-        "id": "19278",
-        "name": "Round of 16 5 Winner",
-        "zhName": "Round of 16 5 Winner",
-        "shortName": "RD16 W5",
-        "abbr": "RD16 W5",
-        "logo": "",
+        "id": "164",
+        "name": "Spain",
+        "zhName": "西班牙",
+        "shortName": "Spain",
+        "abbr": "ESP",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
         "homeAway": "home",
         "score": "0",
         "winner": false
