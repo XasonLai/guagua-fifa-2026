@@ -128,32 +128,6 @@
     ]
   },
   {
-    "id": "233075",
-    "name": "Julián Quiñones",
-    "teamId": "203",
-    "team": "Mexico",
-    "teamZh": "Mexico",
-    "goals": 4,
-    "matches": [
-      {
-        "matchId": "760415",
-        "minute": "9'"
-      },
-      {
-        "matchId": "760467",
-        "minute": "61'"
-      },
-      {
-        "matchId": "760491",
-        "minute": "22'"
-      },
-      {
-        "matchId": "760505",
-        "minute": "42'"
-      }
-    ]
-  },
-  {
     "id": "229018",
     "name": "Mikel Oyarzabal",
     "teamId": "164",
@@ -268,6 +242,28 @@
       {
         "matchId": "760448",
         "minute": "90'+4'"
+      }
+    ]
+  },
+  {
+    "id": "266555",
+    "name": "Elijah Just",
+    "teamId": "2666",
+    "team": "New Zealand",
+    "teamZh": "紐西蘭",
+    "goals": 3,
+    "matches": [
+      {
+        "matchId": "760427",
+        "minute": "7'"
+      },
+      {
+        "matchId": "760427",
+        "minute": "54'"
+      },
+      {
+        "matchId": "760477",
+        "minute": "84'"
       }
     ]
   }
