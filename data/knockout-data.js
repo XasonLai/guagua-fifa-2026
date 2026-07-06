@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-06T17:11:52.656553+00:00",
+    "updatedAt": "2026-07-06T19:21:09.616750+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -695,7 +695,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-07T03:00:00+08:00",
       "venue": "AT&T Stadium",
       "city": "Arlington, Texas",
-      "status": "Scheduled",
+      "status": "First Half",
       "completed": false,
       "home": {
         "id": "482",
@@ -762,9 +762,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 39,
+        "home": 37,
         "draw": 28,
-        "away": 33
+        "away": 35
       }
     },
     {
