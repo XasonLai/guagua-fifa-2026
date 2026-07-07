@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-07T00:17:17.961325+00:00",
+    "updatedAt": "2026-07-07T04:35:40.238401+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -729,8 +729,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-07T08:00:00+08:00",
       "venue": "Lumen Field",
       "city": "Seattle, Washington",
-      "status": "First Half",
-      "completed": false,
+      "status": "Full Time",
+      "completed": true,
       "home": {
         "id": "660",
         "name": "United States",
@@ -739,7 +739,7 @@ window.KNOCKOUT_DATA = {
         "abbr": "USA",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
         "homeAway": "home",
-        "score": "0",
+        "score": "1",
         "winner": false
       },
       "away": {
@@ -750,16 +750,10 @@ window.KNOCKOUT_DATA = {
         "abbr": "BEL",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
         "homeAway": "away",
-        "score": "1",
-        "winner": false
+        "score": "4",
+        "winner": true
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 37,
-        "draw": 29,
-        "away": 33
-      }
+      "probabilities": null
     },
     {
       "id": "760509",
@@ -796,7 +790,7 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 70,
+        "home": 71,
         "draw": 20,
         "away": 10
       }
@@ -836,9 +830,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "ESPN odds",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 28,
+        "home": 27,
         "draw": 31,
-        "away": 41
+        "away": 42
       }
     },
     {
@@ -903,17 +897,23 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "away": {
-        "id": "19279",
-        "name": "Round of 16 6 Winner",
-        "zhName": "Round of 16 6 Winner",
-        "shortName": "RD16 W6",
-        "abbr": "RD16 W6",
-        "logo": "",
+        "id": "459",
+        "name": "Belgium",
+        "zhName": "比利時",
+        "shortName": "Belgium",
+        "abbr": "BEL",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
         "homeAway": "away",
         "score": "0",
         "winner": false
       },
-      "probabilities": null
+      "probabilities": {
+        "source": "DraftKings",
+        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+        "home": 58,
+        "draw": 24,
+        "away": 17
+      }
     },
     {
       "id": "760512",
