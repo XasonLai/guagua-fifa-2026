@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-07T19:09:51.245577+00:00",
+    "updatedAt": "2026-07-07T21:09:27.919158+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -797,7 +797,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-08T04:00:00+08:00",
       "venue": "BC Place",
       "city": "Vancouver",
-      "status": "Scheduled",
+      "status": "Second Half",
       "completed": false,
       "home": {
         "id": "475",
@@ -824,9 +824,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 28,
-        "draw": 31,
-        "away": 41
+        "home": 27,
+        "draw": 33,
+        "away": 40
       }
     },
     {
