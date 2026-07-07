@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-06T22:46:58.589160+00:00",
+    "updatedAt": "2026-07-07T00:17:17.961325+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -729,7 +729,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-07T08:00:00+08:00",
       "venue": "Lumen Field",
       "city": "Seattle, Washington",
-      "status": "Scheduled",
+      "status": "First Half",
       "completed": false,
       "home": {
         "id": "660",
@@ -750,15 +750,15 @@ window.KNOCKOUT_DATA = {
         "abbr": "BEL",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
         "homeAway": "away",
-        "score": "0",
+        "score": "1",
         "winner": false
       },
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 38,
-        "draw": 28,
-        "away": 34
+        "home": 37,
+        "draw": 29,
+        "away": 33
       }
     },
     {
@@ -798,7 +798,7 @@ window.KNOCKOUT_DATA = {
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 70,
         "draw": 20,
-        "away": 11
+        "away": 10
       }
     },
     {
