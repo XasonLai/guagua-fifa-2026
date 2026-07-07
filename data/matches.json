@@ -3203,7 +3203,7 @@
     "kickoffTaiwan": "2026-07-08T00:00:00+08:00",
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta, Georgia",
-    "status": "Scheduled",
+    "status": "First Half",
     "completed": false,
     "home": {
       "id": "202",
@@ -3224,13 +3224,13 @@
       "abbr": "EGY",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
       "homeAway": "away",
-      "score": "0",
+      "score": "1",
       "winner": false
     },
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 71,
+      "home": 72,
       "draw": 19,
       "away": 9
     }
@@ -3310,9 +3310,9 @@
     "probabilities": {
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-      "home": 60,
-      "draw": 25,
-      "away": 16
+      "home": 61,
+      "draw": 24,
+      "away": 15
     }
   },
   {

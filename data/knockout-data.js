@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-07T08:01:57.635197+00:00",
+    "updatedAt": "2026-07-07T16:39:42.123342+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -763,7 +763,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-08T00:00:00+08:00",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta, Georgia",
-      "status": "Scheduled",
+      "status": "First Half",
       "completed": false,
       "home": {
         "id": "202",
@@ -784,13 +784,13 @@ window.KNOCKOUT_DATA = {
         "abbr": "EGY",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
         "homeAway": "away",
-        "score": "0",
+        "score": "1",
         "winner": false
       },
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 71,
+        "home": 72,
         "draw": 19,
         "away": 9
       }
@@ -870,9 +870,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 60,
-        "draw": 25,
-        "away": 16
+        "home": 61,
+        "draw": 24,
+        "away": 15
       }
     },
     {
