@@ -40,6 +40,16 @@
     "appearances": 4
   },
   {
+    "id": "238544",
+    "name": "Gregor Kobel",
+    "teamId": "475",
+    "team": "Switzerland",
+    "teamZh": "瑞士",
+    "saves": 16,
+    "goalsConceded": 3,
+    "appearances": 5
+  },
+  {
     "id": "291609",
     "name": "Bart Verbruggen",
     "teamId": "449",
@@ -88,15 +98,5 @@
     "saves": 14,
     "goalsConceded": 4,
     "appearances": 5
-  },
-  {
-    "id": "211669",
-    "name": "Lionel Mpasi",
-    "teamId": "2850",
-    "team": "Congo DR",
-    "teamZh": "剛果民主共和國",
-    "saves": 14,
-    "goalsConceded": 5,
-    "appearances": 4
   }
 ]
