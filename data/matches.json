@@ -3271,7 +3271,7 @@
     "kickoffTaiwan": "2026-07-10T04:00:00+08:00",
     "venue": "Gillette Stadium",
     "city": "Foxborough, Massachusetts",
-    "status": "Scheduled",
+    "status": "First Half",
     "completed": false,
     "home": {
       "id": "478",
@@ -3299,7 +3299,7 @@
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 59,
-      "draw": 26,
+      "draw": 25,
       "away": 16
     }
   },

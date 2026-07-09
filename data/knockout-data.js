@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-09T18:23:59.916525+00:00",
+    "updatedAt": "2026-07-09T20:27:09.990386+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -831,7 +831,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-10T04:00:00+08:00",
       "venue": "Gillette Stadium",
       "city": "Foxborough, Massachusetts",
-      "status": "Scheduled",
+      "status": "First Half",
       "completed": false,
       "home": {
         "id": "478",
@@ -859,7 +859,7 @@ window.KNOCKOUT_DATA = {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 59,
-        "draw": 26,
+        "draw": 25,
         "away": 16
       }
     },
