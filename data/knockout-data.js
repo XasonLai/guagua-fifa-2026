@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-09T20:27:09.990386+00:00",
+    "updatedAt": "2026-07-09T22:06:09.309925+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -831,8 +831,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-10T04:00:00+08:00",
       "venue": "Gillette Stadium",
       "city": "Foxborough, Massachusetts",
-      "status": "First Half",
-      "completed": false,
+      "status": "Full Time",
+      "completed": true,
       "home": {
         "id": "478",
         "name": "France",
@@ -841,8 +841,8 @@ window.KNOCKOUT_DATA = {
         "abbr": "FRA",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
         "homeAway": "home",
-        "score": "0",
-        "winner": false
+        "score": "2",
+        "winner": true
       },
       "away": {
         "id": "2869",
@@ -855,13 +855,7 @@ window.KNOCKOUT_DATA = {
         "score": "0",
         "winner": false
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 59,
-        "draw": 25,
-        "away": 16
-      }
+      "probabilities": null
     },
     {
       "id": "760511",
@@ -994,12 +988,12 @@ window.KNOCKOUT_DATA = {
       "status": "Scheduled",
       "completed": false,
       "home": {
-        "id": "17631",
-        "name": "Quarterfinal 1 Winner",
-        "zhName": "Quarterfinal 1 Winner",
-        "shortName": "QF W1",
-        "abbr": "QFW1",
-        "logo": "",
+        "id": "478",
+        "name": "France",
+        "zhName": "法國",
+        "shortName": "France",
+        "abbr": "FRA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
         "homeAway": "home",
         "score": "0",
         "winner": false
