@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-10T18:10:23.005517+00:00",
+    "updatedAt": "2026-07-10T20:02:56.384103+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -865,7 +865,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-11T03:00:00+08:00",
       "venue": "SoFi Stadium",
       "city": "Inglewood, California",
-      "status": "Scheduled",
+      "status": "Halftime",
       "completed": false,
       "home": {
         "id": "164",
@@ -875,7 +875,7 @@ window.KNOCKOUT_DATA = {
         "abbr": "ESP",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
         "homeAway": "home",
-        "score": "0",
+        "score": "1",
         "winner": false
       },
       "away": {
@@ -886,15 +886,15 @@ window.KNOCKOUT_DATA = {
         "abbr": "BEL",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
         "homeAway": "away",
-        "score": "0",
+        "score": "1",
         "winner": false
       },
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 59,
-        "draw": 25,
-        "away": 16
+        "draw": 24,
+        "away": 17
       }
     },
     {
