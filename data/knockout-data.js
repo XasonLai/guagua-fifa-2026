@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-10T20:02:56.384103+00:00",
+    "updatedAt": "2026-07-10T21:17:00.915662+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -865,8 +865,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-11T03:00:00+08:00",
       "venue": "SoFi Stadium",
       "city": "Inglewood, California",
-      "status": "Halftime",
-      "completed": false,
+      "status": "Full Time",
+      "completed": true,
       "home": {
         "id": "164",
         "name": "Spain",
@@ -875,8 +875,8 @@ window.KNOCKOUT_DATA = {
         "abbr": "ESP",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
         "homeAway": "home",
-        "score": "1",
-        "winner": false
+        "score": "2",
+        "winner": true
       },
       "away": {
         "id": "459",
@@ -889,13 +889,7 @@ window.KNOCKOUT_DATA = {
         "score": "1",
         "winner": false
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 59,
-        "draw": 24,
-        "away": 17
-      }
+      "probabilities": null
     },
     {
       "id": "760512",
@@ -999,12 +993,12 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "away": {
-        "id": "17629",
-        "name": "Quarterfinal 2 Winner",
-        "zhName": "Quarterfinal 2 Winner",
-        "shortName": "QF W2",
-        "abbr": "QFW2",
-        "logo": "",
+        "id": "164",
+        "name": "Spain",
+        "zhName": "西班牙",
+        "shortName": "Spain",
+        "abbr": "ESP",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
         "homeAway": "away",
         "score": "0",
         "winner": false

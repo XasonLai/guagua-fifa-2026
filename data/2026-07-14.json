@@ -21,12 +21,12 @@
       "winner": false
     },
     "away": {
-      "id": "17629",
-      "name": "Quarterfinal 2 Winner",
-      "zhName": "Quarterfinal 2 Winner",
-      "shortName": "QF W2",
-      "abbr": "QFW2",
-      "logo": "",
+      "id": "164",
+      "name": "Spain",
+      "zhName": "西班牙",
+      "shortName": "Spain",
+      "abbr": "ESP",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "homeAway": "away",
       "score": "0",
       "winner": false
