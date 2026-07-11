@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-11T22:01:08.464049+00:00",
+    "updatedAt": "2026-07-11T23:03:55.604573+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -899,7 +899,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-12T05:00:00+08:00",
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens, Florida",
-      "status": "Halftime",
+      "status": "End of Regulation",
       "completed": false,
       "home": {
         "id": "464",
