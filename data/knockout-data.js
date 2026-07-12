@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-11T23:03:55.604573+00:00",
+    "updatedAt": "2026-07-12T00:06:11.251295+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -899,8 +899,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-12T05:00:00+08:00",
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens, Florida",
-      "status": "End of Regulation",
-      "completed": false,
+      "status": "Final Score - After Extra Time",
+      "completed": true,
       "home": {
         "id": "464",
         "name": "Norway",
@@ -920,16 +920,10 @@ window.KNOCKOUT_DATA = {
         "abbr": "ENG",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
         "homeAway": "away",
-        "score": "1",
-        "winner": false
+        "score": "2",
+        "winner": true
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 22,
-        "draw": 25,
-        "away": 53
-      }
+      "probabilities": null
     },
     {
       "id": "760513",
@@ -964,9 +958,9 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "probabilities": {
-        "source": "ESPN odds",
+        "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 56,
+        "home": 55,
         "draw": 27,
         "away": 17
       }
@@ -1022,12 +1016,12 @@ window.KNOCKOUT_DATA = {
       "status": "Scheduled",
       "completed": false,
       "home": {
-        "id": "17630",
-        "name": "Quarterfinal 3 Winner",
-        "zhName": "Quarterfinal 3 Winner",
-        "shortName": "QF W3",
-        "abbr": "QFW3",
-        "logo": "",
+        "id": "448",
+        "name": "England",
+        "zhName": "英格蘭",
+        "shortName": "England",
+        "abbr": "ENG",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
         "homeAway": "home",
         "score": "0",
         "winner": false

@@ -70,6 +70,16 @@
     "appearances": 3
   },
   {
+    "id": "193610",
+    "name": "Ørjan Nyland",
+    "teamId": "464",
+    "team": "Norway",
+    "teamZh": "挪威",
+    "saves": 16,
+    "goalsConceded": 7,
+    "appearances": 5
+  },
+  {
     "id": "214798",
     "name": "Alireza Beiranvand",
     "teamId": "469",
@@ -88,15 +98,5 @@
     "saves": 15,
     "goalsConceded": 6,
     "appearances": 6
-  },
-  {
-    "id": "335240",
-    "name": "Patrick Beach",
-    "teamId": "628",
-    "team": "Australia",
-    "teamZh": "澳洲",
-    "saves": 14,
-    "goalsConceded": 3,
-    "appearances": 4
   }
 ]
