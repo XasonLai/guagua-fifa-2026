@@ -10,6 +10,16 @@
     "appearances": 5
   },
   {
+    "id": "238544",
+    "name": "Gregor Kobel",
+    "teamId": "475",
+    "team": "Switzerland",
+    "teamZh": "瑞士",
+    "saves": 20,
+    "goalsConceded": 6,
+    "appearances": 6
+  },
+  {
     "id": "127444",
     "name": "Eloy Room",
     "teamId": "11678",
@@ -38,16 +48,6 @@
     "saves": 18,
     "goalsConceded": 5,
     "appearances": 4
-  },
-  {
-    "id": "238544",
-    "name": "Gregor Kobel",
-    "teamId": "475",
-    "team": "Switzerland",
-    "teamZh": "瑞士",
-    "saves": 16,
-    "goalsConceded": 3,
-    "appearances": 5
   },
   {
     "id": "291609",

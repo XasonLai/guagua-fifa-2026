@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-12T00:06:11.251295+00:00",
+    "updatedAt": "2026-07-12T03:52:52.367063+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -933,8 +933,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-12T09:00:00+08:00",
       "venue": "GEHA Field at Arrowhead Stadium",
       "city": "Kansas City, Missouri",
-      "status": "Scheduled",
-      "completed": false,
+      "status": "Final Score - After Extra Time",
+      "completed": true,
       "home": {
         "id": "202",
         "name": "Argentina",
@@ -943,8 +943,8 @@ window.KNOCKOUT_DATA = {
         "abbr": "ARG",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
         "homeAway": "home",
-        "score": "0",
-        "winner": false
+        "score": "3",
+        "winner": true
       },
       "away": {
         "id": "475",
@@ -954,16 +954,10 @@ window.KNOCKOUT_DATA = {
         "abbr": "SUI",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
         "homeAway": "away",
-        "score": "0",
+        "score": "1",
         "winner": false
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 55,
-        "draw": 27,
-        "away": 17
-      }
+      "probabilities": null
     },
     {
       "id": "760514",
@@ -1027,17 +1021,23 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "away": {
-        "id": "17632",
-        "name": "Quarterfinal 4 Winner",
-        "zhName": "Quarterfinal 4 Winner",
-        "shortName": "QF W4",
-        "abbr": "QW4",
-        "logo": "",
+        "id": "202",
+        "name": "Argentina",
+        "zhName": "阿根廷",
+        "shortName": "Argentina",
+        "abbr": "ARG",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
         "homeAway": "away",
         "score": "0",
         "winner": false
       },
-      "probabilities": null
+      "probabilities": {
+        "source": "DraftKings",
+        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+        "home": 34,
+        "draw": 31,
+        "away": 35
+      }
     },
     {
       "id": "760516",
