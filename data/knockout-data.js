@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-14T04:12:52.117228+00:00",
+    "updatedAt": "2026-07-14T06:37:13.614746+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
