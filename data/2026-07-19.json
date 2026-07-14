@@ -10,12 +10,12 @@
     "status": "Scheduled",
     "completed": false,
     "home": {
-      "id": "5960",
-      "name": "Semifinal 1 Winner",
-      "zhName": "Semifinal 1 Winner",
-      "shortName": "SF W1",
-      "abbr": "SFW1",
-      "logo": "",
+      "id": "164",
+      "name": "Spain",
+      "zhName": "西班牙",
+      "shortName": "Spain",
+      "abbr": "ESP",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "homeAway": "home",
       "score": "0",
       "winner": false

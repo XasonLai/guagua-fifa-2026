@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-14T21:33:52.878523+00:00",
+    "updatedAt": "2026-07-14T22:35:41.484954+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -1028,9 +1028,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 34,
+        "home": 35,
         "draw": 33,
-        "away": 33
+        "away": 32
       }
     },
     {
@@ -1044,12 +1044,12 @@ window.KNOCKOUT_DATA = {
       "status": "Scheduled",
       "completed": false,
       "home": {
-        "id": "5958",
-        "name": "Semifinal 1 Loser",
-        "zhName": "Semifinal 1 Loser",
-        "shortName": "SF L1",
-        "abbr": "SF L1",
-        "logo": "",
+        "id": "478",
+        "name": "France",
+        "zhName": "法國",
+        "shortName": "France",
+        "abbr": "FRA",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
         "homeAway": "home",
         "score": "0",
         "winner": false
@@ -1078,12 +1078,12 @@ window.KNOCKOUT_DATA = {
       "status": "Scheduled",
       "completed": false,
       "home": {
-        "id": "5960",
-        "name": "Semifinal 1 Winner",
-        "zhName": "Semifinal 1 Winner",
-        "shortName": "SF W1",
-        "abbr": "SFW1",
-        "logo": "",
+        "id": "164",
+        "name": "Spain",
+        "zhName": "西班牙",
+        "shortName": "Spain",
+        "abbr": "ESP",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
         "homeAway": "home",
         "score": "0",
         "winner": false
