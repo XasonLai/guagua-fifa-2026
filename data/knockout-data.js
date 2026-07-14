@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-14T20:20:27.458702+00:00",
+    "updatedAt": "2026-07-14T21:33:52.878523+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -967,8 +967,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-15T03:00:00+08:00",
       "venue": "AT&T Stadium",
       "city": "Arlington, Texas",
-      "status": "Second Half",
-      "completed": false,
+      "status": "Full Time",
+      "completed": true,
       "home": {
         "id": "478",
         "name": "France",
@@ -988,16 +988,10 @@ window.KNOCKOUT_DATA = {
         "abbr": "ESP",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
         "homeAway": "away",
-        "score": "1",
-        "winner": false
+        "score": "2",
+        "winner": true
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 37,
-        "draw": 33,
-        "away": 31
-      }
+      "probabilities": null
     },
     {
       "id": "760515",
