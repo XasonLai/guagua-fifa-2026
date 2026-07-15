@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-15T18:42:28.331716+00:00",
+    "updatedAt": "2026-07-15T20:16:43.390060+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -1001,7 +1001,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-16T03:00:00+08:00",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta, Georgia",
-      "status": "Scheduled",
+      "status": "Second Half",
       "completed": false,
       "home": {
         "id": "448",
@@ -1011,7 +1011,7 @@ window.KNOCKOUT_DATA = {
         "abbr": "ENG",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
         "homeAway": "home",
-        "score": "0",
+        "score": "1",
         "winner": false
       },
       "away": {
@@ -1028,8 +1028,8 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 36,
-        "draw": 33,
+        "home": 35,
+        "draw": 34,
         "away": 31
       }
     },
