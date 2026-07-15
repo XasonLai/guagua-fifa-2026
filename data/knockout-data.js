@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-15T20:16:43.390060+00:00",
+    "updatedAt": "2026-07-15T21:33:23.458375+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -1001,8 +1001,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-16T03:00:00+08:00",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta, Georgia",
-      "status": "Second Half",
-      "completed": false,
+      "status": "Full Time",
+      "completed": true,
       "home": {
         "id": "448",
         "name": "England",
@@ -1022,16 +1022,10 @@ window.KNOCKOUT_DATA = {
         "abbr": "ARG",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
         "homeAway": "away",
-        "score": "0",
-        "winner": false
+        "score": "2",
+        "winner": true
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 35,
-        "draw": 34,
-        "away": 31
-      }
+      "probabilities": null
     },
     {
       "id": "760516",
@@ -1055,12 +1049,12 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "away": {
-        "id": "5959",
-        "name": "Semifinal 2 Loser",
-        "zhName": "Semifinal 2 Loser",
-        "shortName": "SF L2",
-        "abbr": "SF L2",
-        "logo": "",
+        "id": "448",
+        "name": "England",
+        "zhName": "英格蘭",
+        "shortName": "England",
+        "abbr": "ENG",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
         "homeAway": "away",
         "score": "0",
         "winner": false
@@ -1089,17 +1083,23 @@ window.KNOCKOUT_DATA = {
         "winner": false
       },
       "away": {
-        "id": "5961",
-        "name": "Semifinal 2 Winner",
-        "zhName": "Semifinal 2 Winner",
-        "shortName": "SF W2",
-        "abbr": "SFW2",
-        "logo": "",
+        "id": "202",
+        "name": "Argentina",
+        "zhName": "阿根廷",
+        "shortName": "Argentina",
+        "abbr": "ARG",
+        "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
         "homeAway": "away",
         "score": "0",
         "winner": false
       },
-      "probabilities": null
+      "probabilities": {
+        "source": "DraftKings",
+        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
+        "home": 42,
+        "draw": 32,
+        "away": 26
+      }
     }
   ]
 };
