@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-16T03:31:11.416445+00:00",
+    "updatedAt": "2026-07-16T06:01:33.543986+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -1064,7 +1064,7 @@ window.KNOCKOUT_DATA = {
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
         "home": 48,
         "draw": 26,
-        "away": 26
+        "away": 27
       }
     },
     {
