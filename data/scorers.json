@@ -5,7 +5,7 @@
     "teamId": "478",
     "team": "France",
     "teamZh": "France",
-    "goals": 7,
+    "goals": 9,
     "matches": [
       {
         "matchId": "760432",
@@ -34,6 +34,14 @@
       {
         "matchId": "760510",
         "minute": "60'"
+      },
+      {
+        "matchId": "760516",
+        "minute": "48'"
+      },
+      {
+        "matchId": "760516",
+        "minute": "66'"
       }
     ]
   },
@@ -115,7 +123,7 @@
     "teamId": "448",
     "team": "England",
     "teamZh": "England",
-    "goals": 5,
+    "goals": 6,
     "matches": [
       {
         "matchId": "760437",
@@ -136,6 +144,10 @@
       {
         "matchId": "760512",
         "minute": "93'"
+      },
+      {
+        "matchId": "760516",
+        "minute": "90'+8'"
       }
     ]
   },
@@ -145,7 +157,7 @@
     "teamId": "478",
     "team": "France",
     "teamZh": "France",
-    "goals": 5,
+    "goals": 6,
     "matches": [
       {
         "matchId": "760457",
@@ -166,6 +178,10 @@
       {
         "matchId": "760510",
         "minute": "66'"
+      },
+      {
+        "matchId": "760516",
+        "minute": "90'+6'"
       }
     ]
   },
@@ -248,6 +264,28 @@
     ]
   },
   {
+    "id": "328238",
+    "name": "Bradley Barcola",
+    "teamId": "478",
+    "team": "France",
+    "teamZh": "France",
+    "goals": 3,
+    "matches": [
+      {
+        "matchId": "760432",
+        "minute": "82'"
+      },
+      {
+        "matchId": "760492",
+        "minute": "53'"
+      },
+      {
+        "matchId": "760516",
+        "minute": "54'"
+      }
+    ]
+  },
+  {
     "id": "282229",
     "name": "Brian Brobbey",
     "teamId": "449",
@@ -266,28 +304,6 @@
       {
         "matchId": "760472",
         "minute": "7'"
-      }
-    ]
-  },
-  {
-    "id": "249524",
-    "name": "Cody Gakpo",
-    "teamId": "449",
-    "team": "Netherlands",
-    "teamZh": "Netherlands",
-    "goals": 3,
-    "matches": [
-      {
-        "matchId": "760447",
-        "minute": "47'"
-      },
-      {
-        "matchId": "760447",
-        "minute": "54'"
-      },
-      {
-        "matchId": "760488",
-        "minute": "72'"
       }
     ]
   }
