@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-18T21:02:00.329404+00:00",
+    "updatedAt": "2026-07-18T22:02:08.156706+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -1035,7 +1035,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-19T05:00:00+08:00",
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens, Florida",
-      "status": "First Half",
+      "status": "Halftime",
       "completed": false,
       "home": {
         "id": "478",
@@ -1056,7 +1056,7 @@ window.KNOCKOUT_DATA = {
         "abbr": "ENG",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
         "homeAway": "away",
-        "score": "0",
+        "score": "4",
         "winner": false
       },
       "probabilities": {
