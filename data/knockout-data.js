@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-18T19:48:03.116151+00:00",
+    "updatedAt": "2026-07-18T21:02:00.329404+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -1035,7 +1035,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-19T05:00:00+08:00",
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens, Florida",
-      "status": "Scheduled",
+      "status": "First Half",
       "completed": false,
       "home": {
         "id": "478",
@@ -1062,9 +1062,9 @@ window.KNOCKOUT_DATA = {
       "probabilities": {
         "source": "DraftKings",
         "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 54,
-        "draw": 24,
-        "away": 23
+        "home": 56,
+        "draw": 23,
+        "away": 21
       }
     },
     {
