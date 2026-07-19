@@ -7,7 +7,7 @@
     "kickoffTaiwan": "2026-07-20T03:00:00+08:00",
     "venue": "MetLife Stadium",
     "city": "East Rutherford, New Jersey",
-    "status": "Scheduled",
+    "status": "In Progress",
     "completed": false,
     "home": {
       "id": "164",
@@ -35,7 +35,7 @@
       "source": "DraftKings",
       "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
       "home": 42,
-      "draw": 32,
+      "draw": 31,
       "away": 26
     }
   }
