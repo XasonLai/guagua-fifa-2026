@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-19T19:50:24.429882+00:00",
+    "updatedAt": "2026-07-19T21:03:47.279667+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -1069,7 +1069,7 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-20T03:00:00+08:00",
       "venue": "MetLife Stadium",
       "city": "East Rutherford, New Jersey",
-      "status": "In Progress",
+      "status": "Second Half",
       "completed": false,
       "home": {
         "id": "164",
