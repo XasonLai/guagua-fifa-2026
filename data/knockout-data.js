@@ -1,7 +1,7 @@
 window.KNOCKOUT_DATA = {
   "meta": {
     "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",
-    "updatedAt": "2026-07-19T21:03:47.279667+00:00",
+    "updatedAt": "2026-07-19T22:04:44.038661+00:00",
     "timezone": "Asia/Taipei",
     "start": "2026-06-11",
     "end": "2026-07-19"
@@ -1069,8 +1069,8 @@ window.KNOCKOUT_DATA = {
       "kickoffTaiwan": "2026-07-20T03:00:00+08:00",
       "venue": "MetLife Stadium",
       "city": "East Rutherford, New Jersey",
-      "status": "Second Half",
-      "completed": false,
+      "status": "Final Score - After Extra Time",
+      "completed": true,
       "home": {
         "id": "164",
         "name": "Spain",
@@ -1079,8 +1079,8 @@ window.KNOCKOUT_DATA = {
         "abbr": "ESP",
         "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
         "homeAway": "home",
-        "score": "0",
-        "winner": false
+        "score": "1",
+        "winner": true
       },
       "away": {
         "id": "202",
@@ -1093,13 +1093,7 @@ window.KNOCKOUT_DATA = {
         "score": "0",
         "winner": false
       },
-      "probabilities": {
-        "source": "DraftKings",
-        "note": "由 ESPN 賠率換算並標準化，僅供市場參考，非官方預測。",
-        "home": 42,
-        "draw": 31,
-        "away": 26
-      }
+      "probabilities": null
     }
   ]
 };
