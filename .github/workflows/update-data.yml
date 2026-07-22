@@ -1,8 +1,9 @@
 name: update-data
 
 on:
-  schedule:
-    - cron: "7,37 14-23,0-7 * * *"
+  # World Cup ended; resume this schedule for the 2030 tournament.
+  # schedule:
+  #   - cron: "7,37 14-23,0-7 * * *"
   workflow_dispatch:
 
 permissions:
